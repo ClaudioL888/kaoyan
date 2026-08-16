@@ -1,0 +1,12 @@
+{
+  "pipeline_version": "0.1",
+  "page_rendition": {
+    "preferred_mode": "native_embedded_image_then_render",
+    "fallback_render_dpi": 300,
+    "coordinate_system": "pixel_top_left"
+  },
+  "provenance": {
+    "require_anchor_for_extracted_content": true,
+    "content_hash_algorithm": "sha256"
+  }
+}
