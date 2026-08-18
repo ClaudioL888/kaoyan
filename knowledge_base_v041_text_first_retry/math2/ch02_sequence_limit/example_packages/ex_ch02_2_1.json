@@ -1,0 +1,44 @@
+{
+  "item_id": "ex.ch02.2.1",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.2.1",
+    "category": "textbook_example",
+    "item_no": "2.1",
+    "question_text": "0<x_1<3,\\ x_{n+1}=\\sqrt{x_n(3-x_n)}",
+    "solution_text": "0<x_n<3/2 for n>1, hence bounded",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      28
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      85
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "calculation_or_proof",
+    "requested_outputs": [
+      "题目要求的全部结论"
+    ],
+    "official_answer_text_or_katex": "0<x_n<3/2 for n>1, hence bounded",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.ex.2.1.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "page_level_presence_only",
+    "ai_review": "考递推有界；先写0<x_n<3并用根式均值不等式，关键x_{n+1}≤3/2并归纳保持；陷阱是只验证首项；可迁移至二次根式递推但必须保持定义域。",
+    "item_specific_analysis": "考递推有界；先写0<x_n<3并用根式均值不等式，关键x_{n+1}≤3/2并归纳保持；陷阱是只验证首项；可迁移至二次根式递推但必须保持定义域。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      85
+    ]
+  },
+  "audit_status": "reviewed_after_sol_audit",
+  "ai_review": "考递推有界；先写0<x_n<3并用根式均值不等式，关键x_{n+1}≤3/2并归纳保持；陷阱是只验证首项；可迁移至二次根式递推但必须保持定义域。"
+}

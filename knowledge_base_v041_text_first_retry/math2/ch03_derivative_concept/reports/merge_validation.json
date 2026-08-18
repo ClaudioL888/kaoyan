@@ -1,0 +1,31 @@
+{
+  "status": "pass_with_nonfinal_warnings",
+  "errors": [],
+  "warnings": [
+    "coverage page 105 has positive core-item counts but no captured_entity_ids",
+    "coverage page 110 has positive core-item counts but no captured_entity_ids",
+    "coverage page 112 has positive core-item counts but no captured_entity_ids",
+    "coverage page 120 has positive core-item counts but no captured_entity_ids",
+    "coverage page 122 has positive core-item counts but no captured_entity_ids",
+    "coverage page 124 has positive core-item counts but no captured_entity_ids"
+  ],
+  "counts": {
+    "questions": 46,
+    "examples": 11,
+    "textbook_items": 20,
+    "registry": 57,
+    "mappings": 114,
+    "question_staging": 40,
+    "solution_staging": 29,
+    "question_packages": 46,
+    "example_packages": 11,
+    "textbook_core_pages": 20,
+    "core_entities": 32,
+    "source_ids": [
+      "src.1000q.question",
+      "src.1000q.solution",
+      "src.example.question",
+      "src.textbook"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{"id":"rel.example14.eq_inf","from_id":"math2.ch01.textbook_example.14","to_id":"fm.common_equivalent_infinitesimals","relation":"uses","source_id":"src.textbook","source_pages":[35,36],"evidence_status":"source_page_confirmed"}
+{"id":"rel.exercise15.taylor","from_id":"math2.ch01.textbook_exercise.15","to_id":"fm.taylor_common","relation":"uses","source_id":"src.textbook","source_pages":[80],"evidence_status":"source_page_confirmed"}
+{"id":"rel.exercise16.taylor","from_id":"math2.ch01.textbook_exercise.16","to_id":"fm.taylor_common","relation":"uses","source_id":"src.textbook","source_pages":[81],"evidence_status":"source_page_confirmed"}
+{"id":"rel.example15.left_right","from_id":"math2.ch01.textbook_example.15","to_id":"method.left_right_limit","relation":"uses","source_id":"src.textbook","source_pages":[43,44],"evidence_status":"source_page_confirmed"}
+{"id":"rel.exercise03.discontinuity","from_id":"math2.ch01.textbook_exercise.03","to_id":"kp.discontinuity.classification","relation":"uses","source_id":"src.textbook","source_pages":[76,77],"evidence_status":"source_page_confirmed"}

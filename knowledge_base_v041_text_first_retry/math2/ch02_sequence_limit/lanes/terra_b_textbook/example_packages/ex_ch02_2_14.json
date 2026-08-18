@@ -1,0 +1,46 @@
+{
+  "item_id": "ex.ch02.2.14",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.2.14",
+    "category": "textbook_example",
+    "item_no": "2.14",
+    "question_text": "x=2\\ln(1+x),\\ x_{n+1}=2\\ln(1+x_n),\\ x_1>\\xi",
+    "solution_text": "lim x_n=ξ",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      33
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      97,
+      98
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "calculation_or_proof",
+    "requested_outputs": [
+      "题目要求的全部结论"
+    ],
+    "official_answer_text_or_katex": "lim x_n=ξ",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.ex.2.14.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "page_level_presence_only",
+    "ai_review": "研究F=x-2ln(1+x)唯一根ξ，证迭代递减且下界ξ，再代回不动点。",
+    "item_specific_analysis": "研究F=x-2ln(1+x)唯一根ξ，证迭代递减且下界ξ，再代回不动点。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      97,
+      98
+    ]
+  },
+  "audit_status": "pending_sol_high",
+  "ai_review": "研究F=x-2ln(1+x)唯一根ξ，证迭代递减且下界ξ，再代回不动点。"
+}

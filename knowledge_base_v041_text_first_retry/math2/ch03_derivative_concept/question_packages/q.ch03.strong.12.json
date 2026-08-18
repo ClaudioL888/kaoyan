@@ -1,0 +1,33 @@
+{
+  "item_id": "q.ch03.strong.12",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "strong",
+  "question_number": 12,
+  "question_text": "设 f(x)={x arctan(1/√x),x>0; π/2(e^{sin x}−1),x≤0}，讨论 f 在0处连续性和可导性；若可导，讨论 f' 在0处连续性。",
+  "solution_text": "两侧极限均0，f'(0)=π/2；右侧导数趋π/2，左侧也趋π/2，故 f'连续。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    70
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    180
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "calculation_or_proof",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "连续、可导，f'(0)=π/2且f'连续",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.strong.12.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题strong第12题的对象是：设 f(x)={x arctan(1/√x),x>0; π/2(e^{sin x}−1),x≤0}，讨论 f ；关键答案为 连续、可导，f'(0)=π/2且f'连续。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：两侧极限均0，f'(0)=π/2；右侧导数趋π/2，左侧也趋π/2，故 f'连续。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  },
+  "source_lane": "terra_a_questions",
+  "question_source_id": "src.1000q.question",
+  "solution_source_id": "src.1000q.solution"
+}

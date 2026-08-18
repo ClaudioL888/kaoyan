@@ -1,0 +1,24 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.03",
+  "category": "textbook_example",
+  "number": "例1.3",
+  "question_text": "P5 例1.3：求函数 \\(y=f(x)=\\ln(x+\\sqrt{x^2+1})\\) 的反函数 \\(f^{-1}(x)\\) 的表达式及其定义域。",
+  "solution_text": "官方解答：由 \\(y=\\ln(x+\\sqrt{x^2+1})\\) 得 \\(e^y=\\sqrt{x^2+1}+x\\)，并由 \\(-y=\\ln(\\sqrt{x^2+1}-x)\\) 联立，得到 \\(x=\\frac12(e^y-e^{-y})\\)。交换变量，\\(f^{-1}(x)=\\frac12(e^x-e^{-x}),\\ -\\infty<x<+\\infty\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    2
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    11,
+    12
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

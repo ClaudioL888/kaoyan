@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.32",
+  "category": "strength",
+  "number": "32",
+  "question_text": "已知 \\(\\lim_{x\\to0}\\left[a\\frac{2+e^{x/4}}{1+e^x}+(1+|x|)^{1/x}\\right]\\) 存在，求 \\(a\\) 的值。",
+  "solution_text": "31.【答案】D。\\(\\arcsin x-x\\sim x^3/6\\)，故 \\((a,b)=(1/6,3)\\)。32.【解析】两侧极限存在条件给 \\(a=e-1/(2e)\\)。33.【答案】B。展开 \\(\\sqrt{(1+x)/(1-x)}=1+x+\\frac12x^2+\\cdots\\)。34.【答案】A。由拉格朗日中值定理可证①，②一般不成立。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    66
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    170
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "左右极限参数",
+  "method": "分别计算 e^{x/4} 与 (1+|x|)^{1/x}",
+  "item_specific_analysis": "右极限 e，左极限 2a+1/e，令相等得 a=e/2−1/(2e)。",
+  "high_risk_audit_status": "passed"
+}

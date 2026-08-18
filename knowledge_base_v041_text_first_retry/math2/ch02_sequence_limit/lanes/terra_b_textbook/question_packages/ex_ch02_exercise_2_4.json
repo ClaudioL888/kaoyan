@@ -1,0 +1,44 @@
+{
+  "item_id": "ex.ch02.exercise.2.4",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.exercise.2.4",
+    "category": "textbook_exercise",
+    "item_no": "2.4",
+    "question_text": "\\lim n^{99}/[n^k-(n-1)^k]存在且非零",
+    "solution_text": "k=100",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      38
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      103
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "calculation",
+    "requested_outputs": [
+      "题目要求的全部结果"
+    ],
+    "official_answer_text_or_katex": "k=100",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.exercise.2.4.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "not_required",
+    "ai_review": "差分主项kn^{k-1}，要求99-(k-1)=0，故k=100。",
+    "item_specific_analysis": "差分主项kn^{k-1}，要求99-(k-1)=0，故k=100。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      103
+    ]
+  },
+  "audit_status": "pending_sol_high",
+  "ai_review": "差分主项kn^{k-1}，要求99-(k-1)=0，故k=100。"
+}

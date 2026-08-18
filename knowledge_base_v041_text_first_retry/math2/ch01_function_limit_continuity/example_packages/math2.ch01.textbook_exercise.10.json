@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.10",
+  "category": "textbook_example",
+  "number": "1.10",
+  "question_text": "设函数 \\(f(x)=\\begin{cases}\\frac{1-e^{\\tan x}}{\\arcsin(x/2)},&x>0\\\\ae^{2x},&x\\le0\\end{cases}\\)，在 \\(x=0\\) 处连续，则 \\(a=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "官方解答：连续性要求左右极限等于 \\(f(0)=a\\)。\\(\\lim_{x\\to0^+}\\frac{1-e^{\\tan x}}{\\arcsin(x/2)}=\\lim_{x\\to0^+}\\frac{-\\tan x}{x/2}=-2\\)，\\(\\lim_{x\\to0^-}ae^{2x}=a\\)，故 \\(a=-2\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    24
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    78
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "\\(a=-2\\)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

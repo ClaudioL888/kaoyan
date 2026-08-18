@@ -1,0 +1,46 @@
+{
+  "item_id": "ex.ch02.2.11",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.2.11",
+    "category": "textbook_example",
+    "item_no": "2.11",
+    "question_text": "0<a_n,b_n<\\pi/2,\\ \\cos a_n-a_n=\\cos b_n,\\ b_n\\to0",
+    "solution_text": "a_n→0，a_n/b_n^2→1/2",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      31
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      93,
+      94
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "calculation_or_proof",
+    "requested_outputs": [
+      "题目要求的全部结论"
+    ],
+    "official_answer_text_or_katex": "a_n→0，a_n/b_n^2→1/2",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.ex.2.11.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "page_level_presence_only",
+    "ai_review": "由cos递减得a_n<b_n，夹逼得a_n→0，再用1-cos b_n~b_n²/2；不能只保留一阶差。",
+    "item_specific_analysis": "由cos递减得a_n<b_n，夹逼得a_n→0，再用1-cos b_n~b_n²/2；不能只保留一阶差。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      93,
+      94
+    ]
+  },
+  "audit_status": "pending_sol_high",
+  "ai_review": "由cos递减得a_n<b_n，夹逼得a_n→0，再用1-cos b_n~b_n²/2；不能只保留一阶差。"
+}

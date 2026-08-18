@@ -1,0 +1,44 @@
+{
+  "item_id": "ex.ch02.2.4",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.2.4",
+    "category": "textbook_example",
+    "item_no": "2.4",
+    "question_text": "x_n=\\begin{cases}(n^2+\\sqrt n)/n,&n奇\\\\1/n,&n偶\\end{cases}",
+    "solution_text": "无界变量但不是无穷大量，选D",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      29
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      87
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "choice",
+    "requested_outputs": [
+      "题目要求的全部结论"
+    ],
+    "official_answer_text_or_katex": "无界变量但不是无穷大量，选D",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.ex.2.4.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "page_level_presence_only",
+    "ai_review": "先按奇偶拆分，注意(n²+√n)/n=n+1/√n→∞而偶数子列→0；故整体无界但不趋+∞，陷阱是误约成1。",
+    "item_specific_analysis": "先按奇偶拆分，注意(n²+√n)/n=n+1/√n→∞而偶数子列→0；故整体无界但不趋+∞，陷阱是误约成1。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      87
+    ]
+  },
+  "audit_status": "pending_sol_high",
+  "ai_review": "先按奇偶拆分，注意(n²+√n)/n=n+1/√n→∞而偶数子列→0；故整体无界但不趋+∞，陷阱是误约成1。"
+}

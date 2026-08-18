@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.11",
+  "category": "strength",
+  "number": "11",
+  "question_text": "设函数 \\(f(x)\\) 在 \\(0<|x|<1\\) 上有定义，且满足 \\(\\lim_{x\\to0}[\\cos x+\\frac{f(x)}x]^{1/x^2}=e^{-1}\\)，求 \\(\\lim_{x\\to0}\\frac{f(x)}{\\sin^3x}\\)。",
+  "solution_text": "7.【解析续】由 \\(f/g\\to1\\)，\\(\\frac{\\int_0^x f(t)(1-\\cos t)dt}{\\int_0^x t^2g(t)dt}\\to1/2\\)。8.【答案】C。\\(a\\int_0^{x^2}\\cos t^2dt\\sim ax^2\\)，\\(\\sin x-b\\ln(1+x)=(1-b)x+\\frac b2x^2+o(x^2)\\)，得 \\(a=1/2,b=1\\)。9.【答案】D。\\(e^{t\\cos t^2}-e^t\\sim-\\frac12t^3\\)，积分为 \\(-x^6/12\\)，故 \\((a,b)=(-1/12,6)\\)。10.【答案】−15。由 \\(x=3\\) 分子分母同时为0得 \\(a=-3,b=5\\)，故 \\(ab=-15\\)。11.【解析】由题设 \\(\\lim\\frac{\\ln[\\cos x+f(x)/x]}{x^2}=-1\\)，推出 \\(\\lim f(x)/\\sin^3x=-1/2\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    64
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    162
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "幂指型反求未知函数",
+  "method": "对数展开到 x²",
+  "item_specific_analysis": "括号的对数/x²→−1，得到 f(x)/x³→−1/2，因为 sin³x~x³。",
+  "high_risk_audit_status": "passed"
+}

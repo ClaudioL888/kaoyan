@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.06",
+  "category": "textbook_example",
+  "number": "例1.6",
+  "question_text": "例1.6：证明函数 \\(f(x)=\\frac{x}{1+x^2}\\) 在 \\((−\\infty,+\\infty)\\) 内有界。",
+  "solution_text": "官方解答：当 \\(x\\ne0\\)，\\(|f(x)|=\\frac{|x|}{1+x^2}=\\frac1{|x|+1/|x|}\\le\\frac12\\)，并在 \\(x=0\\) 取0，故 \\(f(x)=\\frac{x}{1+x^2}\\) 在 \\((−\\infty,+\\infty)\\) 有界。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    3
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    15
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

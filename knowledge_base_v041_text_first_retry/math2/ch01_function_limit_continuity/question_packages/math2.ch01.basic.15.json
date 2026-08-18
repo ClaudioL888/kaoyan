@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.15",
+  "category": "basic",
+  "number": "15",
+  "question_text": "\\(\\lim_{x\\to+\\infty}\\ln(1+2^x)\\ln\\left(1+\\frac2x\\right)=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "15.【答案】\\(2\\ln2\\)。\\(\\ln(1+2^x)\\sim x\\ln2\\)，\\(\\ln(1+2/x)\\sim2/x\\)，乘积为 \\(2\\ln2\\)。16.【答案】\\(\\sqrt e\\)。将 \\((\\cos(1/x)+\\sin(1/x))^{x/2}\\) 平方后化为 \\((1+\\sin(2/x))^{x/4}\\)，利用 \\(\\lim_{x\\to\\infty}\\frac{\\sin(2/x)}{4/x}=1/2\\)。17.【答案】\\(x-\\frac23x^3\\)。\\(\\tan x=x+x^3/3+\\cdots\\)，\\((1+x^2)^{-1}=1-x^2+x^4-\\cdots\\)。18.【答案】\\(x^2+\\frac1{1-e}e^x\\)。令 \\(\\lim_{x\\to1}f(x)=a\\)，得 \\(a=1/(1-e)\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    14
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "无穷远乘积极限",
+  "method": "分别处理 ln(1+2^x) 与 ln(1+2/x)",
+  "item_specific_analysis": "前者= xln2+o(1)，后者~2/x，乘积趋2ln2；注意 x→+∞ 的方向。",
+  "high_risk_audit_status": "passed"
+}

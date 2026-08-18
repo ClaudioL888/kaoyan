@@ -1,0 +1,300 @@
+{
+  "task": "Q06_minimal_independent_verification_staging_only",
+  "question_id": "M2-ZY1000-B-C01-Q06",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "xhigh",
+  "reviewer_instance": "/root/q06_sol_png_min",
+  "reviewed_at": "2026-08-17T20:18:45.5388518+08:00",
+  "processed": 1,
+  "scope": {
+    "read_sources": [
+      "knowledge_base/math2/ch01_function_limit_continuity/assets/1000_basic_question_pdf_p011.jpg",
+      "knowledge_base/math2/ch01_function_limit_continuity/assets/1000_solution_p012.png",
+      "knowledge_base/math2/ch01_function_limit_continuity/assets/1000_solution_p013.png",
+      "knowledge_base/math2/ch01_function_limit_continuity/question_packages/M2-ZY1000-B-C01-Q06"
+    ],
+    "q07_processed": false,
+    "main_jsonl_modified": false,
+    "question_package_modified": false,
+    "c_level_status_modified": false,
+    "asset_modified": false,
+    "prior_agent_conclusions_used_as_facts": false
+  },
+  "coordinate_system": {
+    "origin": "top_left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "unit": "source_image_pixel",
+    "bbox_order": [
+      "x0",
+      "y0",
+      "x1",
+      "y1"
+    ],
+    "boundary_convention": "half_open_[x0,y0,x1,y1); x1_and_y1_are_exclusive",
+    "tight_bbox_method": "manual visual isolation checked against dark-content pixels at grayscale < 210; JPEG anti-alias/compression makes the ink-tight edge threshold-dependent",
+    "recommended_crop_method": "small white safety margin around the tight content while remaining between adjacent-question boundaries"
+  },
+  "source_images": [
+    {
+      "asset": "assets/1000_basic_question_pdf_p011.jpg",
+      "width_px": 1075,
+      "height_px": 1519,
+      "role": "Q06_question_page"
+    },
+    {
+      "asset": "assets/1000_solution_p012.png",
+      "width_px": 1071,
+      "height_px": 1506,
+      "role": "Q06_solution_part_1"
+    },
+    {
+      "asset": "assets/1000_solution_p013.png",
+      "width_px": 1067,
+      "height_px": 1506,
+      "role": "Q06_solution_part_2_continuation"
+    }
+  ],
+  "question_verification": {
+    "asset": "assets/1000_basic_question_pdf_p011.jpg",
+    "tight_content_bbox_px": [
+      149,
+      883,
+      733,
+      1051
+    ],
+    "recommended_q06_only_crop_bbox_px": [
+      140,
+      875,
+      742,
+      1059
+    ],
+    "bbox_precision_confirmed": true,
+    "bbox_precision_scope": "Q06-only crop boundaries confirmed under the declared coordinate and threshold convention",
+    "contains_complete_stem_and_all_four_options": true,
+    "adjacent_question_mixed": false,
+    "adjacent_exclusion": {
+      "previous_question": "Q05 ends above the recommended crop",
+      "next_question": "Q07 begins below the recommended crop"
+    },
+    "visual_transcription": {
+      "stem": "下列选项中，极限存在的是（ ）。",
+      "options": {
+        "A": "\\lim_{x\\to0}\\frac{\\sin x}{|x|}\\arctan\\frac{1}{|x|}",
+        "B": "\\lim_{x\\to0}\\frac{\\sin x}{x}\\arctan\\frac{1}{x}",
+        "C": "\\lim_{x\\to0}\\frac{|\\sin x|}{|x|}\\arctan\\frac{1}{x}",
+        "D": "\\lim_{x\\to0}\\frac{|\\sin x|}{x}\\arctan\\frac{1}{x}"
+      }
+    }
+  },
+  "solution_verification": {
+    "cross_page_continuous": true,
+    "continuity_detail": "P012 ends with the x->0+ computation for option D and a trailing comma; P013 begins with the x->0- computation for the same option, then gives the conclusion and the statement that A/B/C limits do not exist.",
+    "pages": [
+      {
+        "asset": "assets/1000_solution_p012.png",
+        "tight_content_bbox_px": [
+          130,
+          1334,
+          660,
+          1461
+        ],
+        "recommended_q06_only_crop_bbox_px": [
+          122,
+          1326,
+          668,
+          1466
+        ],
+        "bbox_precision_confirmed": true,
+        "content": "6.【答案】(D)；【解析】对于选项(D)，计算 x->0+ 时的极限为 pi/2。",
+        "fragment_complete_by_itself": false,
+        "adjacent_question_mixed": false,
+        "page_number_mixed": false
+      },
+      {
+        "asset": "assets/1000_solution_p013.png",
+        "tight_content_bbox_px": [
+          93,
+          137,
+          702,
+          269
+        ],
+        "recommended_q06_only_crop_bbox_px": [
+          85,
+          129,
+          710,
+          276
+        ],
+        "bbox_precision_confirmed": true,
+        "content": "承接 P012，计算 x->0- 时的极限为 pi/2；故选项(D)正确；经计算，选项(A),(B),(C)极限均不存在。",
+        "fragment_complete_by_itself": false,
+        "adjacent_question_mixed": false,
+        "page_header_mixed": false
+      }
+    ],
+    "official_answer": {
+      "choice": "D",
+      "computed_limit_for_D": "\\frac{\\pi}{2}",
+      "answer_field_should_be_choice_only": true
+    }
+  },
+  "pairing_verification": {
+    "question_asset": "assets/1000_basic_question_pdf_p011.jpg",
+    "solution_assets": [
+      "assets/1000_solution_p012.png",
+      "assets/1000_solution_p013.png"
+    ],
+    "pairing_confirmed": true,
+    "basis": [
+      "question number 6 matches on P011 and P012",
+      "option D expression on P011 matches the expression evaluated on P012/P013",
+      "P012/P013 form one syntactically continuous official solution"
+    ]
+  },
+  "package_conflict_review": {
+    "stem_and_options": {
+      "stem_md_text_matches_source": true,
+      "all_four_option_formulas_match_source": true,
+      "conflicts": [
+        {
+          "field": "original_record.question_text_latex",
+          "observed": "\\lim_{x\\to0}\\frac{|\\sin x|}{x}\\arctan\\frac1x=\\frac\\pi2",
+          "issue": "This is the evaluated correct option, not the question text. It replaces a multiple-choice stem with the answer conclusion."
+        },
+        {
+          "field": "original_record.question_text_latex_original_text",
+          "observed": "\\text{判断下列四个极限的存在性}",
+          "issue": "Paraphrase, not the visual wording 下列选项中，极限存在的是（ ）。"
+        }
+      ]
+    },
+    "answer": {
+      "conflicts": [
+        {
+          "fields": [
+            "metadata.official_answer_original",
+            "metadata.official_answer_markdown",
+            "original_record.answer"
+          ],
+          "observed": "D; \\frac{\\pi}{2}",
+          "issue": "The printed answer field is choice D only. pi/2 is the computed value of option D and should be stored separately, not fused into the choice answer."
+        }
+      ]
+    },
+    "official_solution_formula": {
+      "right_limit_formula_correct": true,
+      "left_limit_formula_correct": true,
+      "combined_result_correct": true,
+      "conflicts": []
+    },
+    "official_solution_markdown_and_steps": {
+      "semantic_summary_correct": true,
+      "verbatim_fidelity_confirmed": false,
+      "conflicts": [
+        {
+          "field": "solution/official.md header and original_record.official_solution_status",
+          "issue": "They advertise official_exact_transcribed_pending_independent_review, but the displayed two-step prose is a paraphrase, not the printed wording."
+        },
+        {
+          "field": "STEP-OFFICIAL-M2-ZY1000-B-C01-Q06-S02 official_status",
+          "observed": "official_transcribed",
+          "issue": "The source says 经计算，选项(A),(B),(C)极限均不存在；the stored sentence adds 左右极限不相等或一侧不存在 and 因此只有 D..., so it is not verbatim."
+        },
+        {
+          "field": "solution/official.md and original_record.official_solution_markdown",
+          "observed": "|$\\sin x$|/x",
+          "issue": "Broken math-boundary Markdown: only sin x is delimited. Use one math span for the full expression."
+        },
+        {
+          "field": "solution/steps.jsonl generic skeleton S04",
+          "observed": "若含参数，先由两侧相等建立方程",
+          "issue": "No parameter appears in Q06. This is a generic skeleton step, not a source-grounded step for this problem; it must not be presented as official."
+        },
+        {
+          "field": "review.solution_review.step_count",
+          "observed": 8,
+          "issue": "This aggregates 2 official-paraphrase records and 6 non-official skeleton records; it conflicts with official_solution_step_count=2 if interpreted as official steps."
+        }
+      ]
+    },
+    "localized_assets": {
+      "conflicts": [
+        {
+          "asset": "question_packages/M2-ZY1000-B-C01-Q06/stem.png",
+          "issue": "Full-page fallback, so it contains many adjacent questions and is not a precise Q06 crop."
+        },
+        {
+          "asset": "question_packages/M2-ZY1000-B-C01-Q06/revisions/stem_33824dbd8cbd.png",
+          "issue": "The crop visibly contains Q09 rather than Q06."
+        },
+        {
+          "asset": "question_packages/M2-ZY1000-B-C01-Q06/solution/source/solution_01.png",
+          "issue": "Starts at 【解析】 and omits the Q06 answer line; also includes printed page number 8."
+        },
+        {
+          "asset": "question_packages/M2-ZY1000-B-C01-Q06/solution/source/solution_02.png",
+          "issue": "Includes the start and formula content of Q07 after the Q06 continuation."
+        },
+        {
+          "asset": "question_packages/M2-ZY1000-B-C01-Q06/solution/official.png",
+          "issue": "It is the full P012 page, includes adjacent Q01-Q05 context, and omits the required P013 continuation."
+        }
+      ]
+    }
+  },
+  "verification_items": [
+    {
+      "item": "actual_image_dimensions",
+      "status": "confirmed"
+    },
+    {
+      "item": "P011_Q06_question_bbox",
+      "status": "confirmed"
+    },
+    {
+      "item": "P012_Q06_solution_bbox",
+      "status": "confirmed"
+    },
+    {
+      "item": "P013_Q06_solution_bbox",
+      "status": "confirmed"
+    },
+    {
+      "item": "P012_to_P013_cross_page_continuity",
+      "status": "confirmed"
+    },
+    {
+      "item": "official_answer",
+      "status": "confirmed_as_D"
+    },
+    {
+      "item": "P011_to_P012_P013_pairing",
+      "status": "confirmed"
+    },
+    {
+      "item": "recommended_bbox_adjacent_question_exclusion",
+      "status": "confirmed"
+    },
+    {
+      "item": "existing_package_formula_step_markdown_conflicts",
+      "status": "conflicts_found"
+    },
+    {
+      "item": "existing_package_localized_asset_purity",
+      "status": "failed"
+    }
+  ],
+  "failure_list": [
+    "Answer metadata conflates choice D with the computed limit value pi/2.",
+    "question_text_latex stores the correct-option conclusion instead of the question stem.",
+    "The claimed exact official transcription is paraphrased; S02 is mislabeled official_transcribed.",
+    "Official Markdown contains the broken math boundary |$\\sin x$|/x.",
+    "A generic parameter step is not applicable to this no-parameter question and is not source-grounded.",
+    "The review step count 8 is misleading if treated as the number of official solution steps.",
+    "The current stem image is a full-page fallback; a preserved revision crop is actually Q09.",
+    "The first localized solution crop omits the answer line and includes page number 8.",
+    "The second localized solution crop mixes in Q07.",
+    "The single official.png is full-page P012, mixes adjacent content, and does not include the P013 continuation."
+  ],
+  "final_status": "independent_review_complete_conflicts_found_not_ready_for_promotion"
+}

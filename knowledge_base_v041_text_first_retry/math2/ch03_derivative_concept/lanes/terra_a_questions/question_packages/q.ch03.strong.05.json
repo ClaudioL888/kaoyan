@@ -1,0 +1,30 @@
+{
+  "item_id": "q.ch03.strong.05",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "strong",
+  "question_number": 5,
+  "question_text": "设 f(x)={x² sin(1/x),x≠0;0,x=0}，记 F(x)=g[f(x)]，g 可导，则 F(x) 在 x=0 处（ ）。 A不连续 B可导且F'(0)=0 C连续但不可导 D可导且F'(0)≠0。",
+  "solution_text": "f(0)=0且 f'(0)=0，链式法则得 F'(0)=g'(0)f'(0)=0；F连续，故 B。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    69
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    178
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "choice",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "B：可导且F'(0)=0",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.strong.05.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题strong第5题的对象是：设 f(x)={x² sin(1/x),x≠0;0,x=0}，记 F(x)=g[f(x)]，g 可导，则 F(；关键答案为 B：可导且F'(0)=0。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：f(0)=0且 f'(0)=0，链式法则得 F'(0)=g'(0)f'(0)=0；F连续，故 B。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.05",
+  "category": "textbook_example",
+  "number": "例1.5",
+  "question_text": "P8 例1.5：设 \\(g(x)=\\begin{cases}2-x,&x\\le0\\\\2+x,&x>0\\end{cases}\\)，\\(f(x)=\\begin{cases}x^2,&x<0\\\\-x-1,&x\\ge0\\end{cases}\\)，则 \\(g[f(x)]=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "官方解答：先按 \\(f(x)\\) 的正负确定 \\(g\\) 的分支。\\(x\\ge0\\) 时 \\(f(x)=-x-1\\le0\\)，\\(g[f(x)]=2-f(x)=3+x\\)；\\(x<0\\) 时 \\(f(x)=x^2>0\\)，\\(g[f(x)]=2+f(x)=2+x^2\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    3
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    14
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

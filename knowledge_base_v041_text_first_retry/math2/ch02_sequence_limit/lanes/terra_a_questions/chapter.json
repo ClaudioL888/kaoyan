@@ -1,0 +1,15 @@
+{
+  "chapter_id": "ch02_sequence_limit",
+  "title": "数列极限",
+  "lane": "terra_a_questions",
+  "scope": "仅张宇1000题基础题与强化题题面、官方解析和题目包",
+  "status": "incomplete",
+  "fixed_denominator": {"basic_questions": 12, "advanced_questions": 11, "total_questions": 23, "question_pages": [13,67,68], "solution_pages": [18,19,20,21,22,23,24,173,174,175,176]},
+  "sources": ["src.math2.1000_questions", "src.math2.1000_solutions"],
+  "recognition_model": "gpt-5.6-terra/high",
+  "created_at": "2026-08-18T18:40:00+08:00",
+  "notes": ["教材正文、教材例题、大纲、Terra B 范围均未处理", "最终章节验收由主 Agent/Sol 阶段完成"],
+  "lane_counts": {"question_records": 23, "question_registry": 23, "page_mappings": 23, "question_page_records": 3, "solution_page_records": 11, "question_packages": 23},
+  "error_recovery": [{"attempt":1,"error_type":"503/auth_unavailable","occurred_at":"2026-08-18T18:45:00+08:00","retry_after":null,"not_before":"2026-08-18T18:45:30+08:00","recovered":true,"resume_cursor":"question_registry"}],
+  "last_successful_cursor": "question_packages"
+}

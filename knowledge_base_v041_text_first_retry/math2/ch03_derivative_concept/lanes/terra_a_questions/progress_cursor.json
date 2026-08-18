@@ -1,0 +1,31 @@
+{
+  "chapter_id": "ch03_derivative_concept",
+  "lane": "terra_a_questions",
+  "status": "incomplete",
+  "resume_reason": "上一轮503/auth_unavailable后恢复；现有37题正式产物先盘点，不重做已确认页",
+  "attempt": 1,
+  "previous_error": {
+    "type": "503/auth_unavailable",
+    "occurred_at": "previous_round_unknown",
+    "retry_after": null,
+    "not_before": null
+  },
+  "current_start_at": "2026-08-18T19:49:52.4893617+08:00",
+  "question_pages": {
+    "basic": {"range": [14, 15], "cursor": "complete", "count": 15},
+    "strong": {"range": [69, 71], "cursor": "complete", "count": 22}
+  },
+  "solution_pages": {
+    "basic": {"range": [21, 25], "cursor": "complete", "count": 15},
+    "strong": {"range": [177, 184], "cursor": "complete", "count": 22}
+  },
+  "formal_artifacts": {
+    "question_records": 37,
+    "question_packages": 37,
+    "question_page_mappings": 37,
+    "solution_page_mappings": 37
+  },
+  "next_cursor": null,
+  "end_at": "2026-08-18T19:56:36.8884032+08:00",
+  "elapsed_seconds": 404.399
+}

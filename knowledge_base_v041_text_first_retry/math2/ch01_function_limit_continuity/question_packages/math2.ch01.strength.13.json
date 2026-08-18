@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.13",
+  "category": "strength",
+  "number": "13",
+  "question_text": "\\(f(x)=\\lim_{n\\to\\infty}n^x[(1+\\frac1n)^n-e]\\) 在 \\(x=1\\) 处（ ）。\n（A）左极限存在，右极限不存在  （B）左极限不存在，右极限存在  （C）左、右极限都存在，但不相等  （D）连续",
+  "solution_text": "11.【解析续】利用 \\(\\ln(1+u)\\sim u\\) 可得 \\(\\lim f(x)/\\sin^3x=-1/2\\)。12.【答案】3。积分中值定理给 \\(\\int_0^{2x}\\cos t^2dt=2x\\cos\\xi^2\\)，且 \\(g(x)\\to1/2\\)，故原式为3。13.【答案】A。展开 \\(n\\ln(1+1/n)=1-1/(2n)+o(1/n)\\)，得 \\(f(x)=0(x<1),-e/2(x=1),-\\infty(x>1)\\)，故左极限存在右极限不存在。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    64
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    162
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "数列参数化函数的间断",
+  "method": "展开 (1+1/n)^n−e 的首项",
+  "item_specific_analysis": "f(x) 分段为 0 (x<1)、−e/2 (x=1)、−∞ (x>1)，故 x=1 左极限存在右极限不存在。",
+  "high_risk_audit_status": "passed"
+}

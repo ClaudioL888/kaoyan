@@ -1,0 +1,13 @@
+{"id":"fm.derivative.increment","title":"导数差商","katex":"f'(x_0)=\\lim_{\\Delta x\\to0}\\frac{f(x_0+\\Delta x)-f(x_0)}{\\Delta x}","conditions":"x0+Δx 在定义域","source_id":"src.textbook","source_pages":[106,107],"status":"source_page_confirmed"}
+{"id":"fm.derivative.alternative","title":"函数增量形式","katex":"f'(x_0)=\\lim_{x\\to x_0}\\frac{f(x)-f(x_0)}{x-x_0}","conditions":"x≠x0","source_id":"src.textbook","source_pages":[107],"status":"source_page_confirmed"}
+{"id":"fm.one_sided","title":"单侧导数","katex":"f'_-(x_0)=\\lim_{\\Delta x\\to0^-}\\frac{\\Delta y}{\\Delta x},\\quad f'_+(x_0)=\\lim_{\\Delta x\\to0^+}\\frac{\\Delta y}{\\Delta x}","conditions":"分别取单侧极限","source_id":"src.textbook","source_pages":[107],"status":"source_page_confirmed"}
+{"id":"fm.tangent","title":"切线方程","katex":"y-y_0=f'(x_0)(x-x_0)","conditions":"f'(x0) 存在","source_id":"src.textbook","source_pages":[115],"status":"source_page_confirmed"}
+{"id":"fm.normal","title":"法线方程","katex":"y-y_0=-\\frac{1}{f'(x_0)}(x-x_0)","conditions":"f'(x0)≠0","source_id":"src.textbook","source_pages":[115],"status":"source_page_confirmed"}
+{"id":"fm.higher2","title":"二阶导数","katex":"f''(x_0)=\\lim_{\\Delta x\\to0}\\frac{f'(x_0+\\Delta x)-f'(x_0)}{\\Delta x}","conditions":"二阶导数存在","source_id":"src.textbook","source_pages":[117],"status":"source_page_confirmed"}
+{"id":"fm.highern","title":"n阶导数","katex":"f^{(n)}(x_0)=\\lim_{\\Delta x\\to0}\\frac{f^{(n-1)}(x_0+\\Delta x)-f^{(n-1)}(x_0)}{\\Delta x}","conditions":"n>2","source_id":"src.textbook","source_pages":[117],"status":"source_page_confirmed"}
+{"id":"fm.increment","title":"增量与微分","katex":"\\Delta y=A\\Delta x+o(\\Delta x),\\quad dy=A\\Delta x=f'(x_0)dx","conditions":"dx=Δx","source_id":"src.textbook","source_pages":[118,119],"status":"source_page_confirmed"}
+{"id":"fm.area","title":"面积增量","katex":"\\Delta S=(1+\\Delta x)^2-1=2\\Delta x+(\\Delta x)^2","conditions":"Δx→0","source_id":"src.textbook","source_pages":[118],"status":"source_page_confirmed"}
+{"id":"fm.diff_criterion","title":"可微判别","katex":"\\lim_{\\Delta x\\to0}\\frac{\\Delta y-A\\Delta x}{\\Delta x}=0","conditions":"A 为有限常数","source_id":"src.textbook","source_pages":[119],"status":"source_page_confirmed"}
+{"id":"fm.prod","title":"乘积求导","katex":"(uv)'=u'v+uv'","conditions":"u,v 可导","source_id":"src.textbook","source_pages":[111],"status":"source_page_confirmed"}
+{"id":"fm.three_prod","title":"三因子乘积","katex":"(u_1u_2u_3)'=u_1'u_2u_3+u_1u_2'u_3+u_1u_2u_3'","conditions":"三个因子可导","source_id":"src.textbook","source_pages":[111],"status":"source_page_confirmed"}
+{"id":"fm.absolute_derivative","title":"绝对值导数","katex":"(|f|)'=\\begin{cases}f',&f>0\\\\-f',&f<0\\end{cases}","conditions":"f(x0)≠0","source_id":"src.textbook","source_pages":[107,113],"status":"source_page_confirmed"}

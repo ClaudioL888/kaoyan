@@ -1,0 +1,30 @@
+{
+  "item_id": "q.ch03.strong.10",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "strong",
+  "question_number": 10,
+  "question_text": "设 f(x)={ [g(x)−e^{−x}]/x, x≠0; a,x=0 }，其中 g 有二阶连续导数，g(0)=1,g'(0)=−1。(1)求 a 使 f 全域连续；(2)连续时是否可导，若可导求 f'(x)。",
+  "solution_text": "连续极限给 a=g'(0)+1=0；洛必达两次得 f'(0)=(g''(0)−1)/2，x≠0按商法则。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    70
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    180
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "calculation_or_proof",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "a=0；f'(0)=(g''(0)−1)/2，x≠0按商法则",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.strong.10.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题strong第10题的对象是：设 f(x)={ [g(x)−e^{−x}]/x, x≠0; a,x=0 }，其中 g 有二阶连续导数，g(0；关键答案为 a=0；f'(0)=(g''(0)−1)/2，x≠0按商法则。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：连续极限给 a=g'(0)+1=0；洛必达两次得 f'(0)=(g''(0)−1)/2，x≠0按商法则。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  }
+}

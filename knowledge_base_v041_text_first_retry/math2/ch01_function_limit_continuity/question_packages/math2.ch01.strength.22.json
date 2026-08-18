@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.22",
+  "category": "strength",
+  "number": "22",
+  "question_text": "若二次多项式 \\(f(x)\\) 在 \\(x=0\\) 的某邻域内与 \\(g(x)=\\sec x\\) 的差为 \\(x^2\\) 的高阶无穷小，则 \\(f(x)=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "20.【解析续】\\(\\lim\\frac{\\int_0^{x^2}f(t)dt}{x^2\\int_0^xf(t)dt}=\\frac{2f'(0)}{2f'(0)}=1\\)。21.【解析】\\(\\frac{\\ln f}{\\ln g}=\\frac{\\ln f-\\ln g}{\\ln g}+1=\\frac{\\ln(f/g)}{\\ln g}+1\\to1\\)。22.【答案】\\(1+x^2/2\\)。\\(\\sec x=1+x^2/2+o(x^2)\\)，故二次多项式为此式。23.【答案】D。\\(e-(1+1/n)^n\\sim e/(2n)\\)，所以 \\(c=e/2,k=1\\)。24.【答案】B。等价无穷小给 \\(\\alpha/\\beta\\to1\\)，故③④成立，①②错误。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    65
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    164
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "泰勒展开匹配",
+  "method": "sec x=1+x²/2+o(x²)",
+  "item_specific_analysis": "差为 x² 高阶要求二次项相同，f(x)=1+x²/2。",
+  "high_risk_audit_status": "passed"
+}

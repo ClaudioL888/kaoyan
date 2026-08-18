@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.38",
+  "category": "strength",
+  "number": "38",
+  "question_text": "设 \\(f(x)=\\lim_{n\\to\\infty}\\frac{x^{n+1}+(\\cos n\\pi x+1)\\sin\\alpha x}{x^n+(\\cos n\\pi x+1)}\\)，为使 \\(f(x)\\) 对于一切 \\(x\\) 都连续，求常数 \\(\\alpha\\) 的最小正值。",
+  "solution_text": "37.【答案】A。逐一检查 \\(x=0,1,2\\) 的邻域极限，第二类间断点个数为0。38.【解析】\\(|x|>1\\) 时极限为x，\\(|x|<1\\) 时为 \\(\\sin\\alpha x\\)，在 \\(x=\\pm1\\) 的连续性要求 \\(\\sin\\alpha=1\\)，最小正 \\(\\alpha=\\pi/2\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    66
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    172
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "含 n 极限定义函数的连续性",
+  "method": "先按 |x|>1、|x|<1、x=±1 分段",
+  "item_specific_analysis": "得到 f=x (|x|≥1)、sin(αx) (|x|<1)，在 ±1 连续要求 sin α=1，最小正 α=π/2。",
+  "high_risk_audit_status": "passed"
+}

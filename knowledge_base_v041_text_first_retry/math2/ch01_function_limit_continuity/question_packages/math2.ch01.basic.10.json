@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.10",
+  "category": "basic",
+  "number": "10",
+  "question_text": "\\(\\lim_{x\\to+\\infty}x\\left(\\frac1{2^x}-\\frac1{3^x}\\right)=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "6.【解析续】\\(\\lim_{x\\to0^-}\\frac{|\\sin x|}{x}\\arctan\\frac1x=(-1)(-\\frac\\pi2)=\\frac\\pi2\\)，故D正确。\n7.【答案】3。\\(\\ln\\frac{2+x}{2+\\sin x}\\sim\\frac{x-\\sin x}{2}\\sim\\frac1{12}x^3\\)，所以 \\(n=3\\)。\n8.【答案】C。\\(\\lim\\frac{2\\cos x+f(x)}{x^2}=\\lim[\\frac{\\sin2x+xf(x)}{x^3}-\\frac{\\sin2x-2x\\cos x}{x^3}]=1-(-\\frac13)=\\frac43\\)。\n9.【答案】B。①不成立；② \\(fg/g^2=f/g\\to0\\) 成立；③ \\(f/\\ln(1+g)\\sim f/g\\to0\\) 成立；④不一定成立。\n10.【答案】\\(\\ln\\frac23\\)。令 \\(1/x=t\\)，则 \\(\\lim_{t\\to0}\\frac{2^t-3^t}{t}=\\ln2-\\ln3\\)。\n11.【答案】\\(\\frac12\\)。根式展开：\\(\\sqrt{1+2x}=1+x-\\frac12x^2+o(x^2)\\)，\\(\\sqrt[3]{1+3x}=1+x-x^2+o(x^2)\\)，分子为 \\(\\frac12x^2+o(x^2)\\)，分母 \\(\\ln(1+x^2)\\sim x^2\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    13
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "无穷远指数极限",
+  "method": "比较指数衰减速度",
+  "item_specific_analysis": "x/2^x 与 x/3^x 均趋0，故差的极限为0；不能把两个指数项当作同阶幂项。",
+  "high_risk_audit_status": "passed"
+}

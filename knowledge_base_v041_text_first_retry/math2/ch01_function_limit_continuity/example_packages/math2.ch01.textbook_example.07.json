@@ -1,0 +1,24 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.07",
+  "category": "textbook_example",
+  "number": "例1.7",
+  "question_text": "P10 例1.7：设 \\(f(x)\\) 在 \\((−\\infty,+\\infty)\\) 上有定义，任给 \\(x_1,x_2,x_1\\ne x_2\\)，均有 \\((x_1-x_2)[f(x_1)-f(x_2)]>0\\)，则以下函数一定单调递增的是（ ）。A. \\(|f(x)|\\)；B. \\(f(|x|)\\)；C. \\(f(-x)\\)；D. \\(-f(-x)\\)。",
+  "solution_text": "官方解答：由已知 \\(f(x)\\) 为单调增加函数。\\(f(-x)\\) 的图像与 \\(f(x)\\) 的图像关于 \\(y\\) 轴对称，故 \\(f(-x)\\) 单调减少；\\(-f(-x)\\) 与 \\(f(x)\\) 的图像关于原点对称，故 \\(-f(-x)\\) 单调增加。应选 \\((D)\\)。\\(|f(x)|\\) 是否具有单调性与 \\(f(x)\\) 的正负相关，不能确定。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    4
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    16,
+    17
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "(D)：\\(-f(-x)\\) 单调增加。",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

@@ -1,0 +1,25 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.16",
+  "category": "textbook_example",
+  "number": "1.16",
+  "question_text": "求常数 \\(a,b\\) 的值，使得函数 \\(f(x)=x-(a+b\\cos x)\\sin x\\) 在 \\(x\\to0\\) 时是 \\(x\\) 的5阶无穷小。",
+  "solution_text": "官方解答：恒等变形 \\(f(x)=x-a\\sin x-\\frac12b\\sin2x\\)。代入 \\(\\sin x=x-\\frac{x^3}{6}+\\frac{x^5}{120}+o(x^5)\\)，\\(\\sin2x=2x-\\frac43x^3+\\frac4{15}x^5+o(x^5)\\)，得 \\(f(x)=(1-a-b)x+(\\frac a6+\\frac{2b}{3})x^3-(\\frac a{120}+\\frac{2b}{15})x^5+o(x^5)\\)。为 x 的 5 阶无穷小，须 \\(1-a-b=0\\)、\\(\\frac a6+\\frac{2b}{3}=0\\)，解得 \\(a=\\frac43,b=-\\frac13\\)，且五次项系数非零。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    27
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    81
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "\\(a=\\frac43,\\ b=-\\frac13\\)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [
+    "rel.exercise16.taylor"
+  ],
+  "package_status": "assembled_source_page_confirmed"
+}

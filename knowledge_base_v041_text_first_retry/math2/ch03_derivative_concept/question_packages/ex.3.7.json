@@ -1,0 +1,44 @@
+{
+  "id": "ex.3.7",
+  "category": "textbook_exercise",
+  "number": "7",
+  "question_text": "证明单侧导数存在且趋于A时单侧导数等于A。",
+  "solution_text": "洛必达与导数定义",
+  "official_answer_text_or_katex": "证明",
+  "answer_kind": "calculation_or_proof",
+  "answer_confirmation": "source_page_confirmed",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    49
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    122,
+    123,
+    124
+  ],
+  "mapping_status": "page_range_assigned",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "not_required",
+  "item_specific_analysis": {
+    "what_tested": "习题ex.3.7",
+    "first_step": "写出题设极限或增量表达式",
+    "official_key": "洛必达与导数定义",
+    "decision_step": "利用左右差商或等价无穷小",
+    "trap": "忽略分段点、单侧极限或可导条件",
+    "transfer_boundary": "只适用于题设邻域与有界/连续条件"
+  },
+  "status": "reviewed_source_confirmed",
+  "item_id": "ex.3.7",
+  "chapter_id": "ch03_derivative_concept",
+  "source_lane": "terra_b_textbook",
+  "question_number": "7",
+  "question_source_id": "src.example.question",
+  "solution_source_id": "src.textbook",
+  "requested_outputs": "题目要求的全部结果",
+  "answer_source_mapping_id": "map.ex.3.7.solution",
+  "ai_review": {
+    "item_specific_analysis": "考查：习题ex.3.7；第一步：写出题设极限或增量表达式；官方关键：洛必达与导数定义；决定步骤：利用左右差商或等价无穷小；易错点：忽略分段点、单侧极限或可导条件；迁移边界：只适用于题设邻域与有界/连续条件"
+  }
+}

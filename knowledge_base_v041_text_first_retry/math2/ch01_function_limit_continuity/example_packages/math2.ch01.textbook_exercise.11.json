@@ -1,0 +1,24 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.11",
+  "category": "textbook_example",
+  "number": "1.11",
+  "question_text": "1.11 设 \\(f(x)=\\arcsin(\\sin x)\\)，画出 \\(f(x)\\) 的图形。",
+  "solution_text": "官方解答：\\(f(x+2\\pi)=\\arcsin[\\sin(x+2\\pi)]=f(x)\\)。当 \\(x\\in[-\\frac\\pi2,\\frac\\pi2]\\) 时 \\(f(x)=x\\)；当 \\(x\\in[\\frac\\pi2,\\frac{3\\pi}2]\\) 时 \\(f(x)=\\pi-x\\)。一般地，对 \\(k\\in\\mathbb Z\\)，\\(f(x)=x-2k\\pi\\)（\\(-\\frac\\pi2+2k\\pi\\le x\\le\\frac\\pi2+2k\\pi\\)），\\(f(x)=(2k+1)\\pi-x\\)（\\(\\frac\\pi2+2k\\pi\\le x\\le\\frac{3\\pi}2+2k\\pi\\)）；图像为相应三角波。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    25
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    78,
+    79
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "以 \\(2\\pi\\) 为周期的三角波",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

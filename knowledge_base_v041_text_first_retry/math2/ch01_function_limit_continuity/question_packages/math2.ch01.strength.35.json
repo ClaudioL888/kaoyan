@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.35",
+  "category": "strength",
+  "number": "35",
+  "question_text": "\\(f(x)=\\frac{|\\ln|x||}{x^2-1}\\) 有（A）两个跳跃间断点、一个无穷间断点；（B）两个可去间断点、一个无穷间断点；（C）一个可去间断点、一个跳跃间断点、一个无穷间断点；（D）三个无穷间断点。",
+  "solution_text": "34.【解析续】结合拉格朗日中值定理区间内点的导数关系，①正确②错误。35.【答案】A。\\(x=-1,1\\) 为跳跃间断点，\\(x=0\\) 为无穷间断点。36.【答案】D。由 \\(f(1/x)=x+\\sqrt{1+x^2}\\) 分左右趋近得 \\(x=0\\) 为第二类间断点。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    66
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    172
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "间断点分类",
+  "method": "检查 x=−1,0,1 的左右极限",
+  "item_specific_analysis": "−1、1 为跳跃，0 为无穷，故选 A。",
+  "high_risk_audit_status": "passed"
+}

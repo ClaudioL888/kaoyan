@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.06",
+  "category": "strength",
+  "number": "6",
+  "question_text": "设函数 \\(f(x)\\) 在点 \\(x=3\\) 的某邻域内可微，且 \\(\\lim_{x\\to3}f(x)=0\\)，\\(\\lim_{x\\to3}f'(x)=4016\\)。求\n\\[\\lim_{x\\to3}\\frac{\\int_3^x\\left[t\\int_3^t f(s)\\,ds\\right]dt}{(3-x)^3}.\\]",
+  "solution_text": "4.【解析】令 \\(u=x-t\\)，积分变为 \\(\\int_0^x(e^{u^2}-1)\\sin(x-u)du\\)，分部积分及积分中值定理得原式 \\(1/12\\)。5.【答案】\\(e^3\\)。由已知极限得 \\(\\lim f(x)/x=3\\)，故 \\([1+f(x)/x]^{1/x}\\to e^3\\)。6.【分析/解析】变换积分次序并用洛必达法则：\\(\\lim\\frac{\\int_3^x[t\\int_3^t f(s)ds]dt}{(3-x)^3}=\\lim\\frac{2f(x)+xf'(x)}6=2008\\)。7.【答案】B。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    63
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    161
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "嵌套积分与导数",
+  "method": "两次洛必达/局部线性化",
+  "item_specific_analysis": "f(3)=0、f′(3)=4016，内层积分首项为 f′(3)(t−3)²/2，外层比 (3−x)³ 后结果2008。",
+  "high_risk_audit_status": "passed"
+}

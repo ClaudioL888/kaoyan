@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.36",
+  "category": "strength",
+  "number": "36",
+  "question_text": "设 \\(f(1/x)=x+\\sqrt{1+x^2}\\ (x\\ne0)\\)，则 \\(x=0\\) 是 \\(f(x)\\) 的（A）连续点 （B）跳跃间断点 （C）可去间断点 （D）第二类间断点。",
+  "solution_text": "34.【解析续】结合拉格朗日中值定理区间内点的导数关系，①正确②错误。35.【答案】A。\\(x=-1,1\\) 为跳跃间断点，\\(x=0\\) 为无穷间断点。36.【答案】D。由 \\(f(1/x)=x+\\sqrt{1+x^2}\\) 分左右趋近得 \\(x=0\\) 为第二类间断点。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    66
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    172
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "变量倒置与间断分类",
+  "method": "令 t=1/x 分左右趋近",
+  "item_specific_analysis": "x→0⁺给 f→∞、x→0⁻给 f→0，至少一侧无穷，属第二类。",
+  "high_risk_audit_status": "passed"
+}

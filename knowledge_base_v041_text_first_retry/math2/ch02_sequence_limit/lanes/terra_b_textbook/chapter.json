@@ -1,0 +1,29 @@
+{
+  "chapter_id": "ch02_sequence_limit",
+  "title": "第二章 数列极限",
+  "subject": "math2",
+  "status": "incomplete",
+  "scope": {
+    "textbook_pdf_pages": [
+      82,
+      104
+    ],
+    "example_pdf_pages": [
+      28,
+      39
+    ],
+    "example_item_denominator": 25,
+    "example_items": [
+      "例题2.1-2.18",
+      "习题2.1-2.7"
+    ],
+    "excluded_page": 105
+  },
+  "allowed_sources": [
+    "src.math2.textbook_ch02",
+    "src.math2.textbook_examples_ch02"
+  ],
+  "start_at": "2026-08-18T00:00:00+08:00",
+  "end_at": null,
+  "notes": "Terra B only; 1000题 intentionally excluded."
+}

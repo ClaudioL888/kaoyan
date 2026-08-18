@@ -1,0 +1,44 @@
+{
+  "item_id": "ex.ch02.2.3",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.2.3",
+    "category": "textbook_example",
+    "item_no": "2.3",
+    "question_text": "\\{n^{(-1)^n}\\}",
+    "solution_text": "偶数子列2k发散，故原序列发散",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      28
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      87
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "calculation_or_proof",
+    "requested_outputs": [
+      "题目要求的全部结论"
+    ],
+    "official_answer_text_or_katex": "偶数子列2k发散，故原序列发散",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.ex.2.3.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "page_level_presence_only",
+    "ai_review": "拆奇偶子列；偶数项2k→∞即可否定收敛，不能只看奇数子列趋0。",
+    "item_specific_analysis": "拆奇偶子列；偶数项2k→∞即可否定收敛，不能只看奇数子列趋0。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      87
+    ]
+  },
+  "audit_status": "pending_sol_high",
+  "ai_review": "拆奇偶子列；偶数项2k→∞即可否定收敛，不能只看奇数子列趋0。"
+}

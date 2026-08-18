@@ -1,0 +1,108 @@
+{
+  "chapter_id": "ch03_derivative_concept",
+  "chapter_title": "一元函数微分学的概念",
+  "subject": "math2",
+  "status": "incomplete",
+  "source_whitelist": [
+    {
+      "source_id": "src.1000q.question",
+      "file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+      "sha256": "73d293f7bd54120e17704795e466683f89ae14e4ba777011d32d3a881c17667a",
+      "role": "1000题题面"
+    },
+    {
+      "source_id": "src.1000q.solution",
+      "file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+      "sha256": "729c656c0eefde7df47708f93ef223ba2375ee41bc602fe61b49fe38652f994c",
+      "role": "1000题官方解析"
+    },
+    {
+      "source_id": "src.textbook",
+      "file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+      "sha256": "b13f13b1e299dd60d6bd48bf3ed7a3534e1e33876b62b45a2cdf81dfa141b539",
+      "role": "教材正文/教材官方例题解答"
+    },
+    {
+      "source_id": "src.example.question",
+      "file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+      "sha256": "70c4752e04df1e095116558ad794c686286b2ed2221954d9942904abc8a875e4",
+      "role": "教材例题题面"
+    }
+  ],
+  "frozen_denominators": {
+    "basic_questions": 15,
+    "strong_questions": 22,
+    "total_questions": 37,
+    "basic_solution_pages": 5,
+    "strong_solution_pages": 8
+  },
+  "scopes": {
+    "question_pages": {
+      "basic": [
+        14,
+        15
+      ],
+      "strong": [
+        69,
+        71
+      ]
+    },
+    "solution_pages": {
+      "basic": [
+        21,
+        25
+      ],
+      "strong": [
+        177,
+        184
+      ]
+    }
+  },
+  "parallel_context": "Terra A 仅处理第3章1000题题面/解析/题目包；不得读取或复制第2章事实内容",
+  "recovery": {
+    "recovery_reason": "恢复上一轮因503/auth_unavailable结束的Terra A任务；37题既有正式产物已完整，未重做已确认页",
+    "previous_attempt": {
+      "error_type": "503/auth_unavailable",
+      "occurred_at": "previous_round_unknown",
+      "retry_after": null,
+      "not_before": null,
+      "evidence": "用户恢复指令；本轮未重新识别页面"
+    },
+    "current_attempt": 1,
+    "current_start_at": "2026-08-18T19:49:52.4893617+08:00",
+    "current_end_at": "2026-08-18T19:56:36.8884032+08:00",
+    "elapsed_seconds": 404.399,
+    "resume_cursor": "existing_formal_artifacts_audited; no_page_redo",
+    "next_cursor": null
+  },
+  "error_log": [
+    {
+      "attempt": "previous_round",
+      "error_type": "503/auth_unavailable",
+      "occurred_at": "previous_round_unknown",
+      "retry_after": null,
+      "not_before": null,
+      "action": "resume_from_existing_lane"
+    }
+  ],
+  "lane_mechanical_checks": {
+    "question_records": "37/37",
+    "question_packages": "37/37",
+    "question_page_mappings": "37/37",
+    "solution_page_mappings": "37/37",
+    "mandatory_question_fields": "37/37",
+    "official_answer_confirmation": "37/37 source_page_confirmed",
+    "unique_item_specific_reviews": "37/37",
+    "duplicate_item_specific_reviews": 0,
+    "unresolved_page_gap": "none in assigned question mappings; staging page 184 is retained as an unassigned trailing scope page with empty recognized_text",
+    "source_filename_note": "解析册实际文件为白名单角色对应的带书签文件名；严格四文件名校验需由主Agent确认别名关系",
+    "sol_audit": "not_run_in_this_lane",
+    "katex_full_compile": "not_run_in_this_lane"
+  },
+  "cursor": {
+    "question_pages": "completed:basic14-15,strong69-71",
+    "solution_pages": "completed:basic21-25,strong177-184",
+    "next": null
+  },
+  "created_at": "2026-08-18T19:32:02+0800"
+}

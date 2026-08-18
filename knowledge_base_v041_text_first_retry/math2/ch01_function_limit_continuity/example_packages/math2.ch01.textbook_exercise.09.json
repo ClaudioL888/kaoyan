@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.09",
+  "category": "textbook_example",
+  "number": "1.9",
+  "question_text": "1.9 已知 \\(a>0,b>0\\)，则 \\(\\lim_{x\\to+\\infty}x(a^{1/x}-b^{1/x})=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "官方解答：令 \\(t=1/x\\)，则 \\(x(a^{1/x}-b^{1/x})=\\frac{a^t-b^t}{t}\\)。当 \\(t\\to0^+\\) 时，该极限为 \\(a^t\\ln a-b^t\\ln b\\to\\ln\\frac ab\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    24
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    78
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "\\(\\ln(a/b)\\)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

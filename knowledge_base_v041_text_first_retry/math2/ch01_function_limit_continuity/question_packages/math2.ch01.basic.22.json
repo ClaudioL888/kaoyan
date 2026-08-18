@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.22",
+  "category": "basic",
+  "number": "22",
+  "question_text": "函数 \\(f(x)=\\frac{\\ln|1-x|}{(e^x-1)(x+2)}\\) 的第二类间断点的个数为（ ）。\n（A）0  （B）1  （C）2  （D）3",
+  "solution_text": "22.【答案】C。间断点为 \\(x=0,-2,1\\)；在 \\(x=0\\) 极限有限，在 \\(x=-2,1\\) 为无穷间断。23.【答案】B。按 \\(x>0,x=0,x<0\\) 分别得 \\(f(x)=1,1/2,x\\)，故 \\(x=0\\) 为跳跃间断点。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    17
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "间断点分类",
+  "method": "分母零点与 ln|1−x| 联合判断",
+  "item_specific_analysis": "x=0 极限有限为−1/2；x=−2、1 分母导致无穷极限，第二类间断点2个。",
+  "high_risk_audit_status": "passed"
+}

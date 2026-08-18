@@ -1,0 +1,38 @@
+{
+  "stage": "complete",
+  "last_successful": {
+    "stage": "question_reviews_and_high_risk_audit",
+    "questions_reviewed": 61,
+    "audits": 61
+  },
+  "next": {
+    "stage": "direct_file_acceptance"
+  },
+  "formal_counts": {
+    "question_pages": 22,
+    "questions": 61,
+    "solution_pages": 42,
+    "solutions": 61,
+    "examples": 32,
+    "example_solutions": 32,
+    "textbook_pages": 75,
+    "core_entities": 71,
+    "questions_with_type_method_analysis": 61,
+    "high_risk_audits": 61,
+    "high_risk_unresolved": 0
+  },
+  "status": "complete",
+  "end_at": "2026-08-18T09:04:04.732Z",
+  "final_acceptance": {
+    "questions": 61,
+    "solutions_with_pages": 61,
+    "examples": 32,
+    "core_pages": 75,
+    "reviews": 61,
+    "audits": 61,
+    "audit_unresolved": 0,
+    "katex": 26,
+    "katex_failures": 0,
+    "relation_broken": 0
+  }
+}

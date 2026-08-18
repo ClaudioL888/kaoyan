@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.13",
+  "category": "basic",
+  "number": "13",
+  "question_text": "已知 \\(\\lim_{x\\to-2}\\frac{2x^3+ax^2-3x+6}{x+2}=b\\)，则 \\(ab=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "11.【解析续】\\(\\sqrt{1+2x}-\\sqrt[3]{1+3x}=\\frac12x^2+o(x^2)\\)，故极限为 \\(1/2\\)。12.【答案】\\(e^{-1/3}\\)。\\(\\lim(\\arctan x/x)^{1/\\tan^2x}=e^{\\lim(\\arctan x/x-1)/\\tan^2x}=e^{-1/3}\\)。13.【答案】17。令分子在 \\(x=-2\\) 为0得 \\(a=1\\)，再求商极限得 \\(b=17\\)，故 \\(ab=17\\)。14.【答案】\\(1/2\\)。有理化并用 \\(\\tan x-\\sin x\\)、\\(x-\\ln(1+x)\\) 的等价无穷小，极限为 \\(1/2\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    14
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "参数与可除因子",
+  "method": "先令分子在 x=−2 为零再求导极限",
+  "item_specific_analysis": "代 x=−2 得 a=1；再对商用因式分解/洛必达得 b=17，ab=17。",
+  "high_risk_audit_status": "passed"
+}

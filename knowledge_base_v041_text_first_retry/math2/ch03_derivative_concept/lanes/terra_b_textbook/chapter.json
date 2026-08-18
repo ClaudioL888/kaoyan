@@ -1,0 +1,31 @@
+{
+  "chapter_id": "math2.ch03_derivative_concept",
+  "title": "第3章 一元函数微分学的概念",
+  "subject": "math2",
+  "status": "incomplete",
+  "status_reason": "正文与经页眉页脚复核的例题册真实范围均已记录；KaTeX真实编译与Sol high审计未完成。",
+  "scope_frozen_at": "2026-08-18T19:52:00+08:00",
+  "start_at": "2026-08-18T19:48:00+08:00",
+  "end_at": "2026-08-18T20:13:00+08:00",
+  "previous_attempt": {
+    "attempt": 1,
+    "error": "503/auth_unavailable",
+    "occurred_at": "unknown_prior_session_not_provided_by_delegation",
+    "lane_was_empty": true
+  },
+  "user_constraints": [
+    "no chapter2 facts",
+    "chapter1 format only",
+    "no 1000 questions",
+    "do not claim whole chapter complete"
+  ],
+  "counts": {
+    "textbook_pages": 20,
+    "textbook_example_question_pages": 12,
+    "textbook_core_entities": 32,
+    "inline_examples": 11,
+    "exercises": 9,
+    "katex_compile_attempted": 0,
+    "katex_compile_failures": null
+  }
+}

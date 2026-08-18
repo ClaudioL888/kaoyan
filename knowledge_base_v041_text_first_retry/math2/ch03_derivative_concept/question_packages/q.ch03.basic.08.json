@@ -1,0 +1,33 @@
+{
+  "item_id": "q.ch03.basic.08",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "basic",
+  "question_number": 8,
+  "question_text": "设函数 f(x) 连续，lim_{x→1}(f(x)−1)/ln x=2，则曲线 y=f(x) 在点 x=1 处的切线方程为____。",
+  "solution_text": "连续性给 f(1)=1，导数 f'(1)=lim[(f(x)−1)/(x−1)]=2，切线 y−1=2(x−1)。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    15
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    23
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "calculation_or_proof",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "y=2x−1",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.basic.08.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题basic第8题的对象是：设函数 f(x) 连续，lim_{x→1}(f(x)−1)/ln x=2，则曲线 y=f(x) 在点 x=1 ；关键答案为 y=2x−1。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：连续性给 f(1)=1，导数 f'(1)=lim[(f(x)−1)/(x−1)]=2，切线 y−1=2(x−1)。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  },
+  "source_lane": "terra_a_questions",
+  "question_source_id": "src.1000q.question",
+  "solution_source_id": "src.1000q.solution"
+}

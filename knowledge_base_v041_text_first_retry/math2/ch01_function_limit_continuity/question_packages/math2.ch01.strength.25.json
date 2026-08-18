@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.25",
+  "category": "strength",
+  "number": "25",
+  "question_text": "当 \\(x\\to0\\) 时，\\((3+2\\tan x)^x-3^x\\) 是 \\(3\\sin^2x+x^3\\cos\\frac1x\\) 的（ ）。\n（A）高阶无穷小 （B）低阶无穷小 （C）等价无穷小 （D）同阶但非等价无穷小",
+  "solution_text": "24.【解析续】\\(\\lim(\\alpha-\\beta)/\\alpha=0\\)，\\(\\lim(\\alpha-\\beta)/\\beta=0\\)。25.【答案】D。两边均为二阶量但比值为 \\(2/9\\)，同阶非等价。26.【答案】D。A、B、C分别为二阶量，D因 \\(x-\\tan x\\sim-x^3/3\\)、\\(\\arctan t\\sim t\\) 得六阶量，故D。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    65
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    168
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "幂指型与阶数比较",
+  "method": "取对数并比较 tan x 首项",
+  "item_specific_analysis": "左式~(2/9)x²，右式~3x²，故同阶非等价。",
+  "high_risk_audit_status": "passed"
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "ex.ch02.exercise.2.7",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.exercise.2.7",
+    "category": "textbook_exercise",
+    "item_no": "2.7",
+    "question_text": "f在[a,b]连续，x_i∈[a,b]，求lim\\sqrt[n]{(1/n)\\sum e^{f(x_k)}}",
+    "solution_text": "1",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      39
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      104
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "calculation",
+    "requested_outputs": [
+      "题目要求的全部结果"
+    ],
+    "official_answer_text_or_katex": "1",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.exercise.2.7.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "not_required",
+    "ai_review": "e^f有正最小值m和最大值M，平均值夹逼后n次根趋1。",
+    "item_specific_analysis": "e^f有正最小值m和最大值M，平均值夹逼后n次根趋1。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      104
+    ]
+  },
+  "audit_status": "reviewed_after_sol_audit",
+  "ai_review": "e^f有正最小值m和最大值M，平均值夹逼后n次根趋1。"
+}

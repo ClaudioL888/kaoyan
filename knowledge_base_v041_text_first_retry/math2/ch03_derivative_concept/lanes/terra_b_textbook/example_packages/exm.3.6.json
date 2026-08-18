@@ -1,0 +1,30 @@
+{
+  "id": "exm.3.6",
+  "title": "教材例题3.6",
+  "question_text": "比较 f1=(x^2-1)|x^3+x^2-2x-2|、f2=(x^2-1)|x^3-2x^2-x+2|、f3=(x^2-1)|x^3+3x^2-2x-6| 的不可导点数。",
+  "solution_text": "因式分解并检查绝对值内根：n1=2,n2=1,n3=3，故 n2<n1<n3。",
+  "official_answer_text_or_katex": "A",
+  "answer_kind": "choice",
+  "answer_confirmation": "source_page_confirmed",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    43
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    112
+  ],
+  "mapping_status": "page_range_assigned",
+  "question_figure_presence": "false",
+  "solution_figure_presence": "false",
+  "figure_analysis_status": "not_required",
+  "item_specific_analysis": {
+    "what_tested": "教材例题3.6的具体条件判断",
+    "first_step": "写出题设函数和差商/切线表达式",
+    "official_key": "因式分解并检查绝对值内根：n1=2,n2=1,n3=3，故 n2<n1<n3。",
+    "decision_step": "比较左右极限、周期奇偶性或线性主部",
+    "trap": "忽略分段点或把充分条件误写为必要条件",
+    "transfer_boundary": "仅在题设可导/连续/周期条件成立时迁移"
+  },
+  "status": "reviewed_source_confirmed"
+}

@@ -1,0 +1,25 @@
+{"id":"kp.function.definition","kind":"definition","text":"设x与y为变量，D为给定数集；若对每一个x∈D按一定法则有唯一确定的y与之对应，则y为x的函数，记作y=f(x)。x为自变量，y为因变量；D为定义域，{f(x)|x∈D}为值域。","page":9}
+{"id":"kp.inverse.definition","kind":"definition","text":"函数y=f(x)的定义域为D、值域为R；若对每个y∈R存在唯一x∈D使y=f(x)，则确定反函数x=f^{-1}(y)，其定义域为R、值域为D。","page":11}
+{"id":"kp.composite.definition","kind":"definition","text":"若y=f(u)定义域为D1，u=g(x)在D上有定义且g(D)⊂D1，则y=f[g(x)]（x∈D）为复合函数，定义域为D。","page":13}
+{"id":"kp.bounded.definition","kind":"definition","text":"设f(x)定义域为D，数集I⊂D；若存在正数M使任一x∈I有|f(x)|≤M，则f(x)在I上有界；不存在这样的M则无界。","page":15}
+{"id":"kp.monotonicity.definition","kind":"definition","page":16,"text":"设 f(x) 的定义域为 D，区间 I⊂D。若对 I 上任意两点 x₁<x₂ 恒有 f(x₁)<f(x₂)，则 f 在 I 上单调增加；若恒有 f(x₁)>f(x₂)，则 f 在 I 上单调减少。"}
+{"id":"kp.parity.definition","kind":"definition","page":18,"text":"若定义域 D 关于原点对称，且对任意 x∈D 都有 f(−x)=f(x)，则 f 为偶函数；若对任意 x∈D 都有 f(−x)=−f(x)，则 f 为奇函数。偶函数图像关于 y 轴对称，奇函数图像关于原点对称。"}
+{"id":"kp.periodic.definition","kind":"definition","page":19,"text":"设 f(x) 的定义域为 D；若存在正数 T，使任意 x∈D 时 x±T∈D 且 f(x+T)=f(x)，则 f 为周期函数，T 称为 f 的周期；一般指最小正周期。"}
+{"id":"kp.power_function","kind":"definition","page":21,"text":"幂函数为 y=x^μ（μ 为实数）。定义域和值域取决于 μ；当 x>0 时均有定义。"}
+{"id":"kp.exponential.definition","kind":"definition","page":22,"text":"指数函数为 y=aˣ，a>0 且 a≠1。其定义域为 (−∞,+∞)，值域为 (0,+∞)；a>1 时单调增加，0<a<1 时单调减少；常用指数函数为 y=eˣ。"}
+{"id":"kp.logarithm.definition","kind":"definition","page":23,"text":"对数函数为 y=logₐx（a>0，a≠1），是 y=aˣ 的反函数；定义域为 (0,+∞)，值域为 (−∞,+∞)；a>1 时单调增加，0<a<1 时单调减少；常用对数函数为 y=ln x。"}
+{"id":"kp.sine_cosine","kind":"definition","page":25,"text":"正弦函数 y=sin x、余弦函数 y=cos x 的定义域均为 R、值域均为 [−1,1]；sin x 为奇函数，cos x 为偶函数，二者最小正周期均为 2π，且 |sin x|≤1、|cos x|≤1。"}
+{"id":"kp.tan_cot","kind":"definition","page":26,"text":"tan x=sin x/cos x，cot x=cos x/sin x=1/tan x。tan x 的定义域为 {x|x≠kπ+π/2,k∈Z}，cot x 的定义域为 {x|x≠kπ,k∈Z}；二者值域均为 R、均为奇函数、最小正周期均为 π。"}
+{"id":"kp.sec_csc","kind":"definition","page":27,"text":"sec x=1/cos x，csc x=1/sin x。sec x 的定义域为 {x|x≠kπ+π/2,k∈Z}，csc x 的定义域为 {x|x≠kπ,k∈Z}；值域均为 (−∞,−1]∪[1,+∞)，sec x 为偶函数、csc x 为奇函数，二者最小正周期为 2π。"}
+{"id":"kp.inverse_trig","kind":"definition","page":28,"text":"arcsin x 是 sin x 在 [−π/2,π/2] 上的反函数，arccos x 是 cos x 在 [0,π] 上的反函数。arcsin x 主值区间为 [−π/2,π/2]，arccos x 主值区间为 [0,π]。"}
+{"id":"kp.arctan_arccot","kind":"definition","page":30,"text":"arctan x 是 tan x 在 (−π/2,π/2) 上的反函数，arccot x 是 cot x 在 (0,π) 上的反函数。二者定义域均为 R；arctan x 值域为 (−π/2,π/2) 且单调增加、为奇函数；arccot x 值域为 (0,π) 且单调减少。"}
+{"id":"kp.piecewise_function","kind":"definition","page":31,"text":"在自变量不同变化范围内用不同式子表示的函数称为分段函数；它是一个函数而非多个函数，通常不是初等函数。典型形式为：x>x₀ 用 φ₁(x)，x=x₀ 取常数 a，x<x₀ 用 φ₂(x)。"}
+{"id":"kp.floor_function","kind":"definition","page":31,"text":"取整函数 [x] 定义为不超过实数 x 的最大整数；定义域为 R、值域为 Z，图像在各整数点跳跃。"}
+{"id":"kp.neighborhood.definition","kind":"definition","page":33,"text":"δ>0 时，(x₀−δ,x₀+δ) 为点 x₀ 的 δ 邻域 U(x₀,δ)={x||x−x₀|<δ}；去心 δ 邻域为 0<|x−x₀|<δ；右、左 δ 邻域分别为 0<x−x₀<δ 与 0<x₀−x<δ。"}
+{"id":"kp.limit.eps_delta_definition","kind":"definition","page":34,"text":"若 f(x) 在 x₀ 的某去心邻域内有定义，且存在常数 A，使任意 ε>0 都存在 δ>0，当 0<|x−x₀|<δ 时恒有 |f(x)−A|<ε，则 A 为 limₓ→x₀f(x)。"}
+{"id":"kp.infinitesimal_hyperreal","kind":"definition","page":36,"text":"对任意自然数 n，若非零量 x* 满足 |x*|<1/n，则 x* 为非零无穷小，其倒数 1/x* 为无穷大量。任一实数 x₀ 加无穷小 x* 得有限超实数 x₀+x*；全体实数、非零无穷小及无穷大量构成超实数系。"}
+{"id":"kp.infinitesimal.definition","kind":"definition","page":48,"text":"当 x→x₀（或 x→∞）时，若函数 f(x) 的极限为 0，则称 f(x) 为该趋近过程中的无穷小，记为 lim f(x)=0。极限等于 A 当且仅当 f(x)=A+α(x)，其中 α(x) 为无穷小。"}
+{"id":"kp.infinitesimal_comparison","kind":"definition","page":50,"text":"在同一趋近过程中，α(x)、β(x) 都趋于 0 且 β(x)≠0：若 α/β→0，α 是比 β 高阶无穷小，记 α=o(β)；若 α/β→∞，α 比 β 低阶；若 α/β→c≠0，则同阶；若→1，则等价无穷小，记 α∼β；若 α/[β]^k→c≠0，则 α 为 β 的 k 阶无穷小。"}
+{"id":"kp.indeterminate_forms","kind":"definition","page":60,"text":"本章常用的七种未定式为 0/0、∞/∞、0·∞、∞−∞、∞⁰、0⁰、1^∞。应先化简（提取极限非零因式、等价无穷小代换、恒等变形等），再选择洛必达或泰勒展开。"}
+{"id":"kp.continuity.definition","kind":"definition","page":70,"text":"若 f(x) 在 x₀ 的某邻域内有定义，且 limₓ→x₀f(x)=f(x₀)，则 f 在 x₀ 处连续。"}
+{"id":"kp.discontinuity.classification","kind":"definition","page":71,"text":"若 limₓ→x₀f(x)=A≠f(x₀)（或 f(x₀) 无定义），x₀ 为可去间断点；若左右极限存在但不相等，为跳跃间断点；二者均属第一类间断点。若至少一个单侧极限为无穷大，为无穷间断点；若极限振荡不存在，为振荡间断点；后二者属第二类间断点。"}

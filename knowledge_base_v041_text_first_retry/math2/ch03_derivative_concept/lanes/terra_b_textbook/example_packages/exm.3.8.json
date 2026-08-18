@@ -1,0 +1,30 @@
+{
+  "id": "exm.3.8",
+  "title": "教材例题3.8",
+  "question_text": "曲线y=x^n在(1,1)处切线与x轴交点为(ξ_n,0)，求 lim f_n(ξ_n)。",
+  "solution_text": "切线 y-1=n(x-1)，ξ_n=1-1/n，故(1-1/n)^n→1/e。",
+  "official_answer_text_or_katex": "1/e",
+  "answer_kind": "calculation_or_proof",
+  "answer_confirmation": "source_page_confirmed",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    44
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    116
+  ],
+  "mapping_status": "page_range_assigned",
+  "question_figure_presence": "false",
+  "solution_figure_presence": "false",
+  "figure_analysis_status": "not_required",
+  "item_specific_analysis": {
+    "what_tested": "教材例题3.8的具体条件判断",
+    "first_step": "写出题设函数和差商/切线表达式",
+    "official_key": "切线 y-1=n(x-1)，ξ_n=1-1/n，故(1-1/n)^n→1/e。",
+    "decision_step": "比较左右极限、周期奇偶性或线性主部",
+    "trap": "忽略分段点或把充分条件误写为必要条件",
+    "transfer_boundary": "仅在题设可导/连续/周期条件成立时迁移"
+  },
+  "status": "reviewed_source_confirmed"
+}

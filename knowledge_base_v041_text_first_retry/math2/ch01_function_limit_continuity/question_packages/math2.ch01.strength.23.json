@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.23",
+  "category": "strength",
+  "number": "23",
+  "question_text": "当 \\(n\\to\\infty\\) 时，\\(e-(1+\\frac1n)^n\\) 与 \\(\\frac c{n^k}\\) 为等价无穷小，则（ ）。\n（A）\\(c=\\frac e3,k=2\\) （B）\\(c=\\frac e2,k=2\\) （C）\\(c=\\frac e3,k=1\\) （D）\\(c=\\frac e2,k=1\\)",
+  "solution_text": "20.【解析续】\\(\\lim\\frac{\\int_0^{x^2}f(t)dt}{x^2\\int_0^xf(t)dt}=\\frac{2f'(0)}{2f'(0)}=1\\)。21.【解析】\\(\\frac{\\ln f}{\\ln g}=\\frac{\\ln f-\\ln g}{\\ln g}+1=\\frac{\\ln(f/g)}{\\ln g}+1\\to1\\)。22.【答案】\\(1+x^2/2\\)。\\(\\sec x=1+x^2/2+o(x^2)\\)，故二次多项式为此式。23.【答案】D。\\(e-(1+1/n)^n\\sim e/(2n)\\)，所以 \\(c=e/2,k=1\\)。24.【答案】B。等价无穷小给 \\(\\alpha/\\beta\\to1\\)，故③④成立，①②错误。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    65
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    168
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "数列等价无穷小",
+  "method": "二阶展开 (1+1/n)^n",
+  "item_specific_analysis": "e−(1+1/n)^n~e/(2n)，故 c=e/2,k=1。",
+  "high_risk_audit_status": "passed"
+}

@@ -1,0 +1,24 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.13",
+  "category": "textbook_example",
+  "number": "1.13",
+  "question_text": "1.13 求极限 \\(\\lim_{x\\to0}\\left(\\frac{a_1^x+a_2^x+\\cdots+a_n^x}{n}\\right)^{n/x}\\)，其中 \\(a_i>0,i=1,2,\\ldots,n\\)。",
+  "solution_text": "官方解答：原式为 \\(1^\\infty\\) 型。写成 \\(\\exp\\{\\lim_{x\\to0}\\frac n x[\\frac{a_1^x+\\cdots+a_n^x}{n}-1]\\}\\)，由 \\(\\lim_{x\\to0}\\frac{a_i^x-1}{x}=\\ln a_i\\)，指数为 \\(\\ln(a_1a_2\\cdots a_n)\\)，故极限为 \\(a_1a_2\\cdots a_n\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    26
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    79,
+    80
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "\\(a_1a_2\\cdots a_n\\)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}
