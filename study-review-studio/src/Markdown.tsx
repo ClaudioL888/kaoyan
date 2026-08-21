@@ -12,10 +12,18 @@ type MarkdownProps = {
   content: string
   compact?: boolean
   onLocalLink?: (href: string) => void
+  hideInlineQuestionIndex?: boolean
 }
 
-export default function Markdown({ content, compact = false, onLocalLink }: MarkdownProps) {
-  const normalizedContent = normalizeMathDelimiters(content)
+function removeInlineQuestionIndex(content: string) {
+  return content
+    .replace(/\n##\s+分组索引\s*\n(?:\s*[-*]\s+\[[^\n]+\]\(#[^)]+\)\s*\n?)+/g, '\n')
+    .replace(/\n\*\*本组题目索引[:：]\*\*\s*\n(?:\s*[-*]\s+\[[^\n]+\]\(#[^)]+\)\s*\n?)+/g, '\n')
+}
+
+export default function Markdown({ content, compact = false, onLocalLink, hideInlineQuestionIndex = false }: MarkdownProps) {
+  const sourceContent = hideInlineQuestionIndex ? removeInlineQuestionIndex(content) : content
+  const normalizedContent = normalizeMathDelimiters(sourceContent)
   return (
     <div className={`markdown ${compact ? 'markdown--compact' : ''}`}>
       <ReactMarkdown
