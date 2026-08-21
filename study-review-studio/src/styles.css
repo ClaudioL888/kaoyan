@@ -272,7 +272,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .knowledge-reader-header { min-height: 104px; padding: 17px 24px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 20px; border-bottom: 1px solid var(--line); }
 .knowledge-reader-header h2 { margin: 5px 0 3px; font-family: Georgia, "Songti SC", serif; font-size: 22px; font-weight: 600; }
 .knowledge-reader-header p { margin: 0; overflow: hidden; color: var(--faint); font-size: 10.5px; white-space: nowrap; text-overflow: ellipsis; }
-.knowledge-reader-layout { min-height: calc(100vh - 236px); display: grid; grid-template-columns: 250px minmax(0, 1fr); }
+.knowledge-reader-layout { min-height: calc(100vh - 236px); display: grid; grid-template-columns: 250px minmax(0, 1fr) 242px; align-items: start; }
 .system-list { max-height: calc(100vh - 76px); padding: 21px 13px; position: sticky; top: 76px; align-self: start; overflow-y: auto; border-right: 1px solid var(--line); background: rgba(241,239,233,.72); }
 .system-list > .eyebrow { padding: 0 10px 13px; }
 .system-list button { width: 100%; min-height: 62px; padding: 10px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 10px; border: 0; border-radius: 9px; color: var(--ink); background: transparent; cursor: pointer; text-align: left; transition: background-color 150ms ease, transform 120ms var(--ease-out); }
@@ -304,7 +304,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .reader-header p { max-width: 700px; margin: 0; overflow: hidden; color: var(--faint); font-size: 10.5px; white-space: nowrap; text-overflow: ellipsis; }
 .reader-tools { min-height: 55px; padding: 9px 16px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); background: rgba(247,245,240,.75); }
 .reader-tools .search-field { width: min(460px, 100%); height: 34px; }
-.reader-layout { min-height: 0; display: grid; grid-template-columns: 235px minmax(0, 1fr); position: relative; overflow: hidden; }
+.reader-layout { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 242px; position: relative; overflow: visible; }
 .outline { overflow-y: auto; padding: 20px 14px; border-right: 1px solid var(--line); background: rgba(247,245,240,.5); }
 .outline > .eyebrow { padding: 0 6px 10px; }
 .outline a { display: block; padding: 6px; overflow: hidden; border-radius: 5px; color: #747873; font-size: 11.5px; line-height: 1.55; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; }
@@ -413,6 +413,22 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .reader-end > span { color: var(--faint); font-size: 11.5px; }
 .review-reader-page .manifest-panel { position: fixed; top: 76px; bottom: 0; }
 
+.document-outline { min-width: 0; max-height: calc(100vh - 236px); padding: 20px 13px 22px; position: sticky; top: 152px; overflow-y: auto; border-left: 1px solid var(--line); background: rgba(247,245,240,.54); scrollbar-width: thin; }
+.document-outline-head { margin: 0 5px 13px; display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.document-outline-head strong { display: block; margin-top: 4px; color: var(--ink); font-size: 14px; }
+.document-outline-close { display: none; width: 28px; height: 28px; place-items: center; border: 1px solid var(--line); border-radius: 7px; color: var(--muted); background: #fff; cursor: pointer; }
+.document-outline-nav { display: grid; gap: 2px; }
+.document-outline-nav + .document-outline-nav { margin-top: 19px; padding-top: 15px; border-top: 1px solid var(--line); }
+.document-outline-nav > span { margin: 0 5px 6px; color: var(--faint); font-size: 10px; font-weight: 700; letter-spacing: .06em; }
+.document-outline-nav a { display: block; padding: 6px 7px; overflow: hidden; border-radius: 6px; color: #69716b; font-size: 11px; line-height: 1.45; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; }
+.document-outline-nav a:hover { color: var(--ink); background: rgba(34,42,37,.055); }
+.document-outline-nav a:active { transform: scale(.985); }
+.document-outline-nav a.outline-level-1 { color: #343b36; font-weight: 700; }
+.document-outline-nav a.outline-level-2 { padding-left: 14px; }
+.document-outline-nav a.outline-level-3 { padding-left: 21px; color: var(--faint); }
+.document-outline-questions a { color: var(--green); }
+.document-outline-trigger { display: none; }
+
 @media (hover: hover) and (pointer: fine) {
   .review-library-grid > button:hover { border-color: var(--line-strong); background: #fff; box-shadow: 0 9px 26px rgba(42,47,43,.07); }
   .back-button:hover { border-color: var(--line-strong); background: #fff; }
@@ -430,8 +446,8 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
   .hero-stats { width: 100%; }
   .review-workbench { grid-template-columns: 220px minmax(0, 1fr); }
   .review-library-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .reader-layout { grid-template-columns: 190px minmax(0, 1fr); }
-  .knowledge-reader-layout { grid-template-columns: 210px minmax(0, 1fr); }
+  .reader-layout { grid-template-columns: minmax(0, 1fr) 210px; }
+  .knowledge-reader-layout { grid-template-columns: 210px minmax(0, 1fr) 210px; }
   .outline { padding-left: 8px; padding-right: 8px; }
 }
 
@@ -473,6 +489,11 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
   .reader-tools { position: sticky; top: 68px; z-index: 6; background: rgba(247,245,240,.96); }
   .reader-layout { display: block; overflow: visible; }
   .outline { display: none; }
+  .document-outline { width: min(320px, 88vw); max-height: none; padding: 20px 15px 28px; position: fixed; top: 68px; right: 0; bottom: 0; z-index: 30; border-left: 1px solid var(--line); background: rgba(251,250,246,.98); box-shadow: -20px 0 50px rgba(42,47,43,.12); transform: translateX(102%); transition: transform 180ms var(--ease-out); }
+  .document-outline.is-open { transform: translateX(0); }
+  .document-outline-close { display: grid; }
+  .document-outline-trigger { min-height: 32px; padding: 0 9px; display: inline-flex; align-items: center; gap: 5px; position: fixed; right: 14px; bottom: 16px; z-index: 11; border: 1px solid rgba(47,111,104,.2); border-radius: 8px; color: var(--green); background: rgba(255,255,255,.94); box-shadow: 0 7px 20px rgba(42,47,43,.1); cursor: pointer; font-size: 11px; }
+  .system-document { min-width: 0; }
   .review-document { overflow: visible; padding: 28px 20px 70px; }
   .review-reader-page .markdown h1, .review-reader-page .markdown h2, .review-reader-page .markdown h3 { scroll-margin-top: 230px; }
   .reader-end { align-items: flex-start; flex-direction: column; }

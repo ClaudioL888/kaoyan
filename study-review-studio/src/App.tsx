@@ -308,7 +308,7 @@ function KnowledgeReader({ unitId, initialSystem, refreshKey, close }: { unitId:
   if (error) return <div className="knowledge-reader"><div className="knowledge-reader-header"><button className="back-button" onClick={close}><ArrowLeft size={16} />返回知识库</button></div><Empty text={error} /></div>
   if (!detail) return <div className="knowledge-reader"><LoadingInline /></div>
   const system = detail.systems.find((candidate) => candidate.key === activeSystem) || detail.systems[0]
-  return <section className="knowledge-reader"><header className="knowledge-reader-header"><button className="back-button" onClick={close}><ArrowLeft size={16} />返回知识库</button><div><span className="eyebrow">{subjectLabels[detail.subject] || detail.subject} · KNOWLEDGE LIBRARY</span><h2>{detail.title}</h2><p>{detail.path}</p></div><span className={`status-pill status-${detail.status}`}>{detail.activityCount} 条确认记录</span></header><div className="knowledge-reader-layout"><aside className="system-list"><span className="eyebrow">KNOWLEDGE SYSTEMS</span>{detail.systems.map((item) => <button key={item.key} className={item.key === system?.key ? 'active' : ''} onClick={() => setActiveSystem(item.key)}><div><strong>{item.title}</strong><span>{item.filename}</span></div><em>{item.activityCount}</em></button>)}</aside><article className="system-document"><div className="system-document-meta"><div><span className="eyebrow">READ ONLY · LIVE</span><p>{system?.relativePath}</p></div><span>{system?.activityCount ? `${system.activityCount} 条活动记录` : '暂无确认增量'}</span></div>{system ? <Suspense fallback={<LoadingInline />}><Markdown content={system.content} /></Suspense> : <Empty text="该章节尚未建立三系统文件。" />}</article></div></section>
+  return <section className="knowledge-reader"><header className="knowledge-reader-header"><button className="back-button" onClick={close}><ArrowLeft size={16} />返回知识库</button><div><span className="eyebrow">{subjectLabels[detail.subject] || detail.subject} · KNOWLEDGE LIBRARY</span><h2>{detail.title}</h2><p>{detail.path}</p></div><span className={`status-pill status-${detail.status}`}>{detail.activityCount} 条确认记录</span></header><div className="knowledge-reader-layout"><aside className="system-list"><span className="eyebrow">KNOWLEDGE SYSTEMS</span>{detail.systems.map((item) => <button key={item.key} className={item.key === system?.key ? 'active' : ''} onClick={() => setActiveSystem(item.key)}><div><strong>{item.title}</strong><span>{item.filename}</span></div><em>{item.activityCount}</em></button>)}</aside><article className="system-document"><div className="system-document-meta"><div><span className="eyebrow">READ ONLY · LIVE</span><p>{system?.relativePath}</p></div><span>{system?.activityCount ? `${system.activityCount} 条活动记录` : '暂无确认增量'}</span></div>{system ? <Suspense fallback={<LoadingInline />}><Markdown content={system.content} /></Suspense> : <Empty text="该章节尚未建立三系统文件。" />}</article><DocumentOutline content={system?.content || ''} /></div></section>
 }
 
 type ReviewGroup = 'math2' | '408' | 'english2' | 'politics'
@@ -342,6 +342,56 @@ function reviewDisplayName(review: ReviewSummary, units: Unit[]) {
   return `政治 · ${unit?.title || review.scope.split('｜')[0]}`
 }
 
+type DocumentIndexItem = { text: string; href: string; level?: number }
+
+function slugHeading(text: string) {
+  return text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '')
+}
+
+function documentIndex(content: string) {
+  const headings: DocumentIndexItem[] = []
+  const links: DocumentIndexItem[] = []
+  const seenHeadings = new Set<string>()
+  const seenLinks = new Set<string>()
+  for (const line of content.split(/\r?\n/)) {
+    const heading = line.match(/^(#{1,3})\s+(.+?)\s*#*$/)
+    if (heading) {
+      const text = heading[2].trim()
+      const href = `#${slugHeading(text)}`
+      if (!seenHeadings.has(href)) {
+        seenHeadings.add(href)
+        headings.push({ text, href, level: heading[1].length })
+      }
+    }
+    const link = line.match(/^\s*[-*]\s+\[([^\]]+)\]\(#([^\)]+)\)/)
+    if (link) {
+      const text = link[1].trim()
+      const href = `#${link[2].trim()}`
+      if (!seenLinks.has(href)) {
+        seenLinks.add(href)
+        links.push({ text, href })
+      }
+    }
+  }
+  return { headings, links }
+}
+
+function DocumentOutline({ content }: { content: string }) {
+  const [open, setOpen] = useState(false)
+  const { headings, links } = useMemo(() => documentIndex(content), [content])
+  const questionLinks = links.filter((item) => /例|题|example|choice|solution|fill|zhangyu|lilin|q\d/i.test(item.text))
+  const indexLinks = questionLinks.length ? questionLinks : links
+  if (!headings.length && !indexLinks.length) return null
+  return <>
+    <button className="document-outline-trigger" aria-label="打开题目索引" onClick={() => setOpen(true)}><ListTree size={15} />索引</button>
+    <aside className={`document-outline ${open ? 'is-open' : ''}`} aria-label="正文快速索引">
+      <div className="document-outline-head"><div><span className="eyebrow">QUICK INDEX</span><strong>快速索引</strong></div><button className="document-outline-close" aria-label="关闭索引" onClick={() => setOpen(false)}><X size={16} /></button></div>
+      {headings.length > 0 && <nav className="document-outline-nav"><span>章节导航</span>{headings.map((item) => <a key={`heading-${item.href}`} className={`outline-level-${item.level || 1}`} href={item.href} onClick={() => setOpen(false)}>{item.text}</a>)}</nav>}
+      {indexLinks.length > 0 && <nav className="document-outline-nav document-outline-questions"><span>题目索引 · {indexLinks.length}</span>{indexLinks.map((item) => <a key={`question-${item.href}`} href={item.href} onClick={() => setOpen(false)}>{item.text}</a>)}</nav>}
+    </aside>
+  </>
+}
+
 function ReviewsView({ reviews, units }: { reviews: ReviewSummary[]; units: Unit[] }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [activeArtifactId, setActiveArtifactId] = useState<string | null>(null)
@@ -358,7 +408,6 @@ function ReviewsView({ reviews, units }: { reviews: ReviewSummary[]; units: Unit
   const activeMeta = reviewGroups.find((group) => group.id === activeGroup)!
   const groupedReviews = primaryReviews.filter((review) => reviewGroup(review) === activeGroup)
   useEffect(() => { setDetail(null); if (activeArtifactId) fetch(`/api/reviews/${activeArtifactId}`).then((value) => value.json()).then(setDetail) }, [activeArtifactId])
-  const headings = useMemo(() => detail?.content.split(/\r?\n/).filter((line) => /^#{1,3}\s/.test(line)).map((line) => ({ level: line.match(/^#+/)![0].length, text: line.replace(/^#+\s*/, '') })).slice(0, 80) || [], [detail])
   const visibleContent = useMemo(() => {
     if (!detail || !query) return detail?.content || ''
     const lines = detail.content.split(/\r?\n/)
@@ -385,7 +434,7 @@ function ReviewsView({ reviews, units }: { reviews: ReviewSummary[]; units: Unit
 
   if (!selected) return <section className="review-library"><div className="library-heading"><div><span className="eyebrow">ACCEPTED REVIEWS</span><h2>复盘成品</h2><p>这里只展示章节或年份复盘；题源逐题记录请从知识库进入。</p></div><span>{primaryReviews.length} 份完整成品</span></div><nav className="review-subject-nav" aria-label="复盘科目" role="tablist">{reviewGroups.map((group) => { const count = primaryReviews.filter((review) => reviewGroup(review) === group.id).length; return <button key={group.id} role="tab" aria-selected={activeGroup === group.id} className={activeGroup === group.id ? 'active' : ''} onClick={() => setActiveGroup(group.id)}><span>{group.label}</span><small>{group.caption}</small><em>{count}</em></button> })}</nav><div className="review-level-heading"><div><span className="eyebrow">{activeGroup.toUpperCase()} REVIEW LIBRARY</span><h3>{activeMeta.label}复盘</h3></div><span>{groupedReviews.length} 个章节或年份</span></div><div className="review-library-grid">{groupedReviews.map((review) => <button key={review.id} onClick={() => openReview(review.id)}><div className="review-status"><ShieldCheck size={15} /><span>{review.artifactStatus}</span></div><strong>{reviewDisplayName(review, units)}</strong><p>{review.scope}</p><small>{review.segmentCount} 段 · {review.characterCount?.toLocaleString('zh-CN') || '—'} 字符 · {formatTime(review.acceptedAt, true)}</small><ChevronRight size={17} /></button>)}</div></section>
 
-  return <section className="review-reader-page"><div className="reader-sticky"><div className="reader-header"><button className="back-button" onClick={closeReview}><ArrowLeft size={16} />返回{activeMeta.label}</button><div className="reader-title"><div className="reader-badges"><span className="badge success"><FileCheck2 size={13} />已接受</span><span className="badge neutral">{activeArtifact?.artifactStatus}</span></div><h2>{reviewDisplayName(selected, units)}</h2><p>{activeArtifact?.scope} · {activeArtifact?.manifestPath}</p></div><button className={`icon-button ${metaOpen ? 'active' : ''}`} aria-label="查看完整性信息" onClick={() => setMetaOpen(!metaOpen)}><ListTree size={18} /></button></div>{attachments.length > 0 && <nav className="review-artifact-tabs" aria-label="章节复盘组成"><button className={activeArtifactId === selected.id ? 'active' : ''} onClick={() => { setActiveArtifactId(selected.id); setQuery(''); setMetaOpen(false) }}>主复盘</button>{attachments.map((attachment) => <button key={attachment.id} className={activeArtifactId === attachment.id ? 'active' : ''} onClick={() => { setActiveArtifactId(attachment.id); setQuery(''); setMetaOpen(false) }}>后续补充 · {attachment.scope.replace(/^.*?｜/, '')}</button>)}</nav>}<div className="reader-tools"><label className="search-field"><Search size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="在当前正文中筛选（如：冲突、覆盖审计）" /></label>{query && <button className="text-button" onClick={() => setQuery('')}>清除</button>}</div></div><div className="reader-layout"><aside className="outline"><span className="eyebrow">OUTLINE</span>{headings.map((heading, index) => <a key={`${heading.text}-${index}`} className={`level-${heading.level}`} href={`#${heading.text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '')}`}>{heading.text}</a>)}</aside><article className="review-document">{detail ? <Suspense fallback={<LoadingInline />}><Markdown content={visibleContent} /></Suspense> : <LoadingInline />}{detail && <div className="reader-end"><span>当前正文已到底</span><button className="back-button" onClick={closeReview}><ArrowLeft size={16} />返回{activeMeta.label}</button></div>}</article>{metaOpen && detail && <ManifestPanel detail={detail} close={() => setMetaOpen(false)} />}</div></section>
+  return <section className="review-reader-page"><div className="reader-sticky"><div className="reader-header"><button className="back-button" onClick={closeReview}><ArrowLeft size={16} />返回{activeMeta.label}</button><div className="reader-title"><div className="reader-badges"><span className="badge success"><FileCheck2 size={13} />已接受</span><span className="badge neutral">{activeArtifact?.artifactStatus}</span></div><h2>{reviewDisplayName(selected, units)}</h2><p>{activeArtifact?.scope} · {activeArtifact?.manifestPath}</p></div><button className={`icon-button ${metaOpen ? 'active' : ''}`} aria-label="查看完整性信息" onClick={() => setMetaOpen(!metaOpen)}><ListTree size={18} /></button></div>{attachments.length > 0 && <nav className="review-artifact-tabs" aria-label="章节复盘组成"><button className={activeArtifactId === selected.id ? 'active' : ''} onClick={() => { setActiveArtifactId(selected.id); setQuery(''); setMetaOpen(false) }}>主复盘</button>{attachments.map((attachment) => <button key={attachment.id} className={activeArtifactId === attachment.id ? 'active' : ''} onClick={() => { setActiveArtifactId(attachment.id); setQuery(''); setMetaOpen(false) }}>后续补充 · {attachment.scope.replace(/^.*?｜/, '')}</button>)}</nav>}<div className="reader-tools"><label className="search-field"><Search size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="在当前正文中筛选（如：冲突、覆盖审计）" /></label>{query && <button className="text-button" onClick={() => setQuery('')}>清除</button>}</div></div><div className="reader-layout"><article className="review-document">{detail ? <Suspense fallback={<LoadingInline />}><Markdown content={visibleContent} /></Suspense> : <LoadingInline />}{detail && <div className="reader-end"><span>当前正文已到底</span><button className="back-button" onClick={closeReview}><ArrowLeft size={16} />返回{activeMeta.label}</button></div>}</article><DocumentOutline content={detail?.content || ''} />{metaOpen && detail && <ManifestPanel detail={detail} close={() => setMetaOpen(false)} />}</div></section>
 }
 
 function ManifestPanel({ detail, close }: { detail: ReviewDetail; close: () => void }) {
