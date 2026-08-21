@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "math2.calculus.ch01",
+  "subject": "math2",
+  "module": "calculus",
+  "title": "函数、极限与连续",
+  "aliases": [
+    "高数第一章",
+    "函数极限与连续",
+    "函数、极限、连续"
+  ],
+  "keywords": [
+    "函数",
+    "复合函数",
+    "反函数",
+    "极限",
+    "无穷小",
+    "等价无穷小",
+    "泰勒展开",
+    "连续",
+    "间断点"
+    ,"变上限积分"
+    ,"含n极限"
+    ,"统一题型池"
+  ],
+  "source_materials": [
+    {
+      "role": "textbook",
+      "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+      "note": "本轮读取第1讲，PDF第7—81页、印刷第1—75页"
+    },
+    {
+      "role": "textbook_examples",
+      "path": "数二/张宇30讲高数例题.pdf",
+      "note": "例1.1—1.34已建立隐式逐题记录；题面视觉核验，例题集未见逐题官方解析，独立复核与来源缺口保留"
+    },
+    {
+      "role": "question_book",
+      "path": "数二/27张宇1000题数二【试题册】.pdf",
+      "note": "本轮覆盖基础篇第1—23题和强化篇第1—38题"
+    },
+    {
+      "role": "official_solutions",
+      "path": "数二/27张宇1000题数二【解析册】-带书签.pdf",
+      "note": "本轮读取基础篇及强化篇对应解析；强化第32题与题册存在结构冲突"
+    },
+    {
+      "role": "strengthening_textbook",
+      "path": "数二/27张宇强化36讲PDF/27张宇《高数18讲》强化.pdf",
+      "note": "第1讲PDF 15—26已逐页核对并建立15条隐式逐题记录；不进入张宇1000显式分母"
+    },
+    {
+      "role": "implicit-supplement-question-book",
+      "path": "数二/880/【横版】李林880数二高数篇做题本.pdf",
+      "note": "李林880第一章77条原始记录已完成逐题/逐选项或小问核验；可作为本章检索证据，不进入张宇1000题显式分母"
+    },
+    {
+      "role": "implicit-supplement-answer-key",
+      "path": "数二/880/【PDF】27版880参考答案.pdf",
+      "note": "永久私有逐题答案对照与独立复核记录补建中；不作为张宇1000题正式答案来源"
+    }
+  ],
+  "accepted_reviews": [
+    {
+      "review_id": "2026-08-19_1444_ch01-base-and-enhancement",
+      "scope": "高数第一章基础篇第1—23题、强化篇第1—38题及教材例1.1—1.34",
+      "path": "reviews/2026-08-19_1444_ch01-base-and-enhancement.md",
+      "accepted_at": "2026-08-19T14:44:43+08:00",
+      "recorded_at": "2026-08-19T14:44:43+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-19_1729_ch01-complete-structure",
+      "scope": "高数第一章基础篇1—23、强化篇1—19及20—38的完整结构复盘",
+      "path": "reviews/2026-08-19_1729_ch01-complete-structure.md",
+      "accepted_at": "2026-08-19T17:29:14+08:00",
+      "recorded_at": "2026-08-19T17:29:14+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-20_2358_ch01-unified-type-pool-delta",
+      "scope": "高数第一章新规则差异追补：基础篇1—23、强化篇1—38统一题型池与61题登记",
+      "path": "reviews/2026-08-20_2358_ch01-unified-type-pool-delta.md",
+      "accepted_at": "2026-08-20T23:58:22+08:00",
+      "recorded_at": "2026-08-20T23:58:22+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-21_1501_lilin880-first-three-chapters-implicit-addendum",
+      "scope": "数二高数第一至三章：李林880隐式全量核验补充",
+      "path": "reviews/2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.md",
+      "manifest_path": "reviews/2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.review-manifest.json",
+      "accepted_at": "2026-08-21T15:02:04+08:00",
+      "recorded_at": "2026-08-21T15:02:04+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "artifact_status": "exact-single",
+      "shared_with_unit_ids": ["math2.calculus.ch02", "math2.calculus.ch03"]
+    }
+  ],
+  "updated_at": "2026-08-21T19:45:00+08:00",
+  "implicit_source_records_manifest": "../../source-question-records/manifest.json",
+  "number": 1,
+  "framework_status": "ready",
+  "organization_status": "organized",
+  "accepted_review_count": 4,
+  "source_basis": {
+    "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+    "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 4,
+  "recorded_at": "2026-08-21T19:45:00+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "confirmed-archive"
+}

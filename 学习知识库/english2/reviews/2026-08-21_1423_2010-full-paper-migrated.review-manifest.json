@@ -1,0 +1,45 @@
+{
+  "review_id": "2026-08-21_1423_2010-full-paper-migrated",
+  "dossier_id": "english2.2010-full-paper.complete-migration.20260821",
+  "subject": "english2",
+  "unit_id": "english2.real-tests.2010",
+  "scope": "2010年英语二整卷Q1—48｜既有复盘无损整合",
+  "template_id": "english2_review_prompt",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T14:23:42+08:00",
+  "migration_status": "existing_review_files_exactly_assembled_without_rewrite",
+  "migrated_source_paths": [
+    "english2/reviews/2026-08-19_1729_2010-full-paper.md",
+    "english2/reviews/2026-08-21_0004_2010-unified-type-pool-addendum.md"
+  ],
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_1423_2010-full-paper-migrated.md",
+  "segment_count": 2,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "2010年英语二整卷完整复盘",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "english2-2010-full-paper",
+      "character_count": 30633,
+      "normalized_sha256": "eebbd710a9f6d8cd2f632bb787fc7b138387e35d788c77d7f7bd4389a9c75644"
+    },
+    {
+      "sequence": 2,
+      "revision": 1,
+      "scope": "2010整卷统一题型池差异追补",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "english2-2010-unified-pool-addendum",
+      "character_count": 13267,
+      "normalized_sha256": "8a5149e63511c011e0b545fd2a8b3959d9333706e4e306927faa5af09859df8b"
+    }
+  ],
+  "assembled_character_count": 43902,
+  "assembled_normalized_sha256": "389f33a629033c98686682652a9f3d4e1dfa013c941a81d7ad351d78d2daa2be",
+  "archived_file_sha256": "1f74b3afdace9f0c299d822617a72235d93c0ca0fff6c491771e55848efff1b3"
+}

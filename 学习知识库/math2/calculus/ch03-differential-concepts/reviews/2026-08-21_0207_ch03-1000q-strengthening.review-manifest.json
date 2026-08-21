@@ -1,0 +1,33 @@
+{
+  "review_id": "2026-08-21_0207_ch03-1000q-strengthening",
+  "dossier_id": "math2.calculus.ch03.1000q-strengthening.20260821",
+  "subject": "math2",
+  "unit_id": "math2.calculus.ch03",
+  "scope": "高数第三章一元函数微分学的概念｜张宇1000题强化篇第1—22题",
+  "template_id": "review-math-chapter.portable-prompt",
+  "template_version": "2026-08-21",
+  "accepted_at": "2026-08-21T02:07:27+08:00",
+  "source_thread_id": "01a018f4-8ce1-78c0-8869-f087614ae2b7",
+  "confirmation_source_thread_id": "01a02026-8f34-7320-b9f5-f478623677c1",
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-single",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_0207_ch03-1000q-strengthening.md",
+  "segment_count": 1,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "完整17项Stage A；1000题强化篇第1—22题",
+      "turn_id": "01a018f4-8ce1-78c0-8869-f087614ae2b7",
+      "item_id": "高数第三章强化_StageA_完整第一版.md",
+      "character_count": 18865,
+      "normalized_sha256": "2304926406823bd401a8f11914213f77927b38cc7d6233e8349dcd2ecf877e91"
+    }
+  ],
+  "assembled_character_count": 18865,
+  "assembled_normalized_sha256": "2304926406823bd401a8f11914213f77927b38cc7d6233e8349dcd2ecf877e91",
+  "archived_file_sha256": "6d4e23242684588f5cd7aaec4de777cf8bbab5e6ce3904e8299c783dee2f1225"
+}

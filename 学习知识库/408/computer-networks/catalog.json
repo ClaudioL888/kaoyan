@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.1",
+  "subject": "408.computer-networks",
+  "framework_status": "ready",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "chapters": [
+    {
+      "chapter_id": "408.computer-networks.ch01",
+      "module": "computer-networks",
+      "number": 1,
+      "title": "计算机网络体系结构",
+      "aliases": [
+        "计网第一章"
+      ],
+      "keywords": [
+        "分层",
+        "协议",
+        "OSI",
+        "TCP/IP",
+        "性能指标"
+      ],
+      "path": "ch01-network-architecture",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机网络_高清带书签版.pdf",
+        "basis": "PDF 书签目录核验；第1—6章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-networks.ch02",
+      "module": "computer-networks",
+      "number": 2,
+      "title": "物理层",
+      "aliases": [
+        "计网第二章"
+      ],
+      "keywords": [
+        "通信基础",
+        "编码",
+        "复用",
+        "传输介质",
+        "物理层设备"
+      ],
+      "path": "ch02-physical-layer",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机网络_高清带书签版.pdf",
+        "basis": "PDF 书签目录核验；第1—6章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-networks.ch03",
+      "module": "computer-networks",
+      "number": 3,
+      "title": "数据链路层",
+      "aliases": [
+        "计网第三章"
+      ],
+      "keywords": [
+        "组帧",
+        "差错控制",
+        "可靠传输",
+        "介质访问",
+        "局域网",
+        "交换机"
+      ],
+      "path": "ch03-data-link-layer",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机网络_高清带书签版.pdf",
+        "basis": "PDF 书签目录核验；第1—6章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-networks.ch04",
+      "module": "computer-networks",
+      "number": 4,
+      "title": "网络层",
+      "aliases": [
+        "计网第四章"
+      ],
+      "keywords": [
+        "IPv4",
+        "IPv6",
+        "子网划分",
+        "路由协议",
+        "IP多播",
+        "路由器"
+      ],
+      "path": "ch04-network-layer",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机网络_高清带书签版.pdf",
+        "basis": "PDF 书签目录核验；第1—6章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-networks.ch05",
+      "module": "computer-networks",
+      "number": 5,
+      "title": "传输层",
+      "aliases": [
+        "计网第五章"
+      ],
+      "keywords": [
+        "UDP",
+        "TCP",
+        "可靠传输",
+        "流量控制",
+        "拥塞控制"
+      ],
+      "path": "ch05-transport-layer",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机网络_高清带书签版.pdf",
+        "basis": "PDF 书签目录核验；第1—6章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-networks.ch06",
+      "module": "computer-networks",
+      "number": 6,
+      "title": "应用层",
+      "aliases": [
+        "计网第六章"
+      ],
+      "keywords": [
+        "DNS",
+        "FTP",
+        "电子邮件",
+        "HTTP",
+        "万维网"
+      ],
+      "path": "ch06-application-layer",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机网络_高清带书签版.pdf",
+        "basis": "PDF 书签目录核验；第1—6章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    }
+  ],
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing",
+  "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+}

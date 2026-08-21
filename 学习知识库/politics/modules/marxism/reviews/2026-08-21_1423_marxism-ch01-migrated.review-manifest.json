@@ -1,0 +1,45 @@
+{
+  "review_id": "2026-08-21_1423_marxism-ch01-migrated",
+  "dossier_id": "politics.marxism.ch01.complete-migration.20260821",
+  "subject": "politics",
+  "unit_id": "politics.marxism",
+  "scope": "马原第一章世界的物质性及发展规律｜既有复盘无损整合",
+  "template_id": "review_politics_exam_prompt",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T14:23:42+08:00",
+  "migration_status": "existing_review_files_exactly_assembled_without_rewrite",
+  "migrated_source_paths": [
+    "politics/modules/marxism/reviews/2026-08-20_1334_xiao-ch01-world-materiality-development.md",
+    "politics/modules/marxism/reviews/2026-08-20_2355_xiao-ch01-question-type-interface-supplement.md"
+  ],
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_1423_marxism-ch01-migrated.md",
+  "segment_count": 2,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "马原第一章完整第一版",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "politics-marxism-ch01-complete",
+      "character_count": 8476,
+      "normalized_sha256": "137d2a28a0dfc17b4110dee9e0243d208a6de3382918c3c92753076bc681dac6"
+    },
+    {
+      "sequence": 2,
+      "revision": 1,
+      "scope": "题型接口补充",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "politics-marxism-ch01-interface",
+      "character_count": 4939,
+      "normalized_sha256": "e22596fc031c3dea69439da3caafc10f1db31de20c003979c798d9633ccddff2"
+    }
+  ],
+  "assembled_character_count": 13417,
+  "assembled_normalized_sha256": "77043ad83faece6ec76ab4fa957ef978ed6ef859db11f5a82782b0109ed176ec",
+  "archived_file_sha256": "7fe3dfe875ca547ce853e589cfc9acd54bfd3485f1f197455a5269fabe076838"
+}

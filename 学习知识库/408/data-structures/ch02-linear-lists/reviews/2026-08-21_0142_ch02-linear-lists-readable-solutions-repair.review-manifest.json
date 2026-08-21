@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "review_id": "2026-08-21_0142_ch02-linear-lists-readable-solutions-repair",
+  "dossier_id": "408.data-structures.ch02.readable-solutions-repair.20260821",
+  "subject": "408.data-structures",
+  "unit_id": "408.data-structures.ch02",
+  "scope": "数据结构第二章线性表可复读逐题详解证据修复",
+  "template_id": "study-408.data-structures.readable-solution-repair",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T01:42:19+08:00",
+  "source_thread_id": "01a01f74-8369-7521-b6b0-ace0cc86016e",
+  "confirmation_source_thread_id": "01a02026-8f34-7320-b9f5-f478623677c1",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_0142_ch02-linear-lists-readable-solutions-repair.md",
+  "segment_count": 4,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 2,
+      "scope": "批次A：2.1全部、2.2全部",
+      "turn_id": "01a0202c-9197-7b93-a272-c7d40caa6bbd",
+      "item_id": "数据结构第二章_可复读详解证据修复_StageA_批次A.md",
+      "character_count": 22168,
+      "normalized_sha256": "5b3d05f72d7ac0300fc299b03f35514548cb8d98de3b13a150ffc7fdd74be35b"
+    },
+    {
+      "sequence": 2,
+      "revision": 2,
+      "scope": "批次B：2.3选择题01—23、应用题01—10",
+      "turn_id": "01a0202c-9197-7b93-a272-c7d40caa6bbd",
+      "item_id": "数据结构第二章_可复读详解证据修复_StageA_批次B.md",
+      "character_count": 17139,
+      "normalized_sha256": "87058e9e07f115affc3a862840dd7338b40ef135cb1f575f3a0f87d7737552dd"
+    },
+    {
+      "sequence": 3,
+      "revision": 2,
+      "scope": "批次C：2.3选择题24—36、应用题11—20",
+      "turn_id": "01a0202c-9197-7b93-a272-c7d40caa6bbd",
+      "item_id": "数据结构第二章_可复读详解证据修复_StageA_批次C.md",
+      "character_count": 16375,
+      "normalized_sha256": "a27be9cb060bb1360cbff9fa5833152251d3f319a8a19a0399986a391692d709"
+    },
+    {
+      "sequence": 4,
+      "revision": 2,
+      "scope": "全章五列覆盖审计",
+      "turn_id": "01a0202c-9197-7b93-a272-c7d40caa6bbd",
+      "item_id": "数据结构第二章_可复读详解证据修复_StageA_全章审计.md",
+      "character_count": 11121,
+      "normalized_sha256": "0ee750e5fdbbf5855a2a8f03a3570e1d3ba15bd402c20f64fe06ff0f88146d80"
+    }
+  ],
+  "assembled_character_count": 66809,
+  "assembled_normalized_sha256": "a30e62a4daeb04bd5a1ecfc61ee894232ab2fa3c9f0731296432d9ab846f02e9",
+  "archived_file_sha256": "0f8a8127e68c489f3975da690d80e8c12aa520cf0d8d6fb1deff2c9d1f3caed4"
+}

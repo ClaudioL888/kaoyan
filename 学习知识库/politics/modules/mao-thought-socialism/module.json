@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.1",
+  "module_id": "politics.mao-socialism",
+  "subject": "politics",
+  "title": "毛泽东思想和中国特色社会主义理论体系概论",
+  "aliases": [
+    "毛中特"
+  ],
+  "keywords": [
+    "毛泽东思想",
+    "社会主义改造",
+    "中国特色社会主义理论体系"
+  ],
+  "framework_status": "ready",
+  "organization_status": "skeleton",
+  "accepted_review_refs": [],
+  "source_basis": {
+    "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+    "basis": "按学科模块建立；年度大纲和时政另行核验"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 0,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}

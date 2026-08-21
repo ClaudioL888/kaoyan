@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "math2.linear-algebra.ch00",
+  "subject": "math2",
+  "module": "linear-algebra",
+  "number": 0,
+  "title": "零基础课——线性代数入门",
+  "aliases": [
+    "线代第零章",
+    "线性代数入门"
+  ],
+  "keywords": [
+    "线性方程",
+    "向量",
+    "线性变换",
+    "预备知识"
+  ],
+  "framework_status": "ready",
+  "organization_status": "skeleton",
+  "accepted_review_count": 0,
+  "source_basis": {
+    "path": "数二/27张宇基础30讲线代_新书签.pdf",
+    "basis": "PDF 书签目录核验；第0—6讲"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 0,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.1",
+  "module_id": "english2.writing-b",
+  "subject": "english2",
+  "title": "写作 Part B（大作文）",
+  "aliases": [
+    "大作文",
+    "图表作文"
+  ],
+  "keywords": [
+    "图表描述",
+    "数据边界",
+    "原因分析",
+    "建议"
+  ],
+  "framework_status": "ready",
+  "organization_status": "partially-organized",
+  "accepted_review_refs": [
+    "2026-08-19_1729_2010-full-paper",
+    "2026-08-21_0004_2010-unified-type-pool-addendum",
+    "2026-08-21_1315_2011-full-paper"
+  ],
+  "source_basis": {
+    "path": "英二/01_英语二备考计划_资料与作答指南.md",
+    "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-21T13:15:28+08:00",
+  "confirmed_increment_count": 3,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}

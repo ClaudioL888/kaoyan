@@ -1,0 +1,55 @@
+{
+  "review_id": "2026-08-21_1423_ch01-introduction-migrated",
+  "dossier_id": "408.data-structures.ch01.complete-migration.20260821",
+  "subject": "408.data-structures",
+  "unit_id": "408.data-structures.ch01",
+  "scope": "数据结构第一章绪论｜既有复盘无损整合",
+  "template_id": "study_408_chapter_prompt",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T14:23:42+08:00",
+  "migration_status": "existing_review_files_exactly_assembled_without_rewrite",
+  "migrated_source_paths": [
+    "408/data-structures/ch01-introduction/reviews/2026-08-19_1729_ch01-complete-structure.md",
+    "408/data-structures/ch01-introduction/reviews/2026-08-20_183623_ch01-framework-diff-supplement.md",
+    "408/data-structures/ch01-introduction/reviews/2026-08-20_235929_ch01-unified-question-pool-supplement.md"
+  ],
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_1423_ch01-introduction-migrated.md",
+  "segment_count": 3,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "第一章完整结构复盘",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "ds-ch01-complete-structure",
+      "character_count": 21316,
+      "normalized_sha256": "507c76ef9c22be42ac18ffba5c396a3f9fac2fe1d7b429aa6e74df8471f13a0e"
+    },
+    {
+      "sequence": 2,
+      "revision": 1,
+      "scope": "新框架差异补充",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "ds-ch01-framework-diff",
+      "character_count": 5627,
+      "normalized_sha256": "5f173a3ec19706713d18d2d55a4f2d940b7b48587f14cd55ce4cc7e7fa2974bc"
+    },
+    {
+      "sequence": 3,
+      "revision": 1,
+      "scope": "统一题型池追补",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "ds-ch01-unified-pool",
+      "character_count": 5755,
+      "normalized_sha256": "57106bead375aa67d6a44fc8f9b3c917fe25826248bf4fc1312381f0617681ca"
+    }
+  ],
+  "assembled_character_count": 32702,
+  "assembled_normalized_sha256": "d09f9bb21db0283987aa7e8f6548053aa02a0cd7d53d3ede7eda8b9267361e5d",
+  "archived_file_sha256": "d70dcd9642c2b1db8c36641f1865ae133268d469095dc30b17b4eddf3b1ef722"
+}

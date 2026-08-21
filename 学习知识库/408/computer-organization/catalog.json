@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.1",
+  "subject": "408.computer-organization",
+  "framework_status": "ready",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "chapters": [
+    {
+      "chapter_id": "408.computer-organization.ch01",
+      "module": "computer-organization",
+      "number": 1,
+      "title": "计算机系统概述",
+      "aliases": [
+        "计组第一章"
+      ],
+      "keywords": [
+        "计算机系统",
+        "层次结构",
+        "性能指标"
+      ],
+      "path": "ch01-system-overview",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机组成原理_高清带书签版.pdf",
+        "basis": "PDF 目录页视觉核验；第1—7章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-organization.ch02",
+      "module": "computer-organization",
+      "number": 2,
+      "title": "数据的表示和运算",
+      "aliases": [
+        "计组第二章"
+      ],
+      "keywords": [
+        "数制",
+        "定点数",
+        "浮点数",
+        "补码",
+        "运算电路"
+      ],
+      "path": "ch02-data-representation-arithmetic",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机组成原理_高清带书签版.pdf",
+        "basis": "PDF 目录页视觉核验；第1—7章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-organization.ch03",
+      "module": "computer-organization",
+      "number": 3,
+      "title": "存储系统",
+      "aliases": [
+        "计组第三章"
+      ],
+      "keywords": [
+        "主存",
+        "Cache",
+        "虚拟存储器",
+        "存储器层次"
+      ],
+      "path": "ch03-memory-system",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机组成原理_高清带书签版.pdf",
+        "basis": "PDF 目录页视觉核验；第1—7章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-organization.ch04",
+      "module": "computer-organization",
+      "number": 4,
+      "title": "指令系统",
+      "aliases": [
+        "计组第四章"
+      ],
+      "keywords": [
+        "指令格式",
+        "寻址方式",
+        "机器级代码",
+        "CISC",
+        "RISC"
+      ],
+      "path": "ch04-instruction-set",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机组成原理_高清带书签版.pdf",
+        "basis": "PDF 目录页视觉核验；第1—7章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-organization.ch05",
+      "module": "computer-organization",
+      "number": 5,
+      "title": "中央处理器",
+      "aliases": [
+        "计组第五章"
+      ],
+      "keywords": [
+        "数据通路",
+        "控制器",
+        "指令周期",
+        "中断",
+        "流水线",
+        "多处理器"
+      ],
+      "path": "ch05-cpu",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机组成原理_高清带书签版.pdf",
+        "basis": "PDF 目录页视觉核验；第1—7章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-organization.ch06",
+      "module": "computer-organization",
+      "number": 6,
+      "title": "总线",
+      "aliases": [
+        "计组第六章"
+      ],
+      "keywords": [
+        "总线结构",
+        "总线事务",
+        "总线定时"
+      ],
+      "path": "ch06-bus",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机组成原理_高清带书签版.pdf",
+        "basis": "PDF 目录页视觉核验；第1—7章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.computer-organization.ch07",
+      "module": "computer-organization",
+      "number": 7,
+      "title": "输入/输出系统",
+      "aliases": [
+        "计组第七章"
+      ],
+      "keywords": [
+        "I/O接口",
+        "程序查询",
+        "程序中断",
+        "DMA"
+      ],
+      "path": "ch07-io-system",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/2027计算机组成原理_高清带书签版.pdf",
+        "basis": "PDF 目录页视觉核验；第1—7章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    }
+  ],
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing",
+  "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "math2.calculus.ch12",
+  "subject": "math2",
+  "module": "calculus",
+  "number": 12,
+  "title": "一元函数积分学的应用（三）——物理应用与经济应用",
+  "aliases": [
+    "高数第十二章",
+    "积分物理经济应用"
+  ],
+  "keywords": [
+    "变力做功",
+    "液体压力",
+    "质心",
+    "经济应用"
+  ],
+  "framework_status": "ready",
+  "organization_status": "skeleton",
+  "accepted_review_count": 0,
+  "source_basis": {
+    "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+    "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 0,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "backfilled_at": "2026-08-19T20:05:01+08:00",
+  "backfill_date": "2026-08-19",
+  "time_zone": "Asia/Shanghai",
+  "markdown_files_stamped": 0,
+  "content_records_added_to_activity_log": 10,
+  "activity_log_total_records": 10,
+  "note": "现有内容按用户指示统一视为2026-08-19记录；不代表原题或来源发布日期。"
+}

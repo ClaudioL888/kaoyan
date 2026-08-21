@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.1",
+  "subject": "408.operating-systems",
+  "framework_status": "ready",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "chapters": [
+    {
+      "chapter_id": "408.operating-systems.ch01",
+      "module": "operating-systems",
+      "number": 1,
+      "title": "计算机系统概述",
+      "aliases": [
+        "操作系统第一章"
+      ],
+      "keywords": [
+        "操作系统概念",
+        "运行环境",
+        "系统调用",
+        "虚拟机"
+      ],
+      "path": "ch01-system-overview",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/操作系统.pdf",
+        "basis": "PDF 书签目录核验；第1—5章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.operating-systems.ch02",
+      "module": "operating-systems",
+      "number": 2,
+      "title": "进程与线程",
+      "aliases": [
+        "操作系统第二章"
+      ],
+      "keywords": [
+        "进程",
+        "线程",
+        "调度",
+        "同步互斥",
+        "信号量",
+        "死锁"
+      ],
+      "path": "ch02-processes-threads",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/操作系统.pdf",
+        "basis": "PDF 书签目录核验；第1—5章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.operating-systems.ch03",
+      "module": "operating-systems",
+      "number": 3,
+      "title": "内存管理",
+      "aliases": [
+        "操作系统第三章"
+      ],
+      "keywords": [
+        "分页",
+        "分段",
+        "虚拟内存",
+        "页面置换",
+        "地址转换"
+      ],
+      "path": "ch03-memory-management",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/操作系统.pdf",
+        "basis": "PDF 书签目录核验；第1—5章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.operating-systems.ch04",
+      "module": "operating-systems",
+      "number": 4,
+      "title": "文件管理",
+      "aliases": [
+        "操作系统第四章"
+      ],
+      "keywords": [
+        "文件系统",
+        "目录",
+        "文件分配",
+        "空闲空间"
+      ],
+      "path": "ch04-file-management",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/操作系统.pdf",
+        "basis": "PDF 书签目录核验；第1—5章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    },
+    {
+      "chapter_id": "408.operating-systems.ch05",
+      "module": "operating-systems",
+      "number": 5,
+      "title": "输入/输出管理",
+      "aliases": [
+        "操作系统第五章"
+      ],
+      "keywords": [
+        "I/O管理",
+        "设备独立性",
+        "磁盘",
+        "固态硬盘"
+      ],
+      "path": "ch05-io-management",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "408/操作系统.pdf",
+        "basis": "PDF 书签目录核验；第1—5章"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "framework_file": "chapter_framework.md",
+      "framework_template_version": "1.0",
+      "framework_template_status": "reserved-empty",
+      "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+    }
+  ],
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing",
+  "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+}

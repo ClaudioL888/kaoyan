@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.1",
+  "subject": "politics",
+  "updated_at": "2026-08-20T23:55:42+08:00",
+  "accepted_reviews": [
+    {
+      "review_id": "politics.marxism.xiao-ch01.20260820-1334",
+      "material_type": "肖秀荣背诵提纲章节整理",
+      "year": 2026,
+      "discipline": "马克思主义基本原理",
+      "question_type": "章节知识整理（无题目）",
+      "scope": "第一章 世界的物质性及发展规律，印刷页3—21，PDF第8—26页",
+      "path": "modules/marxism/reviews/2026-08-20_1334_xiao-ch01-world-materiality-development.md",
+      "accepted_at": "2026-08-20T13:34:50+08:00",
+      "sources": [
+        "政治/26肖背诵手册/26肖背诵手册.pdf"
+      ],
+      "source_status": "教师复习提纲，非官方原文；STATIC内容；2027正式大纲待核验"
+    },
+    {
+      "review_id": "politics.marxism.xiao-ch01-interface-supplement.20260820-2355",
+      "material_type": "肖秀荣背诵提纲题型接口规则追补",
+      "year": 2026,
+      "discipline": "马克思主义基本原理",
+      "question_type": "题型接口追补（显式题目分母为0）",
+      "scope": "第一章 世界的物质性及发展规律，印刷页3—21，PDF第8—26页；未来统一题型接口与方法池",
+      "path": "modules/marxism/reviews/2026-08-20_2355_xiao-ch01-question-type-interface-supplement.md",
+      "accepted_at": "2026-08-20T23:55:42+08:00",
+      "sources": [
+        "政治/26肖背诵手册/26肖背诵手册.pdf",
+        "modules/marxism/reviews/2026-08-20_1334_xiao-ch01-world-materiality-development.md"
+      ],
+      "source_status": "教师复习提纲与既有accepted review的规则追补；STATIC；显式题目0；2027正式大纲待核验"
+    }
+  ],
+  "framework_status": "ready",
+  "modules": [
+    {
+      "module_id": "politics.marxism",
+      "title": "马克思主义基本原理",
+      "aliases": [
+        "马原"
+      ],
+      "keywords": [
+        "哲学",
+        "政治经济学",
+        "科学社会主义"
+      ],
+      "path": "modules/marxism",
+      "framework_status": "ready",
+      "organization_status": "organized",
+      "accepted_review_refs": [
+        "politics.marxism.xiao-ch01.20260820-1334",
+        "politics.marxism.xiao-ch01-interface-supplement.20260820-2355"
+      ],
+      "source_basis": {
+        "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+        "basis": "按学科模块建立；年度大纲和时政另行核验"
+      },
+      "updated_at": "2026-08-20T23:55:42+08:00",
+      "recorded_at": "2026-08-20T23:55:42+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "politics.mao-socialism",
+      "title": "毛泽东思想和中国特色社会主义理论体系概论",
+      "aliases": [
+        "毛中特"
+      ],
+      "keywords": [
+        "毛泽东思想",
+        "社会主义改造",
+        "中国特色社会主义理论体系"
+      ],
+      "path": "modules/mao-thought-socialism",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_refs": [],
+      "source_basis": {
+        "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+        "basis": "按学科模块建立；年度大纲和时政另行核验"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "politics.xi-thought",
+      "title": "习近平新时代中国特色社会主义思想概论",
+      "aliases": [
+        "新思想",
+        "习概"
+      ],
+      "keywords": [
+        "地位词",
+        "主体",
+        "目标",
+        "任务",
+        "保障"
+      ],
+      "path": "modules/xi-thought",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_refs": [],
+      "source_basis": {
+        "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+        "basis": "按学科模块建立；年度大纲和时政另行核验"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "politics.modern-history",
+      "title": "中国近现代史纲要",
+      "aliases": [
+        "史纲"
+      ],
+      "keywords": [
+        "时间线",
+        "主体",
+        "性质",
+        "意义",
+        "因果链"
+      ],
+      "path": "modules/modern-history",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_refs": [],
+      "source_basis": {
+        "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+        "basis": "按学科模块建立；年度大纲和时政另行核验"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "politics.ethics-law",
+      "title": "思想道德与法治",
+      "aliases": [
+        "思修法基"
+      ],
+      "keywords": [
+        "定义",
+        "分类",
+        "道德",
+        "法治",
+        "法律术语"
+      ],
+      "path": "modules/ethics-law",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_refs": [],
+      "source_basis": {
+        "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+        "basis": "按学科模块建立；年度大纲和时政另行核验"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "politics.current-affairs",
+      "title": "形势与政策以及当代世界经济与政治",
+      "aliases": [
+        "时政",
+        "当代"
+      ],
+      "keywords": [
+        "年度时政",
+        "形势与政策",
+        "世界经济与政治"
+      ],
+      "path": "modules/current-affairs",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_refs": [],
+      "source_basis": {
+        "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+        "basis": "按学科模块建立；年度大纲和时政另行核验"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    }
+  ],
+  "recorded_at": "2026-08-20T23:55:42+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "confirmed-archive"
+}

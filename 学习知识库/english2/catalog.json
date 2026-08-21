@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.1",
+  "subject": "english2",
+  "updated_at": "2026-08-21T13:15:28+08:00",
+  "accepted_reviews": [
+    {
+      "review_id": "2026-08-19_1729_2010-full-paper",
+      "year": 2010,
+      "types": [
+        "cloze",
+        "reading",
+        "part-b",
+        "translation",
+        "writing"
+      ],
+      "scope": "2010年英语二整卷1—48题",
+      "path": "reviews/2026-08-19_1729_2010-full-paper.md",
+      "accepted_at": "2026-08-19T17:29:14+08:00",
+      "source_materials": [
+        {
+          "role": "original-paper",
+          "path": "英二/真题/2010年考研英语二.pdf",
+          "note": "14页；题面、选项、翻译与写作任务的权威来源"
+        },
+        {
+          "role": "local-analysis",
+          "path": "英二/解析/2010年考研英语二真题解析.pdf",
+          "note": "56页；仅作为答案与解析对照来源"
+        }
+      ],
+      "recorded_at": "2026-08-19T17:29:14+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-21_0004_2010-unified-type-pool-addendum",
+      "year": 2010,
+      "types": [
+        "cloze",
+        "reading",
+        "part-b",
+        "translation",
+        "writing"
+      ],
+      "scope": "2010年英语二整卷1—48题统一题型池差异追补",
+      "path": "reviews/2026-08-21_0004_2010-unified-type-pool-addendum.md",
+      "accepted_at": "2026-08-21T00:04:54+08:00",
+      "source_materials": [
+        {
+          "role": "original-paper",
+          "path": "英二/真题/2010年考研英语二.pdf",
+          "note": "14页；题面与任务范围的权威来源"
+        },
+        {
+          "role": "local-analysis",
+          "path": "英二/解析/2010年考研英语二真题解析.pdf",
+          "note": "56页；答案与解析对照来源"
+        },
+        {
+          "role": "accepted-mother-review",
+          "path": "reviews/2026-08-19_1729_2010-full-paper.md",
+          "note": "完整逐题详解的规范母本"
+        }
+      ],
+      "recorded_at": "2026-08-21T00:04:54+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-21_1315_2011-full-paper",
+      "year": 2011,
+      "types": [
+        "cloze",
+        "reading",
+        "part-b",
+        "translation",
+        "writing"
+      ],
+      "scope": "2011年英语二整卷Q1—48",
+      "path": "reviews/2026-08-21_1315_2011-full-paper.md",
+      "manifest_path": "reviews/2026-08-21_1315_2011-full-paper.review-manifest.json",
+      "dossier_id": "english2.2011-full-paper.20260821",
+      "artifact_status": "exact-assembled",
+      "accepted_at": "2026-08-21T13:15:28+08:00",
+      "source_materials": [
+        {
+          "role": "original-paper",
+          "path": "英二/真题/2011年考研英语二.pdf",
+          "note": "原卷题面优先；Q48图表经高分辨率页面渲染视觉核验"
+        },
+        {
+          "role": "local-analysis",
+          "path": "英二/解析/2011年考研英语二真题解析.pdf",
+          "note": "仅作为答案与解析来源；原卷—解析实质冲突0"
+        }
+      ],
+      "derived_record_ids": [
+        "english2-2011-cloze-logic-relations-20260821-131528",
+        "english2-2011-cloze-later-context-20260821-131528",
+        "english2-2011-partb-viewpoint-ownership-20260821-131528",
+        "english2-2011-partb-opposition-inference-20260821-131528",
+        "english2-2011-translation-result-chain-20260821-131528",
+        "english2-2011-writinga-congratulation-advice-20260821-131528",
+        "english2-2011-writingb-percentage-points-20260821-131528",
+        "english2-2011-writingb-three-object-comparison-20260821-131528"
+      ],
+      "recorded_at": "2026-08-21T13:15:28+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    }
+  ],
+  "framework_status": "ready",
+  "modules": [
+    {
+      "module_id": "english2.vocabulary",
+      "title": "词汇与真题词",
+      "aliases": [
+        "单词",
+        "真题词汇"
+      ],
+      "keywords": [
+        "词义",
+        "熟词僻义",
+        "搭配",
+        "词形"
+      ],
+      "path": "modules/vocabulary",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "english2.grammar",
+      "title": "语法与长难句",
+      "aliases": [
+        "长难句",
+        "句法"
+      ],
+      "keywords": [
+        "主干",
+        "从句",
+        "非谓语",
+        "指代",
+        "逻辑关系"
+      ],
+      "path": "modules/grammar-long-sentences",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "english2.cloze",
+      "title": "完形填空",
+      "aliases": [
+        "英语二完形",
+        "Section I"
+      ],
+      "keywords": [
+        "搭配",
+        "语义",
+        "篇章逻辑",
+        "复现"
+      ],
+      "path": "modules/cloze",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-19_1729_2010-full-paper",
+        "2026-08-21_0004_2010-unified-type-pool-addendum",
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "english2.reading-a",
+      "title": "阅读理解 Part A",
+      "aliases": [
+        "传统阅读",
+        "阅读A"
+      ],
+      "keywords": [
+        "细节题",
+        "推理题",
+        "主旨题",
+        "态度题",
+        "词义题",
+        "例证题"
+      ],
+      "path": "modules/reading-a",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-19_1729_2010-full-paper",
+        "2026-08-21_0004_2010-unified-type-pool-addendum",
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "english2.new-type",
+      "title": "阅读理解 Part B（新题型）",
+      "aliases": [
+        "新题型",
+        "阅读B"
+      ],
+      "keywords": [
+        "锚点",
+        "同义对应",
+        "段落逻辑"
+      ],
+      "path": "modules/new-type",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-19_1729_2010-full-paper",
+        "2026-08-21_0004_2010-unified-type-pool-addendum",
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "english2.translation",
+      "title": "英译汉",
+      "aliases": [
+        "翻译",
+        "英语二翻译"
+      ],
+      "keywords": [
+        "主干",
+        "修饰",
+        "逻辑",
+        "中文重组"
+      ],
+      "path": "modules/translation",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-19_1729_2010-full-paper",
+        "2026-08-21_0004_2010-unified-type-pool-addendum",
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "english2.writing-a",
+      "title": "写作 Part A（小作文）",
+      "aliases": [
+        "小作文",
+        "应用文"
+      ],
+      "keywords": [
+        "体裁",
+        "身份",
+        "任务点",
+        "语域"
+      ],
+      "path": "modules/writing-a",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-19_1729_2010-full-paper",
+        "2026-08-21_0004_2010-unified-type-pool-addendum",
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "module_id": "english2.writing-b",
+      "title": "写作 Part B（大作文）",
+      "aliases": [
+        "大作文",
+        "图表作文"
+      ],
+      "keywords": [
+        "图表描述",
+        "数据边界",
+        "原因分析",
+        "建议"
+      ],
+      "path": "modules/writing-b",
+      "framework_status": "ready",
+      "organization_status": "partially-organized",
+      "accepted_review_refs": [
+        "2026-08-19_1729_2010-full-paper",
+        "2026-08-21_0004_2010-unified-type-pool-addendum",
+        "2026-08-21_1315_2011-full-paper"
+      ],
+      "source_basis": {
+        "path": "英二/01_英语二备考计划_资料与作答指南.md",
+        "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+      },
+      "updated_at": "2026-08-21T13:15:28+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    }
+  ],
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}

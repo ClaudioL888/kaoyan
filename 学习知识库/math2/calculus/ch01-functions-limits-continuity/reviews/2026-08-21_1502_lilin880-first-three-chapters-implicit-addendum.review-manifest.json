@@ -1,0 +1,40 @@
+{
+  "review_id": "2026-08-21_1501_lilin880-first-three-chapters-implicit-addendum",
+  "dossier_id": "math2.calculus.ch01-ch03.lilin880.implicit-addendum.20260821",
+  "subject": "math2",
+  "unit_id": "math2.calculus.ch01-ch03",
+  "applies_to_unit_ids": [
+    "math2.calculus.ch01",
+    "math2.calculus.ch02",
+    "math2.calculus.ch03"
+  ],
+  "scope": "数二高数第一至三章｜李林880隐式全量核验补充",
+  "template_id": "review-math-chapter.lilin880-implicit-addendum",
+  "template_version": "2026-08-21",
+  "accepted_at": "2026-08-21T15:02:04+08:00",
+  "source_thread_id": "01a018f4-8ce1-78c0-8869-f087614ae2b7",
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-single",
+  "private_item_audit_status": "complete-with-three-formula-ocr-risk-flags",
+  "private_item_audit_root": "math2/_internal/lilin880-audits/2026-08-21-first-three-chapters",
+  "private_item_audit_note": "公开归纳已获确认并归档；118条李林880关联记录的题面、选项/小问、答案对照与独立核验已完成。三条原有公式OCR风险标记保留。",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.md",
+  "segment_count": 1,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "数二前三章李林880隐式补充完整Stage A",
+      "turn_id": "01a02303-4402-7da0-bcba-0770f872fa12",
+      "item_id": "item-873",
+      "character_count": 1354,
+      "normalized_sha256": "e895a12ee850085ed927ca3e079d53be36f94f6919d510bc146cd9d8034d1753"
+    }
+  ],
+  "assembled_character_count": 1354,
+  "assembled_normalized_sha256": "e895a12ee850085ed927ca3e079d53be36f94f6919d510bc146cd9d8034d1753",
+  "archived_file_sha256": "b54058f7531ecc118feddc6bb97740319dae9849435728d836239f3280d7d591"
+}

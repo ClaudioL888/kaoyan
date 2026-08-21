@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "math2.zhangyu-30-36.first-three-chapters.20260821",
+  "record_time_zone": "Asia/Shanghai",
+  "created_at": "2026-08-21T19:30:00+08:00",
+  "recorded_at": "2026-08-21T19:30:00+08:00",
+  "record_time_status": "confirmed-archive",
+  "visibility": "private-internal",
+  "chat_visibility": "hidden-by-default",
+  "source_scope": {
+    "math2.calculus.ch01": {
+      "zhangyu_30": "张宇30讲高数例题 第一章例1.1—1.34，PDF题内页P3—P62",
+      "zhangyu_36": "高数18讲强化第1讲，PDF 15—26（对应印刷页2—13）"
+    },
+    "math2.calculus.ch02": {
+      "zhangyu_30": "张宇30讲高数例题 第二章例2.1—2.18，PDF题内页P79—P95",
+      "zhangyu_36": "高数18讲强化第2讲，PDF 27—35（对应印刷页14—22）"
+    },
+    "math2.calculus.ch03": {
+      "zhangyu_30": "张宇30讲高数例题 第三章例3.1—3.14，PDF题内页P102—P116",
+      "zhangyu_36": "高数18讲强化第3讲，PDF 36—46（对应印刷页23—33）"
+    }
+  },
+  "record_files": [
+    "ch01-zhangyu-30.audit.jsonl",
+    "ch02-zhangyu-30.audit.jsonl",
+    "ch03-zhangyu-30.audit.jsonl",
+    "ch01-zhangyu-36.audit.jsonl",
+    "ch02-zhangyu-36.audit.jsonl",
+    "ch03-zhangyu-36.audit.jsonl"
+  ],
+  "counts": {
+    "zhangyu_30": 66,
+    "zhangyu_36": 36,
+    "total": 102,
+    "choice_option_count": 124,
+    "nonchoice_subquestion_count": 71
+  },
+  "verification_status": "complete-with-source-gaps",
+  "known_gaps": [
+    "102条例题均有记录；31条选择型例题的124个选项逐项留档，71条非选择例题逐小问留档。个别选项因原页/版本不足以唯一判定，已标记source-gap并保留原因。",
+    "张宇30讲例题集对应页主要提供题面，未见独立逐题解析；记录明确保留题面来源缺口并使用独立推导，不冒充官方解析。",
+    "不计入张宇1000题显式分母，不生成独立accepted-review卡。"
+  ]
+}

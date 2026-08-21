@@ -1,0 +1,105 @@
+{
+  "review_id": "2026-08-21_025053_ch03-stacks-queues-arrays-complete",
+  "dossier_id": "408.data-structures.ch03.20260821",
+  "subject": "408.data-structures",
+  "unit_id": "408.data-structures.ch03",
+  "scope": "数据结构第三章栈、队列和数组完整复盘",
+  "template_id": "study-408.data-structures.chapter-complete",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T02:50:53+08:00",
+  "source_thread_id": "01a018f4-8ce1-78c0-8869-f087614ae2b7",
+  "confirmation_source_thread_id": "01a02026-8f34-7320-b9f5-f478623677c1",
+  "expected_coverage": {
+    "numbered_questions": 101,
+    "multiple_choice_questions": 91,
+    "multiple_choice_options": 364,
+    "application_questions": 10,
+    "application_task_units": 19,
+    "template_headings": 17,
+    "source_conflicts": 1
+  },
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_025053_ch03-stacks-queues-arrays-complete.md",
+  "segment_count": 8,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "资料、导学、知识体系、提示框与统一题型池",
+      "turn_id": "01a02063-8e44-7220-a49a-a4be4a95e8ff",
+      "item_id": "item-683",
+      "character_count": 3638,
+      "normalized_sha256": "b910c936aaf76f55a8153fb6a8595d35b2a4ef3c7aaec0141784ae369c1409f3"
+    },
+    {
+      "sequence": 2,
+      "revision": 1,
+      "scope": "安全批次A：3.1选择题01—25",
+      "turn_id": "01a02072-eb24-7ec2-9dd9-6690610b8e11",
+      "item_id": "item-688",
+      "character_count": 7209,
+      "normalized_sha256": "266258fcf8e3546502846d8b38da298cf104e89bc406d4ef7de55461959718e3"
+    },
+    {
+      "sequence": 3,
+      "revision": 1,
+      "scope": "安全批次B：3.1选择题26—31、应用题01—05",
+      "turn_id": "01a02075-0a85-7c81-8839-26877dd3fb49",
+      "item_id": "item-693",
+      "character_count": 7050,
+      "normalized_sha256": "458e6c156cefabe190a231297e4a72dca3dbed6a980a8117f4d60a38a347033c"
+    },
+    {
+      "sequence": 4,
+      "revision": 1,
+      "scope": "安全批次C：3.2选择题01—24",
+      "turn_id": "01a02076-f383-7181-a612-b59c6b6b80f2",
+      "item_id": "item-698",
+      "character_count": 7200,
+      "normalized_sha256": "abbdc05b7e1fade4b01ce64917e02bdf74caeb16af3f006fcf0f01b34c1242af"
+    },
+    {
+      "sequence": 5,
+      "revision": 1,
+      "scope": "安全批次D：3.2应用题01—04",
+      "turn_id": "01a02078-e4ea-7bf1-91f3-b893df2b17eb",
+      "item_id": "item-702",
+      "character_count": 6160,
+      "normalized_sha256": "758a2d499f28b69ba1cf2c686c8419fc282a0c45e37a193de60977bf03ecd558"
+    },
+    {
+      "sequence": 6,
+      "revision": 1,
+      "scope": "安全批次E：3.3选择题01—20、应用题01",
+      "turn_id": "01a0207a-3192-7643-b401-129eb0346202",
+      "item_id": "item-707",
+      "character_count": 7098,
+      "normalized_sha256": "e8eef5b47873d3b75bf4c46b79854fae9940e72125fecb0eb5d6439958047d9a"
+    },
+    {
+      "sequence": 7,
+      "revision": 1,
+      "scope": "安全批次F：3.4选择题01—16",
+      "turn_id": "01a0207b-db55-7c93-802d-e0bf64d4114c",
+      "item_id": "item-712",
+      "character_count": 5600,
+      "normalized_sha256": "dca70e5be965068c7ae097d5e62ecd35fda1563fc7a8e4cf6f90f7a2d57f7530"
+    },
+    {
+      "sequence": 8,
+      "revision": 1,
+      "scope": "全章章末回扣、迁移总结、覆盖审计、冲突修正与拟沉淀",
+      "turn_id": "01a0207d-710e-77d3-af27-b8ebd7a26240",
+      "item_id": "item-718",
+      "character_count": 7333,
+      "normalized_sha256": "57950f396ecb6117594b3a87b366a9829c08e4d12d2602ac13d5d5f47a1d6c10"
+    }
+  ],
+  "assembled_character_count": 51302,
+  "assembled_normalized_sha256": "bc016765bbcc8ee1a97fe5713aa886cdc6f60bd86dc9a6fc6ddca158c653fe1c",
+  "archived_file_sha256": "324c067c055d77ea26f054708b0ed8d75d982129e54690b391457c1a82300f23"
+}

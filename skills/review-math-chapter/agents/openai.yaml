@@ -1,0 +1,6 @@
+interface:
+  display_name: "数二章节复习整理"
+  short_description: "完整整理数二章节，末尾归纳并经准确性与归档双重确认后保存"
+  default_prompt: "Use $review-math-chapter to review this Math II range, end the complete dossier with an archive summary, and save only after I approve its accuracy and archiving."
+policy:
+  allow_implicit_invocation: true

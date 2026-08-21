@@ -1,0 +1,45 @@
+{
+  "review_id": "2026-08-21_1423_ch02-complete-migrated",
+  "dossier_id": "math2.calculus.ch02.complete-migration.20260821",
+  "subject": "math2",
+  "unit_id": "math2.calculus.ch02",
+  "scope": "数二高数第二章数列极限｜既有复盘无损整合",
+  "template_id": "review_math_chapter_prompt",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T14:23:42+08:00",
+  "migration_status": "existing_review_files_exactly_assembled_without_rewrite",
+  "migrated_source_paths": [
+    "math2/calculus/ch02-sequence-limits/reviews/2026-08-20_1331_ch02-sequence-limits-complete.md",
+    "math2/calculus/ch02-sequence-limits/reviews/2026-08-21_0022_ch02-sequence-limits-unified-type-pool-followup.md"
+  ],
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_1423_ch02-complete-migrated.md",
+  "segment_count": 2,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "数列极限完整复习",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "math2-ch02-complete",
+      "character_count": 10298,
+      "normalized_sha256": "21fcbad04cbb1859ccc06bc11d1d8f37dc070e807cedc88e20da64c6bceafc4d"
+    },
+    {
+      "sequence": 2,
+      "revision": 1,
+      "scope": "统一题型池差异追补",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "math2-ch02-unified-pool-followup",
+      "character_count": 12449,
+      "normalized_sha256": "8f320ed602d867e0d6bdab745e7dbb4776531534fd94a63ce10de6fe1da2e217"
+    }
+  ],
+  "assembled_character_count": 22749,
+  "assembled_normalized_sha256": "417340c4bf8f5f6f9c672597b69e0224a842c41edfef83fdeb210f281e707927",
+  "archived_file_sha256": "bf4a6ff97dd9a333010405cdac24add7d10b567958e9cc60dbf9d2d2fb0b08c6"
+}

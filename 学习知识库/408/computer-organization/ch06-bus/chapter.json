@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "408.computer-organization.ch06",
+  "subject": "408.computer-organization",
+  "module": "computer-organization",
+  "number": 6,
+  "title": "总线",
+  "aliases": [
+    "计组第六章"
+  ],
+  "keywords": [
+    "总线结构",
+    "总线事务",
+    "总线定时"
+  ],
+  "framework_status": "ready",
+  "organization_status": "skeleton",
+  "accepted_review_count": 0,
+  "source_basis": {
+    "path": "408/2027计算机组成原理_高清带书签版.pdf",
+    "basis": "PDF 目录页视觉核验；第1—7章"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 0,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing",
+  "framework_file": "chapter_framework.md",
+  "framework_template_version": "1.0",
+  "framework_template_status": "reserved-empty",
+  "framework_template_updated_at": "2026-08-20T12:18:18+08:00"
+}

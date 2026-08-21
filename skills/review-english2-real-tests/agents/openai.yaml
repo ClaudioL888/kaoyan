@@ -1,0 +1,6 @@
+interface:
+  display_name: "英语二真题复盘"
+  short_description: "复盘英语二真题；课程内容归纳并经准确性与归档双重确认后保存"
+  default_prompt: "Use $review-english2-real-tests to analyze this English II content, end with an evidence-based archive summary, and save only after I approve its accuracy and archiving."
+policy:
+  allow_implicit_invocation: true

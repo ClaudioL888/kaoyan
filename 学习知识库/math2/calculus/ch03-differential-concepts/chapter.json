@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "math2.calculus.ch03",
+  "subject": "math2",
+  "module": "calculus",
+  "number": 3,
+  "title": "一元函数微分学的概念",
+  "aliases": [
+    "高数第三章",
+    "导数与微分概念"
+  ],
+  "keywords": [
+    "导数定义",
+    "可导",
+    "微分",
+    "几何意义",
+    "左右导数",
+    "分段点",
+    "绝对值可导",
+    "导函数连续",
+    "导数介值性",
+    "差商",
+    "参数积分",
+    "变幂"
+  ],
+  "framework_status": "ready",
+  "organization_status": "organized",
+  "accepted_review_count": 2,
+  "source_basis": {
+    "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+    "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "source_materials": [
+    {
+      "role": "foundation-lecture",
+      "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+      "note": "第3讲PDF105—124、印刷页99—118；知识框架与隐式例题证据"
+    },
+    {
+      "role": "foundation-worked-examples",
+      "path": "数二/张宇30讲高数例题.pdf",
+      "note": "例3.1—3.14已建立14条隐式逐题记录；不计入22题分母，题面/独立复核与来源缺口保留"
+    },
+    {
+      "role": "strengthening-lecture",
+      "path": "数二/27张宇强化36讲PDF/27张宇《高数18讲》强化-带书签.pdf",
+      "note": "高数18讲第3讲PDF 36—46已建立8条隐式逐题记录；同页渲染与无书签版一致，不计入张宇1000显式分母"
+    },
+    {
+      "role": "question-book",
+      "path": "数二/27张宇1000题数二【试题册】.pdf",
+      "note": "强化篇第1—22题，PDF69—71、印刷页65—67"
+    },
+    {
+      "role": "official-solution",
+      "path": "数二/27张宇1000题数二【解析册】-带书签.pdf",
+      "note": "强化篇第1—22题解析，PDF177—184、印刷页173—180"
+    },
+    {
+      "role": "implicit-supplement-question-book",
+      "path": "数二/880/【横版】李林880数二高数篇做题本.pdf",
+      "note": "李林880第二章中41条本章主题映射已完成逐题/逐选项或小问核验；可作为本章检索证据，不进入张宇1000题显式题号、详解或分母"
+    },
+    {
+      "role": "implicit-supplement-answer-key",
+      "path": "数二/880/【PDF】27版880参考答案.pdf",
+      "note": "永久私有逐题答案对照与独立复核记录补建中；仅用于隐式方法、变式和边界校验"
+    }
+  ],
+  "accepted_reviews": [
+    {
+      "review_id": "2026-08-21_0207_ch03-1000q-strengthening",
+      "scope": "高数第三章一元函数微分学的概念：张宇1000题强化篇第1—22题",
+      "path": "reviews/2026-08-21_0207_ch03-1000q-strengthening.md",
+      "manifest_path": "reviews/2026-08-21_0207_ch03-1000q-strengthening.review-manifest.json",
+      "accepted_at": "2026-08-21T02:07:27+08:00",
+      "recorded_at": "2026-08-21T02:07:27+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "artifact_status": "exact-single"
+    },
+    {
+      "review_id": "2026-08-21_1501_lilin880-first-three-chapters-implicit-addendum",
+      "scope": "数二高数第一至三章：李林880隐式全量核验补充",
+      "path": "../ch01-functions-limits-continuity/reviews/2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.md",
+      "manifest_path": "../ch01-functions-limits-continuity/reviews/2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.review-manifest.json",
+      "accepted_at": "2026-08-21T15:02:04+08:00",
+      "recorded_at": "2026-08-21T15:02:04+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "artifact_status": "exact-single",
+      "shared_review_owner_unit_id": "math2.calculus.ch01"
+    }
+  ],
+  "updated_at": "2026-08-21T19:45:00+08:00",
+  "implicit_source_records_manifest": "../../source-question-records/manifest.json",
+  "confirmed_increment_count": 16,
+  "recorded_at": "2026-08-21T19:45:00+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "confirmed-archive"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "四科知识增量周期汇总"
+  short_description: "按前一天、前7天或前14天汇总四科已确认新增知识"
+  default_prompt: "Use $summarize-study-kb-updates to 按Asia/Shanghai中国标准时间自然日窗口汇总四科新增知识，关联已记录题目给出例子；过长时输出Markdown文件。"
+policy:
+  allow_implicit_invocation: true

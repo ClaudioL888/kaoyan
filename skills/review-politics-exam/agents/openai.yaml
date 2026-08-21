@@ -1,0 +1,6 @@
+interface:
+  display_name: "考研政治题型复盘"
+  short_description: "复盘政治题；课程内容归纳并经准确性与归档双重确认后保存"
+  default_prompt: "Use $review-politics-exam to analyze this Politics content, end with a dated archive summary, and save only after I approve its accuracy and archiving."
+policy:
+  allow_implicit_invocation: true

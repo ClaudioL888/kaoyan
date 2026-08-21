@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.1",
+  "module_id": "politics.xi-thought",
+  "subject": "politics",
+  "title": "习近平新时代中国特色社会主义思想概论",
+  "aliases": [
+    "新思想",
+    "习概"
+  ],
+  "keywords": [
+    "地位词",
+    "主体",
+    "目标",
+    "任务",
+    "保障"
+  ],
+  "framework_status": "ready",
+  "organization_status": "skeleton",
+  "accepted_review_refs": [],
+  "source_basis": {
+    "path": "政治/01_2027考研政治备考计划_资料与作答指南_v1.0暑期初稿.md",
+    "basis": "按学科模块建立；年度大纲和时政另行核验"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 0,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}

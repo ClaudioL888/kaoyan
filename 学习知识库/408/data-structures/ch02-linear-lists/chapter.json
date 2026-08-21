@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "408.data-structures.ch02",
+  "subject": "408.data-structures",
+  "module": "data-structures",
+  "number": 2,
+  "title": "线性表",
+  "aliases": [
+    "数据结构第二章"
+  ],
+  "keywords": [
+    "顺序表",
+    "单链表",
+    "双链表",
+    "循环链表"
+  ],
+  "framework_status": "ready",
+  "organization_status": "organized",
+  "accepted_review_count": 3,
+  "accepted_reviews": [
+    {
+      "review_id": "2026-08-20_193753_ch02-linear-lists-complete",
+      "scope": "数据结构第二章线性表既有完整范围合并复盘",
+      "path": "reviews/2026-08-20_193753_ch02-linear-lists-complete.md",
+      "accepted_at": "2026-08-20T19:37:53+08:00",
+      "artifact_status": "legacy-summary"
+    },
+    {
+      "review_id": "2026-08-20_235833_ch02-linear-lists-unified-type-pool-addendum",
+      "scope": "数据结构第二章线性表统一题型池差异追补",
+      "path": "reviews/2026-08-20_235833_ch02-linear-lists-unified-type-pool-addendum.md",
+      "accepted_at": "2026-08-21T00:00:28+08:00",
+      "artifact_status": "accepted-addendum"
+    },
+    {
+      "review_id": "2026-08-21_0142_ch02-linear-lists-readable-solutions-repair",
+      "scope": "数据结构第二章线性表可复读逐题详解证据修复",
+      "path": "reviews/2026-08-21_0142_ch02-linear-lists-readable-solutions-repair.md",
+      "manifest_path": "reviews/2026-08-21_0142_ch02-linear-lists-readable-solutions-repair.review-manifest.json",
+      "accepted_at": "2026-08-21T01:42:19+08:00",
+      "recorded_at": "2026-08-21T01:42:19+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "artifact_status": "exact-assembled"
+    }
+  ],
+  "source_basis": {
+    "path": "408/2027数据结构_高清带书签版.pdf",
+    "basis": "PDF 目录页视觉核验；第1—8章"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-21T01:42:19+08:00",
+  "confirmed_increment_count": 2,
+  "recorded_at": "2026-08-21T01:42:19+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "confirmed-archive",
+  "framework_file": "chapter_framework.md",
+  "framework_template_version": "1.0",
+  "framework_template_status": "filled-accepted",
+  "framework_template_updated_at": "2026-08-21T01:42:19+08:00"
+}

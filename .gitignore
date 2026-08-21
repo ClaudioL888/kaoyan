@@ -1,0 +1,24 @@
+node_modules/
+dist/
+tmp/
+.stage-a-tmp/
+.tmp-*
+*.log
+.env
+.env.*
+*.local
+
+# Source books and generated evidence are never part of this repository.
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tif
+*.tiff
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.onnx
+*.safetensors

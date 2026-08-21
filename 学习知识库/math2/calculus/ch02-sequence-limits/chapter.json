@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "math2.calculus.ch02",
+  "subject": "math2",
+  "module": "calculus",
+  "number": 2,
+  "title": "数列极限",
+  "aliases": [
+    "高数第二章",
+    "数列极限"
+  ],
+  "keywords": [
+    "单调有界",
+    "夹逼",
+    "递推数列",
+    "压缩映射",
+    "n次根最大项",
+    "无穷大量",
+    "奇偶反例",
+    "柯西准则",
+    "保号性",
+    "递推精细极限",
+    "Stolz",
+    "统一题型池",
+    "双数列降维",
+    "复合极限条件"
+  ],
+  "framework_status": "ready",
+  "organization_status": "organized",
+  "accepted_review_count": 3,
+  "source_basis": {
+    "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+    "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "source_materials": [
+    {
+      "role": "foundation-lecture",
+      "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+      "note": "基础讲义/隐式例题证据；本轮读取第2讲，PDF 82—104，印刷页76—98"
+    },
+    {
+      "role": "foundation-worked-examples",
+      "path": "数二/张宇30讲高数例题.pdf",
+      "note": "例2.1—2.18已建立18条隐式逐题记录；不计入23题分母，题面/独立复核与来源缺口保留"
+    },
+    {
+      "role": "strengthening-lecture",
+      "path": "数二/27张宇强化36讲PDF/27张宇《高数18讲》强化.pdf",
+      "note": "高数18讲第2讲PDF 27—35已建立13条隐式逐题记录；不计入张宇1000显式分母"
+    },
+    {
+      "role": "question-book",
+      "path": "数二/27张宇1000题数二【试题册】.pdf",
+      "note": "基础篇PDF13、强化篇PDF67—68"
+    },
+    {
+      "role": "official-solution",
+      "path": "数二/27张宇1000题数二【解析册】-带书签.pdf",
+      "note": "基础篇PDF18—20、强化篇PDF173—176"
+    },
+    {
+      "role": "implicit-supplement-question-book",
+      "path": "数二/880/【横版】李林880数二高数篇做题本.pdf",
+      "note": "李林880第一章中25条数列极限主题已以跨章节成员关系完成逐题核验；不重复计入第二份题源分母"
+    },
+    {
+      "role": "implicit-supplement-answer-key",
+      "path": "数二/880/【PDF】27版880参考答案.pdf",
+      "note": "永久私有逐题答案对照与独立复核记录补建中；仅用于隐式方法与条件边界校验"
+    }
+  ],
+  "accepted_reviews": [
+    {
+      "review_id": "2026-08-20_1331_ch02-sequence-limits-complete",
+      "scope": "数二高数第2讲数列极限：基础篇1—12、强化篇1—11",
+      "path": "reviews/2026-08-20_1331_ch02-sequence-limits-complete.md",
+      "accepted_at": "2026-08-20T13:31:01+08:00"
+    },
+    {
+      "review_id": "2026-08-21_0022_ch02-sequence-limits-unified-type-pool-followup",
+      "scope": "数二高数第2讲数列极限统一题型池差异追补：基础篇1—12、强化篇1—11",
+      "path": "reviews/2026-08-21_0022_ch02-sequence-limits-unified-type-pool-followup.md",
+      "accepted_at": "2026-08-21T00:22:03+08:00",
+      "recorded_at": "2026-08-21T00:22:03+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-21_1501_lilin880-first-three-chapters-implicit-addendum",
+      "scope": "数二高数第一至三章：李林880隐式全量核验补充",
+      "path": "../ch01-functions-limits-continuity/reviews/2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.md",
+      "manifest_path": "../ch01-functions-limits-continuity/reviews/2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.review-manifest.json",
+      "accepted_at": "2026-08-21T15:02:04+08:00",
+      "recorded_at": "2026-08-21T15:02:04+08:00",
+      "record_time_zone": "Asia/Shanghai",
+      "artifact_status": "exact-single",
+      "shared_review_owner_unit_id": "math2.calculus.ch01"
+    }
+  ],
+  "updated_at": "2026-08-21T19:45:00+08:00",
+  "implicit_source_records_manifest": "../../source-question-records/manifest.json",
+  "confirmed_increment_count": 12,
+  "recorded_at": "2026-08-21T19:45:00+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "confirmed-archive"
+}

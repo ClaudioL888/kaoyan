@@ -1,0 +1,55 @@
+{
+  "review_id": "2026-08-21_1423_ch01-complete-migrated",
+  "dossier_id": "math2.calculus.ch01.complete-migration.20260821",
+  "subject": "math2",
+  "unit_id": "math2.calculus.ch01",
+  "scope": "数二高数第一章函数、极限与连续｜既有复盘无损整合",
+  "template_id": "review_math_chapter_prompt",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T14:23:42+08:00",
+  "migration_status": "existing_review_files_exactly_assembled_without_rewrite",
+  "migrated_source_paths": [
+    "math2/calculus/ch01-functions-limits-continuity/reviews/2026-08-19_1444_ch01-base-and-enhancement.md",
+    "math2/calculus/ch01-functions-limits-continuity/reviews/2026-08-19_1729_ch01-complete-structure.md",
+    "math2/calculus/ch01-functions-limits-continuity/reviews/2026-08-20_2358_ch01-unified-type-pool-delta.md"
+  ],
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_1423_ch01-complete-migrated.md",
+  "segment_count": 3,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "基础篇与强化篇既有复盘",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "math2-ch01-base-enhancement",
+      "character_count": 8557,
+      "normalized_sha256": "92027be5492fc4e204adcdd3f9392e322e457ff2f879866729173f3a3f4a4ebe"
+    },
+    {
+      "sequence": 2,
+      "revision": 1,
+      "scope": "第一章完整结构复盘",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "math2-ch01-complete-structure",
+      "character_count": 38896,
+      "normalized_sha256": "98f3f8665418a3aa7c5ece3cad695737262d51bb29ab7f2eb7263a63c8c02e1b"
+    },
+    {
+      "sequence": 3,
+      "revision": 1,
+      "scope": "统一题型池差异追补",
+      "turn_id": "local-artifact-migration-20260821",
+      "item_id": "math2-ch01-unified-pool-delta",
+      "character_count": 12834,
+      "normalized_sha256": "eba46068f8e08fa1cb302912d76283148d536c39fbb6bdbf71b5aff89495a3fa"
+    }
+  ],
+  "assembled_character_count": 60291,
+  "assembled_normalized_sha256": "b047112761c6ee73d92a8bf77a138ebe16e5b2fb38719bf0acc1a52378d5a776",
+  "archived_file_sha256": "f4b848844000561fa29bbc3096b843eb6320b052c163a31ae56d59b2c30b70b0"
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "math2.lilin880.first-three-chapters.20260821",
+  "visibility": "private-internal",
+  "created_at": "2026-08-21T15:45:30+08:00",
+  "recorded_at": "2026-08-21T15:45:30+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "related_public_review_id": "2026-08-21_1501_lilin880-first-three-chapters-implicit-addendum",
+  "related_public_review_manifest": "../../calculus/ch01-functions-limits-continuity/reviews/2026-08-21_1502_lilin880-first-three-chapters-implicit-addendum.review-manifest.json",
+  "sources": [
+    {
+      "role": "question-book",
+      "path": "数二/880/【横版】李林880数二高数篇做题本.pdf",
+      "chapters": [
+        {
+          "source_section": "第一章 函数、极限与连续",
+          "source_pdf_pages": "1-87",
+          "mapped_chapter_ids": [
+            "math2.calculus.ch01",
+            "math2.calculus.ch02"
+          ]
+        },
+        {
+          "source_section": "第二章 一元函数微分学的概念",
+          "source_pdf_pages": "88-237",
+          "mapped_chapter_ids": [
+            "math2.calculus.ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "reference-answer",
+      "path": "数二/880/【PDF】27版880参考答案.pdf",
+      "source_pdf_pages": "3-72"
+    }
+  ],
+  "frozen_scope": {
+    "math2.calculus.ch01": "李林880高数第一章全部原书编号题；数列极限专属主题同时由 ch02 以成员引用复用，不复制题面记录。",
+    "math2.calculus.ch02": "李林880高数第一章内，经题面与主题标签核验属于数列极限的题目；引用 ch01 原始逐题记录。",
+    "math2.calculus.ch03": "李林880高数第二章内的导数定义、可导/连续、微分、左右导数、隐函数与参数导数、原函数/变上限积分正则性等冻结主题范围；后续章节纯计算与应用题排除。"
+  },
+  "scope_registry": "scope-registry.md",
+  "per_item_requirements": {
+    "choice": "记录题面、每一选项、逐项正误与理由、正式答案对照、独立核验和归类。",
+    "nonchoice": "记录题面、每一小问、正式答案/解析要点、独立推导/检查和结论。"
+  },
+  "record_files_early_snapshot": [
+    {
+      "path": "ch01-basic-choice-001-013.audit.jsonl",
+      "item_refs": "ch01.basic.choice.001-ch01.basic.choice.013",
+      "recorded_item_count": 13,
+      "choice_option_count": 52,
+      "verification_status": "verified"
+    },
+    {
+      "path": "ch01-basic-fill-001-006.audit.jsonl",
+      "item_refs": "ch01.basic.fill.001-ch01.basic.fill.006",
+      "recorded_item_count": 6,
+      "choice_option_count": 0,
+      "verification_status": "verified"
+    },
+    {
+      "path": "ch01-basic-solution-001-005.audit.jsonl",
+      "item_refs": "ch01.basic.solution.001-ch01.basic.solution.005",
+      "recorded_item_count": 5,
+      "choice_option_count": 0,
+      "verification_status": "verified"
+    },
+    {
+      "path": "ch01-comprehensive-choice-001-009.audit.jsonl",
+      "item_refs": "ch01.comprehensive.choice.001-ch01.comprehensive.choice.009",
+      "recorded_item_count": 9,
+      "choice_option_count": 36,
+      "verification_status": "verified"
+    }
+  ],
+  "record_files": [
+    "ch01-basic-choice-001-013.audit.jsonl", "ch01-basic-fill-001-006.audit.jsonl", "ch01-basic-solution-001-005.audit.jsonl", "ch01-comprehensive-choice-001-009.audit.jsonl", "ch01-comprehensive-choice-010-014.audit.jsonl", "ch01-comprehensive-choice-015-019.audit.jsonl", "ch01-comprehensive-fill-001-004.audit.jsonl", "ch01-comprehensive-fill-005-008.audit.jsonl", "ch01-comprehensive-fill-009-013.audit.jsonl", "ch01-comprehensive-solution-001-004.audit.jsonl", "ch01-comprehensive-solution-005-007.audit.jsonl", "ch01-comprehensive-solution-008-017.audit.jsonl", "ch01-extension-solution-001-004.audit.jsonl", "ch03-basic-choice-mapped-001-007_010_013_014_017.audit.jsonl", "ch03-basic-fill-mapped-001-005_007_013_017_019_024.audit.jsonl", "ch03-basic-solution-mapped-003_007_011_012.audit.jsonl", "ch03-comprehensive-choice-mapped-005-011_028-029.audit.jsonl", "ch03-comprehensive-solution-mapped-001_002_004_009_016_017_019.audit.jsonl"
+  ],
+  "chapter_access": {
+    "math2.calculus.ch01": "77 条原始记录；通过题型、知识标签和来源页在本章内检索。",
+    "math2.calculus.ch02": "25 条跨章节成员引用；清单见 ch02-sequence-membership.md，不复制原题。",
+    "math2.calculus.ch03": "41 条第二章主题映射记录，另含1条第一章跨章关联；通过题型、知识标签和来源页在本章内检索。"
+  },
+  "counts": {
+    "frozen_item_count": 118,
+    "recorded_item_count": 118,
+    "choice_option_count": 208,
+    "verified_choice_option_count": 208,
+    "nonchoice_subquestion_count": 96,
+    "verified_nonchoice_subquestion_count": 96
+  },
+  "verification_status": "complete-with-three-formula-ocr-risk-flags",
+  "completion_rule": "所有冻结题均存在私有记录，且每一个选择项或小问都有正式答案对照和独立核验状态。",
+  "known_limits": [
+    "公开归纳已先行获用户确认并归档；其来源逐题可追溯性须以本私有审计补建完成为准。",
+    "题面、答案或版本冲突不得猜补，必须保留 source-gap 或 conflict 记录。"
+  ]
+}

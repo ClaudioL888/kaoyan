@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-21T13:15:28+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "rule": "框架可预建；课程内容仅在用户确认归纳准确且明确同意归档后写入。skeleton 不得称为已整理或已完成。",
+  "subjects": {
+    "math2": {
+      "unit_count": 22,
+      "organized_or_linked_count": 3,
+      "skeleton_count": 19
+    },
+    "408.data-structures": {
+      "unit_count": 8,
+      "organized_or_linked_count": 3,
+      "skeleton_count": 5
+    },
+    "408.computer-organization": {
+      "unit_count": 7,
+      "organized_or_linked_count": 0,
+      "skeleton_count": 7
+    },
+    "408.operating-systems": {
+      "unit_count": 5,
+      "organized_or_linked_count": 0,
+      "skeleton_count": 5
+    },
+    "408.computer-networks": {
+      "unit_count": 6,
+      "organized_or_linked_count": 0,
+      "skeleton_count": 6
+    },
+    "english2": {
+      "unit_count": 8,
+      "organized_or_linked_count": 8,
+      "skeleton_count": 0
+    },
+    "politics": {
+      "unit_count": 6,
+      "organized_or_linked_count": 1,
+      "skeleton_count": 5
+    }
+  },
+  "totals": {
+    "unit_count": 62,
+    "organized_or_linked_count": 15,
+    "skeleton_count": 47
+  }
+}

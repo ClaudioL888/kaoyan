@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "408.data-structures.ch01",
+  "subject": "408.data-structures",
+  "title": "绪论",
+  "aliases": [
+    "数据结构第一章",
+    "数据结构基本概念与算法评价"
+  ],
+  "keywords": [
+    "数据结构三要素",
+    "逻辑结构",
+    "存储结构",
+    "算法五特性",
+    "时间复杂度",
+    "空间复杂度",
+    "数据结构",
+    "算法评价"
+  ],
+  "source_materials": [
+    {
+      "role": "textbook_and_solutions",
+      "path": "408/2027数据结构_高清带书签版.pdf",
+      "note": "本轮读取第一章印刷第1—12页、PDF第13—24页；教材内置答案与解析作为答案来源"
+    },
+    {
+      "role": "mcq_book",
+      "path": "408/27王道《复习指导数据结构》做题本/选择题/【简约竖版】27王道复习指导数据结构选择题.pdf",
+      "note": "本轮读取1.1第1—5题、1.2第1—18题，共23题、92个选项"
+    },
+    {
+      "role": "application_book",
+      "path": "408/27王道《复习指导数据结构》做题本/应用题/【简约竖版】27王道复习指导数据结构应用题.pdf",
+      "note": "本轮读取3道应用题、5个独立作答单元"
+    }
+  ],
+  "source_caveats": [
+    "选择题与应用题目录中的“原版书含答案”文件和教材SHA-256相同，只视为重复副本，不作为独立证据。",
+    "题本用于确认题面，答案与解析来自教材内置答案页并经独立推导。"
+  ],
+  "accepted_reviews": [
+    {
+      "review_id": "2026-08-19_1729_ch01-complete-structure",
+      "scope": "第一章1.1与1.2全部23道选择题、3道应用题及5个作答单元",
+      "path": "reviews/2026-08-19_1729_ch01-complete-structure.md",
+      "accepted_at": "2026-08-19T17:29:14+08:00",
+      "recorded_at": "2026-08-19T17:29:14+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-20_183623_ch01-framework-diff-supplement",
+      "scope": "第一章章首导学、正文提示框、章末归纳总结与思维拓展的差异补充",
+      "path": "reviews/2026-08-20_183623_ch01-framework-diff-supplement.md",
+      "accepted_at": "2026-08-20T18:36:23+08:00",
+      "recorded_at": "2026-08-20T18:36:23+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "review_id": "2026-08-20_235929_ch01-unified-question-pool-supplement",
+      "scope": "第一章23道选择题、3道应用题及5个作答单元的统一题型池追补；28个显式对象唯一归类",
+      "path": "reviews/2026-08-20_235929_ch01-unified-question-pool-supplement.md",
+      "accepted_at": "2026-08-20T23:59:29+08:00",
+      "recorded_at": "2026-08-20T23:59:29+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    }
+  ],
+  "coverage": {
+    "mcq_questions": "23/23",
+    "mcq_options": "92/92",
+    "application_questions": "3/3",
+    "application_answer_units": "5/5",
+    "unresolved_gaps": 0
+  },
+  "updated_at": "2026-08-21T00:01:31+08:00",
+  "module": "data-structures",
+  "number": 1,
+  "framework_status": "ready",
+  "organization_status": "organized",
+  "accepted_review_count": 3,
+  "source_basis": {
+    "path": "408/2027数据结构_高清带书签版.pdf",
+    "basis": "PDF 目录页视觉核验；第1—8章"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 3,
+  "recorded_at": "2026-08-21T00:01:31+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "confirmed-archive",
+  "framework_file": "chapter_framework.md",
+  "framework_template_version": "1.0",
+  "framework_template_status": "filled-accepted",
+  "framework_template_updated_at": "2026-08-21T00:01:31+08:00"
+}

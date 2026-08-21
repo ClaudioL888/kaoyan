@@ -1,0 +1,650 @@
+{
+  "schema_version": "1.1",
+  "subject": "math2",
+  "updated_at": "2026-08-21T19:45:00+08:00",
+  "chapters": [
+    {
+      "chapter_id": "math2.calculus.ch01",
+      "module": "calculus",
+      "number": 1,
+      "title": "函数、极限与连续",
+      "aliases": [
+        "高数第一章",
+        "函数极限与连续",
+        "函数、极限、连续"
+      ],
+      "keywords": [
+        "函数",
+        "复合函数",
+        "反函数",
+        "极限",
+        "无穷小",
+        "等价无穷小",
+        "泰勒展开",
+        "连续",
+        "间断点",
+        "变上限积分",
+        "含n极限",
+        "统一题型池"
+      ],
+      "path": "calculus/ch01-functions-limits-continuity",
+      "framework_status": "ready",
+      "organization_status": "organized",
+      "accepted_review_count": 4,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-21T19:45:00+08:00",
+      "recorded_at": "2026-08-21T15:02:04+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch02",
+      "module": "calculus",
+      "number": 2,
+      "title": "数列极限",
+      "aliases": [
+        "高数第二章",
+        "数列极限"
+      ],
+      "keywords": [
+        "单调有界",
+        "夹逼",
+        "递推数列",
+        "压缩映射",
+        "n次根最大项",
+        "无穷大量",
+        "奇偶反例",
+        "柯西准则",
+        "保号性",
+        "递推精细极限",
+        "Stolz",
+        "统一题型池",
+        "双数列降维",
+        "复合极限条件"
+      ],
+      "path": "calculus/ch02-sequence-limits",
+      "framework_status": "ready",
+      "organization_status": "organized",
+      "accepted_review_count": 3,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-21T19:45:00+08:00",
+      "recorded_at": "2026-08-21T15:02:04+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch03",
+      "module": "calculus",
+      "number": 3,
+      "title": "一元函数微分学的概念",
+      "aliases": [
+        "高数第三章",
+        "导数与微分概念"
+      ],
+      "keywords": [
+        "导数定义",
+        "可导",
+        "微分",
+        "几何意义",
+        "左右导数",
+        "分段点",
+        "绝对值可导",
+        "导函数连续",
+        "导数介值性",
+        "差商",
+        "参数积分",
+        "变幂"
+      ],
+      "path": "calculus/ch03-differential-concepts",
+      "framework_status": "ready",
+      "organization_status": "organized",
+      "accepted_review_count": 2,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-21T19:45:00+08:00",
+      "recorded_at": "2026-08-21T15:02:04+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch04",
+      "module": "calculus",
+      "number": 4,
+      "title": "一元函数微分学的计算",
+      "aliases": [
+        "高数第四章",
+        "导数计算"
+      ],
+      "keywords": [
+        "复合函数",
+        "隐函数",
+        "参数方程",
+        "高阶导数"
+      ],
+      "path": "calculus/ch04-differential-calculation",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch05",
+      "module": "calculus",
+      "number": 5,
+      "title": "一元函数微分学的应用（一）——几何应用",
+      "aliases": [
+        "高数第五章",
+        "微分学几何应用"
+      ],
+      "keywords": [
+        "单调性",
+        "极值",
+        "凹凸性",
+        "渐近线",
+        "最值"
+      ],
+      "path": "calculus/ch05-differential-geometric-applications",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch06",
+      "module": "calculus",
+      "number": 6,
+      "title": "一元函数微分学的应用（二）——中值定理、微分等式与微分不等式",
+      "aliases": [
+        "高数第六章",
+        "中值定理"
+      ],
+      "keywords": [
+        "罗尔定理",
+        "拉格朗日中值定理",
+        "柯西中值定理",
+        "泰勒定理",
+        "微分不等式"
+      ],
+      "path": "calculus/ch06-mean-value-theorems",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch07",
+      "module": "calculus",
+      "number": 7,
+      "title": "一元函数微分学的应用（三）——物理应用与经济应用",
+      "aliases": [
+        "高数第七章",
+        "相关变化率与经济应用"
+      ],
+      "keywords": [
+        "相关变化率",
+        "弹性",
+        "边际",
+        "经济应用"
+      ],
+      "path": "calculus/ch07-differential-physical-economic-applications",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch08",
+      "module": "calculus",
+      "number": 8,
+      "title": "一元函数积分学的概念与性质",
+      "aliases": [
+        "高数第八章",
+        "积分概念与性质"
+      ],
+      "keywords": [
+        "原函数",
+        "不定积分",
+        "定积分",
+        "变限积分",
+        "反常积分"
+      ],
+      "path": "calculus/ch08-integral-concepts-properties",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch09",
+      "module": "calculus",
+      "number": 9,
+      "title": "一元函数积分学的计算",
+      "aliases": [
+        "高数第九章",
+        "积分计算"
+      ],
+      "keywords": [
+        "换元积分",
+        "分部积分",
+        "有理函数积分",
+        "反常积分计算"
+      ],
+      "path": "calculus/ch09-integral-calculation",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch10",
+      "module": "calculus",
+      "number": 10,
+      "title": "一元函数积分学的应用（一）——几何应用",
+      "aliases": [
+        "高数第十章",
+        "积分几何应用"
+      ],
+      "keywords": [
+        "面积",
+        "旋转体体积",
+        "弧长",
+        "平均值"
+      ],
+      "path": "calculus/ch10-integral-geometric-applications",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch11",
+      "module": "calculus",
+      "number": 11,
+      "title": "一元函数积分学的应用（二）——积分等式与积分不等式",
+      "aliases": [
+        "高数第十一章",
+        "积分等式与不等式"
+      ],
+      "keywords": [
+        "积分等式",
+        "积分不等式",
+        "积分中值定理"
+      ],
+      "path": "calculus/ch11-integral-equalities-inequalities",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch12",
+      "module": "calculus",
+      "number": 12,
+      "title": "一元函数积分学的应用（三）——物理应用与经济应用",
+      "aliases": [
+        "高数第十二章",
+        "积分物理经济应用"
+      ],
+      "keywords": [
+        "变力做功",
+        "液体压力",
+        "质心",
+        "经济应用"
+      ],
+      "path": "calculus/ch12-integral-physical-economic-applications",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch13",
+      "module": "calculus",
+      "number": 13,
+      "title": "多元函数微分学",
+      "aliases": [
+        "高数第十三章",
+        "多元微分"
+      ],
+      "keywords": [
+        "偏导数",
+        "全微分",
+        "复合函数",
+        "隐函数",
+        "多元极值"
+      ],
+      "path": "calculus/ch13-multivariable-differentiation",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch14",
+      "module": "calculus",
+      "number": 14,
+      "title": "二重积分",
+      "aliases": [
+        "高数第十四章",
+        "二重积分"
+      ],
+      "keywords": [
+        "直角坐标",
+        "极坐标",
+        "对称性",
+        "换序"
+      ],
+      "path": "calculus/ch14-double-integrals",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.calculus.ch15",
+      "module": "calculus",
+      "number": 15,
+      "title": "微分方程",
+      "aliases": [
+        "高数第十五章",
+        "微分方程"
+      ],
+      "keywords": [
+        "可分离变量",
+        "一阶线性",
+        "伯努利",
+        "高阶常系数",
+        "应用题"
+      ],
+      "path": "calculus/ch15-differential-equations",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲（高数）_新书签.pdf",
+        "basis": "PDF 书签目录核验；仅创建数学二范围第1—15讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.linear-algebra.ch00",
+      "module": "linear-algebra",
+      "number": 0,
+      "title": "零基础课——线性代数入门",
+      "aliases": [
+        "线代第零章",
+        "线性代数入门"
+      ],
+      "keywords": [
+        "线性方程",
+        "向量",
+        "线性变换",
+        "预备知识"
+      ],
+      "path": "linear-algebra/ch00-linear-algebra-prerequisites",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲线代_新书签.pdf",
+        "basis": "PDF 书签目录核验；第0—6讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.linear-algebra.ch01",
+      "module": "linear-algebra",
+      "number": 1,
+      "title": "行列式",
+      "aliases": [
+        "线代第一章",
+        "行列式"
+      ],
+      "keywords": [
+        "行列式性质",
+        "展开定理",
+        "克拉默法则"
+      ],
+      "path": "linear-algebra/ch01-determinants",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲线代_新书签.pdf",
+        "basis": "PDF 书签目录核验；第0—6讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.linear-algebra.ch02",
+      "module": "linear-algebra",
+      "number": 2,
+      "title": "矩阵",
+      "aliases": [
+        "线代第二章",
+        "矩阵"
+      ],
+      "keywords": [
+        "矩阵运算",
+        "逆矩阵",
+        "秩",
+        "初等变换",
+        "分块矩阵"
+      ],
+      "path": "linear-algebra/ch02-matrices",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲线代_新书签.pdf",
+        "basis": "PDF 书签目录核验；第0—6讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.linear-algebra.ch03",
+      "module": "linear-algebra",
+      "number": 3,
+      "title": "向量组",
+      "aliases": [
+        "线代第三章",
+        "向量组"
+      ],
+      "keywords": [
+        "线性相关",
+        "线性无关",
+        "极大无关组",
+        "向量空间"
+      ],
+      "path": "linear-algebra/ch03-vector-systems",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲线代_新书签.pdf",
+        "basis": "PDF 书签目录核验；第0—6讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.linear-algebra.ch04",
+      "module": "linear-algebra",
+      "number": 4,
+      "title": "线性方程组",
+      "aliases": [
+        "线代第四章",
+        "线性方程组"
+      ],
+      "keywords": [
+        "齐次方程组",
+        "非齐次方程组",
+        "基础解系",
+        "公共解"
+      ],
+      "path": "linear-algebra/ch04-linear-equations",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲线代_新书签.pdf",
+        "basis": "PDF 书签目录核验；第0—6讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.linear-algebra.ch05",
+      "module": "linear-algebra",
+      "number": 5,
+      "title": "特征值与特征向量",
+      "aliases": [
+        "线代第五章",
+        "特征值与特征向量"
+      ],
+      "keywords": [
+        "相似",
+        "对角化",
+        "实对称矩阵",
+        "正交变换"
+      ],
+      "path": "linear-algebra/ch05-eigenvalues-eigenvectors",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲线代_新书签.pdf",
+        "basis": "PDF 书签目录核验；第0—6讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    },
+    {
+      "chapter_id": "math2.linear-algebra.ch06",
+      "module": "linear-algebra",
+      "number": 6,
+      "title": "二次型",
+      "aliases": [
+        "线代第六章",
+        "二次型"
+      ],
+      "keywords": [
+        "标准形",
+        "规范形",
+        "合同",
+        "正定"
+      ],
+      "path": "linear-algebra/ch06-quadratic-forms",
+      "framework_status": "ready",
+      "organization_status": "skeleton",
+      "accepted_review_count": 0,
+      "source_basis": {
+        "path": "数二/27张宇基础30讲线代_新书签.pdf",
+        "basis": "PDF 书签目录核验；第0—6讲"
+      },
+      "updated_at": "2026-08-19T20:30:00+08:00",
+      "recorded_at": "2026-08-19T20:05:01+08:00",
+      "record_time_zone": "Asia/Shanghai"
+    }
+  ],
+  "framework_status": "ready",
+  "excluded_units": [
+    {
+      "title": "无穷级数",
+      "reason": "当前讲义标注仅数学一、数学三，不属于数学二"
+    },
+    {
+      "title": "多元函数积分学的预备知识",
+      "reason": "当前讲义标注仅数学一，不属于数学二"
+    },
+    {
+      "title": "多元函数积分学",
+      "reason": "当前讲义标注仅数学一，不属于数学二"
+    }
+  ],
+  "recorded_at": "2026-08-21T02:08:25+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "confirmed-archive"
+}

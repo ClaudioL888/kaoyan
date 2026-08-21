@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.1",
+  "chapter_id": "math2.linear-algebra.ch06",
+  "subject": "math2",
+  "module": "linear-algebra",
+  "number": 6,
+  "title": "二次型",
+  "aliases": [
+    "线代第六章",
+    "二次型"
+  ],
+  "keywords": [
+    "标准形",
+    "规范形",
+    "合同",
+    "正定"
+  ],
+  "framework_status": "ready",
+  "organization_status": "skeleton",
+  "accepted_review_count": 0,
+  "source_basis": {
+    "path": "数二/27张宇基础30讲线代_新书签.pdf",
+    "basis": "PDF 书签目录核验；第0—6讲"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-19T20:30:00+08:00",
+  "confirmed_increment_count": 0,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}

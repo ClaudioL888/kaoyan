@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "frontend_contract_version": "1.0",
+  "review_id": "2026-08-21_1315_2011-full-paper",
+  "dossier_id": "english2.2011-full-paper.20260821",
+  "subject": "english2",
+  "unit_id": "english2.real-tests.2011",
+  "scope": "2011年英语二整卷Q1—48",
+  "template_id": "english2_review_prompt",
+  "template_version": "1.0",
+  "accepted_at": "2026-08-21T13:15:28+08:00",
+  "source_thread_id": "01a018f4-8ce1-78c0-8869-f087614ae2b7",
+  "delegated_from_thread_id": "01a02026-8f34-7320-b9f5-f478623677c1",
+  "source_materials": [
+    {
+      "role": "original-paper",
+      "path": "英二/真题/2011年考研英语二.pdf",
+      "note": "原卷题面优先；Q48图表通过高分辨率页面渲染完成视觉核验"
+    },
+    {
+      "role": "local-analysis",
+      "path": "英二/解析/2011年考研英语二真题解析.pdf",
+      "note": "仅作为答案与解析来源；不替代原卷题面"
+    }
+  ],
+  "source_status": {
+    "original_analysis_conflict_count": 0,
+    "ai_answer_correction_count": 0,
+    "q48_visual_verification": "原卷图表经高分辨率页面渲染核验；柱体无精确数字标签，按近似值保存"
+  },
+  "derived_record_ids": [
+    "english2-2011-cloze-logic-relations-20260821-131528",
+    "english2-2011-cloze-later-context-20260821-131528",
+    "english2-2011-partb-viewpoint-ownership-20260821-131528",
+    "english2-2011-partb-opposition-inference-20260821-131528",
+    "english2-2011-translation-result-chain-20260821-131528",
+    "english2-2011-writinga-congratulation-advice-20260821-131528",
+    "english2-2011-writingb-percentage-points-20260821-131528",
+    "english2-2011-writingb-three-object-comparison-20260821-131528"
+  ],
+  "artifact_status": "exact-assembled",
+  "user_accuracy_confirmed": true,
+  "user_archive_authorized": true,
+  "review_path": "2026-08-21_1315_2011-full-paper.md",
+  "segment_count": 9,
+  "segments": [
+    {
+      "sequence": 1,
+      "revision": 1,
+      "scope": "Section I Use of English Q1-20",
+      "turn_id": "01a02295-ec2d-77a3-854d-731bd40eddb2",
+      "item_id": "item-755",
+      "character_count": 13392,
+      "normalized_sha256": "6a74df22015e2719cd8db992b9c1794bb84603d39d51c69fc8c52c6b018f3fe9"
+    },
+    {
+      "sequence": 2,
+      "revision": 1,
+      "scope": "Section II Part A Text 1 Q21-25",
+      "turn_id": "01a0229d-bd9a-7401-a15a-0402991e5c96",
+      "item_id": "item-761",
+      "character_count": 10520,
+      "normalized_sha256": "22374f6a0a2a4da1cd9cd47ccb255ef904b136610e70da561f27f92b1c19a336"
+    },
+    {
+      "sequence": 3,
+      "revision": 1,
+      "scope": "Section II Part A Text 2 Q26-30",
+      "turn_id": "01a022a1-7a48-7943-8083-f871bdb276b8",
+      "item_id": "item-767",
+      "character_count": 10434,
+      "normalized_sha256": "7ea7432c0f6f78075b02e5284a4f999c5a11890b690585d6a829a06acfada942"
+    },
+    {
+      "sequence": 4,
+      "revision": 1,
+      "scope": "Section II Part A Text 3 Q31-35",
+      "turn_id": "01a022a5-0614-7882-8249-439c9a081542",
+      "item_id": "item-774",
+      "character_count": 8456,
+      "normalized_sha256": "9d8312af44e7997b880eca267826846c42d553a53f96e5a084139a754b85cdbd"
+    },
+    {
+      "sequence": 5,
+      "revision": 1,
+      "scope": "Section II Part A Text 4 Q36-40",
+      "turn_id": "01a022a8-ac3a-7210-a2bf-bfcf444f6fe5",
+      "item_id": "item-781",
+      "character_count": 8967,
+      "normalized_sha256": "83f8b2e4b816a0e37cb69a82a81005077ecaf165034017f0d0c63f8cd85be352"
+    },
+    {
+      "sequence": 6,
+      "revision": 1,
+      "scope": "Section II Part B Q41-45",
+      "turn_id": "01a022ab-fbfb-74b3-a0bd-8b005530150e",
+      "item_id": "item-787",
+      "character_count": 10201,
+      "normalized_sha256": "dfc81d9f75d33b2d232800d552870b0cb383ec1f2a35819bc5b608b808daf67f"
+    },
+    {
+      "sequence": 7,
+      "revision": 1,
+      "scope": "Section III Translation Q46",
+      "turn_id": "01a022b0-00d6-70e0-aff6-00cd6ca96d44",
+      "item_id": "item-793",
+      "character_count": 9705,
+      "normalized_sha256": "2716812b5d72ce792eb05af8e779216cdde7043f804a2ec7c7341dc7ed221c35"
+    },
+    {
+      "sequence": 8,
+      "revision": 1,
+      "scope": "Section IV Writing Q47-Q48",
+      "turn_id": "01a022b4-7b5b-7e03-902b-bfe9a5483645",
+      "item_id": "item-801",
+      "character_count": 7494,
+      "normalized_sha256": "4d7a77fa204aa281e5656e878f4e27ffbf9a9c22a1bd89209412201e1d9d9bd5"
+    },
+    {
+      "sequence": 9,
+      "revision": 1,
+      "scope": "2011 full paper unified classification and final coverage audit",
+      "turn_id": "01a022b8-903e-7e51-a4f3-3c9ae964039e",
+      "item_id": "item-806",
+      "character_count": 8627,
+      "normalized_sha256": "747e2624bdb376125a7bc49daad93f007c81556d73c38506db0131723e07d4e7"
+    }
+  ],
+  "assembled_character_count": 87812,
+  "assembled_normalized_sha256": "95e18ecaefe956cc3a8f862a57365c83c41df166dea3c9567522398071fa01ed",
+  "archived_file_sha256": "9a1371e6b7e23625256eff2bf5c5b09bceec9443f0fd60301754e5acf10a073e"
+}

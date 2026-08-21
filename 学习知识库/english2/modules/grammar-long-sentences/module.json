@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.1",
+  "module_id": "english2.grammar",
+  "subject": "english2",
+  "title": "语法与长难句",
+  "aliases": [
+    "长难句",
+    "句法"
+  ],
+  "keywords": [
+    "主干",
+    "从句",
+    "非谓语",
+    "指代",
+    "逻辑关系"
+  ],
+  "framework_status": "ready",
+  "organization_status": "partially-organized",
+  "accepted_review_refs": [
+    "2026-08-21_1315_2011-full-paper"
+  ],
+  "source_basis": {
+    "path": "英二/01_英语二备考计划_资料与作答指南.md",
+    "basis": "按真题题型与基础能力模块建立，不伪造教材章号"
+  },
+  "skeleton_created_at": "2026-08-19T20:30:00+08:00",
+  "updated_at": "2026-08-21T13:15:28+08:00",
+  "confirmed_increment_count": 0,
+  "recorded_at": "2026-08-19T20:05:01+08:00",
+  "record_time_zone": "Asia/Shanghai",
+  "record_time_status": "backfilled-existing"
+}
