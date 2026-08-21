@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.09",
+  "category": "strength",
+  "number": "9",
+  "question_text": "设当 \\(x\\to0\\) 时，\\(\\int_0^x(e^{\\cos t^2}-e^t)dt\\) 与 \\(ax^b\\) 是等价无穷小，则 \\((a,b)=\\)（ ）。\n（A）\\((-\\frac16,3)\\) （B）\\((-\\frac1{24},4)\\) （C）\\((-\\frac12,5)\\) （D）\\((-\\frac1{12},6)\\)",
+  "solution_text": "7.【解析续】由 \\(f/g\\to1\\)，\\(\\frac{\\int_0^x f(t)(1-\\cos t)dt}{\\int_0^x t^2g(t)dt}\\to1/2\\)。8.【答案】C。\\(a\\int_0^{x^2}\\cos t^2dt\\sim ax^2\\)，\\(\\sin x-b\\ln(1+x)=(1-b)x+\\frac b2x^2+o(x^2)\\)，得 \\(a=1/2,b=1\\)。9.【答案】D。\\(e^{t\\cos t^2}-e^t\\sim-\\frac12t^3\\)，积分为 \\(-x^6/12\\)，故 \\((a,b)=(-1/12,6)\\)。10.【答案】−15。由 \\(x=3\\) 分子分母同时为0得 \\(a=-3,b=5\\)，故 \\(ab=-15\\)。11.【解析】由题设 \\(\\lim\\frac{\\ln[\\cos x+f(x)/x]}{x^2}=-1\\)，推出 \\(\\lim f(x)/\\sin^3x=-1/2\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    64
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    162
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "积分阶数与展开",
+  "method": "先展开被积函数再积分",
+  "item_specific_analysis": "e^{cos t²}−e^t~−t²/2，积分上限 x 给 −x³/6，故 (a,b)=(-1/12,6)。",
+  "high_risk_audit_status": "passed"
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "q.ch03.strong.01",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "strong",
+  "question_number": 1,
+  "question_text": "函数 f(x)=(e^x−1)|x³−x²+x| 的不可导点的个数为（ ）。 A0 B1 C2 D3。",
+  "solution_text": "将 |x³−x²+x|=|x|(x²−x+1)，后因子恒正，仅 x=0 可能不可导；极限差商为0，故可导，个数0。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    69
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    177
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "choice",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "A：0",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.strong.01.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题strong第1题的对象是：函数 f(x)=(e^x−1)|x³−x²+x| 的不可导点的个数为（ ）。 A0 B1 C2 D3。；关键答案为 A：0。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：将 |x³−x²+x|=|x|(x²−x+1)，后因子恒正，仅 x=0 可能不可导；极限差商为0，故可导，个数0。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  }
+}

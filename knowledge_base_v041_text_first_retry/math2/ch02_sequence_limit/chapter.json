@@ -1,0 +1,91 @@
+{
+  "chapter_id": "math2.ch02",
+  "chapter_title": "数列极限",
+  "subject": "math2",
+  "workflow_version": "V0.4.1",
+  "status": "first_draft_accepted",
+  "scope_frozen_at": "2026-08-18",
+  "scope_basis": "visual_confirmation_of_chapter_boundaries",
+  "denominators": {
+    "1000_basic_questions": 12,
+    "1000_strengthened_questions": 11,
+    "textbook_examples": 25,
+    "textbook_core_pages": 23,
+    "total_1000_questions": 23
+  },
+  "source_files": [
+    {
+      "source_id": "src.math2.textbook_ch02",
+      "file": "数二/27张宇基础30讲（高数）_新书签.pdf",
+      "sha256": "B13F13B1E299DD60D6BD48BF3ED7A3534E1E33876B62B45A2CDF81DFA141B539"
+    },
+    {
+      "source_id": "src.math2.textbook_examples_ch02",
+      "file": "数二/张宇30讲高数例题.pdf",
+      "sha256": "70C4752E04DF1E095116558AD794C686286B2ED2221954D9942904ABC8A875E4"
+    },
+    {
+      "source_id": "src.math2.1000_questions",
+      "file": "数二/27张宇1000题数二【试题册】.pdf",
+      "sha256": "73D293F7BD54120E17704795E466683F89AE14E4BA777011D32D3A881C17667A"
+    },
+    {
+      "source_id": "src.math2.1000_solutions",
+      "file": "数二/27张宇1000题数二【解析册】-带书签.pdf",
+      "sha256": "729C656C0EEFDE7DF47708F93EF223BA2375EE41BC602FE61B49FE38652F994C"
+    }
+  ],
+  "excluded_sources": [
+    "李林880及其解析、题面或任何派生页图"
+  ],
+  "started_at": "2026-08-18T00:00:00+08:00",
+  "lanes": [
+    "terra_a_questions",
+    "terra_b_textbook"
+  ],
+  "merged_at": "2026-08-18T18:58:56.4290673+08:00",
+  "acceptance_gate": "gate9_passed",
+  "audit_summary": {
+    "audit_rows": 90,
+    "pass": 90,
+    "historical_pass": 52,
+    "historical_nonpass_resolved": 38,
+    "needs_correction": 0,
+    "error": 0,
+    "unresolved": 0,
+    "obvious_corrections_applied": [
+      "ex.ch02.2.5 official answer and review",
+      "q.c02.advanced.003 question figure presence"
+    ],
+    "remaining_high_priority": null
+  },
+  "core_augmentation": {
+    "added_definitions": 0,
+    "rewritten_definitions": 1,
+    "added_formulas": 11,
+    "added_notes": 7,
+    "added_conclusions": 5,
+    "conditions_added": true,
+    "source_page_visual_basis": "原始教材 PDF 视觉复核 p83,p84,p87-p94,p96,p102；未重读其他白名单来源"
+  },
+  "core_repair": {
+    "repaired_at": "2026-08-18T20:13:44.6384877+08:00",
+    "audit_input": "reports/sol_audit_summary.md",
+    "scope": "仅教材核心实体、公式适用条件、来源 ID 一致性及已知例题/配图修正；未重新生成23道1000题，未调用Sol。",
+    "local_validation": "35/35 formulas KaTeX compiled; 23/23 textbook core pages complete; root JSONL parsed; root IDs unique",
+    "status_reason": "2026-08-18 Gate 9 已基于当前磁盘文件、白名单 PDF 页数/哈希、逐项 Sol 修正闭环和严格 KaTeX 编译完成。"
+  },
+  "accepted_at": "2026-08-18T20:37:05.9084931+08:00",
+  "end_at": "2026-08-18T20:37:05.9084931+08:00",
+  "acceptance_report": "reports/acceptance_report.md",
+  "gate9_validation": {
+    "questions": 23,
+    "examples_and_exercises": 25,
+    "textbook_core_pages": 23,
+    "katex_checked": 89,
+    "katex_failures": 0,
+    "sol_audit_rows": 90,
+    "sol_unresolved": 0,
+    "needs_review": 0
+  }
+}

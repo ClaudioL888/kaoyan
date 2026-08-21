@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.21",
+  "category": "basic",
+  "number": "21",
+  "question_text": "函数 \\(f(x)=\\frac{|x|^x-1}{x(x+1)\\ln|x|}\\) 的可去间断点的个数为（ ）。\n（A）0  （B）1  （C）2  （D）3",
+  "solution_text": "22.【答案】C。间断点为 \\(x=0,-2,1\\)；在 \\(x=0\\) 极限有限，在 \\(x=-2,1\\) 为无穷间断。23.【答案】B。按 \\(x>0,x=0,x<0\\) 分别得 \\(f(x)=1,1/2,x\\)，故 \\(x=0\\) 为跳跃间断点。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    17
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "间断点分类",
+  "method": "逐点检查 x=−1,0,1",
+  "item_specific_analysis": "x=−1 为无穷间断；x=0、1 的极限有限而函数未定义/不匹配，均可去，共2个。",
+  "high_risk_audit_status": "passed"
+}

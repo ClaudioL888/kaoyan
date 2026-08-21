@@ -1,0 +1,42 @@
+{
+  "id": "exm.3.5",
+  "title": "教材例题3.5",
+  "question_text": "f在x=a连续，F(x)=f(x)|x-a|，判断 f(a)=0 是 F 在 a 可导的什么条件。",
+  "solution_text": "左右差商分别为 -f(a)、f(a)，相等当且仅当 f(a)=0。",
+  "official_answer_text_or_katex": "A",
+  "answer_kind": "choice",
+  "answer_confirmation": "source_page_confirmed",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    42
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    112
+  ],
+  "mapping_status": "page_range_assigned",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "not_required",
+  "item_specific_analysis": {
+    "what_tested": "教材例题3.5的具体条件判断",
+    "first_step": "写出题设函数和差商/切线表达式",
+    "official_key": "左右差商分别为 -f(a)、f(a)，相等当且仅当 f(a)=0。",
+    "decision_step": "比较左右极限、周期奇偶性或线性主部",
+    "trap": "忽略分段点或把充分条件误写为必要条件",
+    "transfer_boundary": "仅在题设可导/连续/周期条件成立时迁移"
+  },
+  "status": "reviewed_source_confirmed",
+  "item_id": "exm.3.5",
+  "chapter_id": "ch03_derivative_concept",
+  "source_lane": "terra_b_textbook",
+  "example_id": "exm.3.5",
+  "category": "textbook_example",
+  "question_source_id": "src.example.question",
+  "solution_source_id": "src.textbook",
+  "requested_outputs": "选择题的选项字母及其对应结论",
+  "answer_source_mapping_id": "map.exm.3.5.solution",
+  "ai_review": {
+    "item_specific_analysis": "考查：教材例题3.5的具体条件判断；第一步：写出题设函数和差商/切线表达式；官方关键：左右差商分别为 -f(a)、f(a)，相等当且仅当 f(a)=0。；决定步骤：比较左右极限、周期奇偶性或线性主部；易错点：忽略分段点或把充分条件误写为必要条件；迁移边界：仅在题设可导/连续/周期条件成立时迁移"
+  }
+}

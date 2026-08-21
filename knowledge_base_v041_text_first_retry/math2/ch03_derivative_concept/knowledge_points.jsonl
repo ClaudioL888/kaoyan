@@ -1,0 +1,7 @@
+{"id":"kp.derivative.definition","title":"导数定义","kind":"definition","text":"设 y=f(x) 在 I 上，x0∈I 且 x0+Δx∈I。若 Δy=f(x0+Δx)-f(x0) 与 Δx 的比值在 Δx→0 时极限存在，则称 f 在 x0 可导，该极限为 f 在 x0 的导数。","source_id":"src.textbook","source_pages":[106,107],"conditions":"差商双侧极限存在","status":"source_page_confirmed"}
+{"id":"kp.one_sided_derivative","title":"单侧导数","kind":"definition","text":"左导数和右导数分别取 Δx→0^-、Δx→0^+ 的差商极限；二者存在且相等时导数存在。","source_id":"src.textbook","source_pages":[107],"conditions":"","status":"source_page_confirmed"}
+{"id":"kp.tangent_meaning","title":"导数的几何意义","kind":"definition","text":"f'(x0) 是曲线 y=f(x) 在 (x0,f(x0)) 处切线的斜率。","source_id":"src.textbook","source_pages":[115],"conditions":"","status":"source_page_confirmed"}
+{"id":"kp.higher_derivative","title":"高阶导数","kind":"definition","text":"二阶导数是 f'(x) 的导数，n 阶导数是 (n-1) 阶导数的导数。","source_id":"src.textbook","source_pages":[117],"conditions":"","status":"source_page_confirmed"}
+{"id":"kp.differential","title":"微分定义","kind":"definition","text":"若 Δy=AΔx+o(Δx)，则 f 在 x0 可微，dy=AΔx=f'(x0)dx。","source_id":"src.textbook","source_pages":[118,119],"conditions":"Δx→0","status":"source_page_confirmed"}
+{"id":"kp.continuity_relation","title":"可导与连续","kind":"definition","text":"函数在一点可导必在该点连续，连续不是可导的充分条件。","source_id":"src.textbook","source_pages":[108,113],"conditions":"","status":"source_page_confirmed"}
+{"id":"kp.absolute_value","title":"绝对值判别","kind":"definition","text":"f 在 x0 可导时，f(x0)≠0 则 |f| 可导；f(x0)=0 时还需 f'(x0)=0。","source_id":"src.textbook","source_pages":[113,114],"conditions":"","status":"source_page_confirmed"}

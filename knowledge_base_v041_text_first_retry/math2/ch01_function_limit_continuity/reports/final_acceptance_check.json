@@ -1,0 +1,13 @@
+{
+  "katex_passed": true,
+  "formal_formula_count": 26,
+  "core_checked": 75,
+  "core_total": 75,
+  "example_solutions": 32,
+  "example_total": 32,
+  "package_count": 61,
+  "package_reviewed": 61,
+  "package_pending": 0,
+  "acceptance_report_exists": true,
+  "efficiency_report_exists": true
+}

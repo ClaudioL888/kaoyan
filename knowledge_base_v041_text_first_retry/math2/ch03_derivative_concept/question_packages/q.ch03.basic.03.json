@@ -1,0 +1,33 @@
+{
+  "item_id": "q.ch03.basic.03",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "basic",
+  "question_number": 3,
+  "question_text": "设连续函数 f(x) 满足 lim_{x→2} ln(x−1)/f(3−x)=2，且 f(1)=0，则 f'(1) 的值为（ ）。 A 2 B −2 C 1/2 D −1/2。",
+  "solution_text": "令 Δx=x−2，则 ln(1+Δx)/[Δx·f(1−Δx)]→2，故 1/f(1)=2f'(1)，f'(1)=−1/2。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    14
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    21
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "choice",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "D：−1/2",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.basic.03.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题basic第3题的对象是：设连续函数 f(x) 满足 lim_{x→2} ln(x−1)/f(3−x)=2，且 f(1)=0，则 f'(；关键答案为 D：−1/2。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：令 Δx=x−2，则 ln(1+Δx)/[Δx·f(1−Δx)]→2，故 1/f(1)=2f'(1)，f'(1)=−1/2。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  },
+  "source_lane": "terra_a_questions",
+  "question_source_id": "src.1000q.question",
+  "solution_source_id": "src.1000q.solution"
+}

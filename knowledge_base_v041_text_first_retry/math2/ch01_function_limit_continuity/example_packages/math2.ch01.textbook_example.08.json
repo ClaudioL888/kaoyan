@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.08",
+  "category": "textbook_example",
+  "number": "例1.8",
+  "question_text": "例1.8：设对任意 \\(x,y\\)，都有 \\(f(x+y)=f(x)+f(y)\\)，证明：\\(f(x)\\) 是奇函数。",
+  "solution_text": "官方解答：令 \\(x=y=0\\)，由 \\(f(x+y)=f(x)+f(y)\\) 得 \\(f(0)=f(0)+f(0)\\)，于是 \\(f(0)=0\\)。再令 \\(y=-x\\)，得 \\(f(0)=f(x)+f(-x)\\)，即 \\(f(-x)=-f(x)\\)，故 \\(f(x)\\) 是奇函数。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    4
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    19
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "\\(f(x)\\) 为奇函数。",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

@@ -1,0 +1,26 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.03",
+  "category": "textbook_example",
+  "number": "1.3",
+  "question_text": "1.3 设函数 \\(f(x)=\\frac1{e^{1/x}-1}\\)，则（A）\\(x=0,x=1\\) 都是第一类间断点（B）都为第二类（C）\\(x=0\\)第一类、\\(x=1\\)第二类（D）\\(x=0\\)第二类、\\(x=1\\)第一类。",
+  "solution_text": "官方解答：仅需讨论无定义点 \\(x=0,1\\)。\\(\\lim_{x\\to0}f(x)=\\lim_{x\\to0}\\frac1{e^{1/x}-1}\\) 不存在（分别趋近 \\(0\\) 与 \\(-1\\)），故 \\(0\\) 为第二类间断点；\\(\\lim_{x\\to1^+}f(x)=0\\)，\\(\\lim_{x\\to1^-}f(x)=-1\\)，故 \\(1\\) 为第一类间断点，选 \\((D)\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    21
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    76,
+    77
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "(D)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [
+    "rel.exercise03.discontinuity"
+  ],
+  "package_status": "assembled_source_page_confirmed"
+}

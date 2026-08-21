@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.06",
+  "category": "basic",
+  "number": "6",
+  "question_text": "下列极限存在的是：（A）\\(\\lim_{x\\to0}\\frac{\\sin x}{|x|}\\arctan\\frac1{|x|}\\)；（B）\\(\\lim_{x\\to0}\\frac{\\sin x}{x}\\arctan\\frac1x\\)；（C）\\(\\lim_{x\\to0}\\frac{|\\sin x|}{|x|}\\arctan\\frac1x\\)；（D）\\(\\lim_{x\\to0}\\frac{|\\sin x|}{x}\\arctan\\frac1x\\)。",
+  "solution_text": "第1章 函数极限与连续（基础篇）\n1.【答案】D。解析：\\(f(x)\\) 无界；\\(x^2e^{\\cos x}\\) 为偶函数、\\(\\tan x\\) 为奇函数，乘积为奇函数，选D。\n2.【解析】当 \\(-2\\le x<0\\) 时，\\(0\\le x+2<2\\)，\\(f(x)=-\\frac12f(x+2)=-\\frac12(x+2)[(x+2)^2-4]=-\frac12x(x+2)(x+4)\\)。\n3.【解析】值域分段为 \\((-infty,-1)\\)、\\([-1,8]\\)、\\((8,+\\infty)\\)，反函数\n\\[g(x)=\\begin{cases}-\\sqrt{\\frac{1-x}{2}},&x<-1,\\\\\\sqrt[3]x,&-1\\le x\\le8,\\\\\\frac{x+16}{12},&x>8.\\end{cases}\\]\n4.【解析】当 \\(x\\in[\\pi,2\\pi)\\)，\\(f(x)=x-\\pi+\\sin x\\)；当 \\(x\\in[2\\pi,3\\pi)\\)，\\(f(x)=x-2\\pi\\)。故\n\\[f(x)=\\begin{cases}x-\\pi+\\sin x,&x\\in[\\pi,2\\pi),\\\\x-2\\pi,&x\\in[2\\pi,3\\pi).\\end{cases}\\]\n5.【答案】C。\\(\\lim_{x\\to0}\\frac{e-e^{\\cos x}}{\\sqrt[3]{1+x^2}-1}=\\frac{3e}{2}\\)，故同阶但非等价。\n6.【答案】D。\\(\\lim_{x\\to0^+}\\frac{|\\sin x|}{x}\\arctan\\frac1x=1\\cdot\\frac\\pi2=\\frac\\pi2\\)，其余选项左右极限不一致或不存在。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    11
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    13
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "左右极限存在性",
+  "method": "分左右趋近并分别判断符号",
+  "item_specific_analysis": "关键对象是 |sin x|/x 与 arctan(1/x) 的符号：D 两侧符号相乘均给 π/2，其余选项至少一侧振荡或符号不一致。",
+  "high_risk_audit_status": "passed"
+}

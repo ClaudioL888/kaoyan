@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.04",
+  "category": "strength",
+  "number": "4",
+  "question_text": "计算 \\(\\lim_{x\\to0}\\frac{\\int_0^x[e^{(t-x)^2}-1]\\sin t\\,dt}{x^2(e^{x^2}-1)}\\)。",
+  "solution_text": "4.【解析】令 \\(u=x-t\\)，积分变为 \\(\\int_0^x(e^{u^2}-1)\\sin(x-u)du\\)，分部积分及积分中值定理得原式 \\(1/12\\)。5.【答案】\\(e^3\\)。由已知极限得 \\(\\lim f(x)/x=3\\)，故 \\([1+f(x)/x]^{1/x}\\to e^3\\)。6.【分析/解析】变换积分次序并用洛必达法则：\\(\\lim\\frac{\\int_3^x[t\\int_3^t f(s)ds]dt}{(3-x)^3}=\\lim\\frac{2f(x)+xf'(x)}6=2008\\)。7.【答案】B。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    63
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    161
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "变上限积分极限",
+  "method": "换元并对积分核作等价展开",
+  "item_specific_analysis": "e^{(t−x)²}−1~(t−x)²，分部整理后分子首项 x⁴/12，分母~x⁴，结果1/12。",
+  "high_risk_audit_status": "passed"
+}

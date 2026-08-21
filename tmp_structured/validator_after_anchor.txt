@@ -1,0 +1,127 @@
+{"questions": 61, "examples": 38, "knowledge_nodes": 9, "problem_types": 16, "textbook_passages": 56, "textbook_pages": 66, "source_documents": 4, "source_pages": 108, "evidence_regions": 139, "formulas": 89, "figures_and_tables": 31, "solution_steps": 620, "source_anchors": 218, "conclusions": 106, "question_passage_links": 291, "step_passage_links": 801, "localized_regions": 0, "conclusions_with_passage_sources": 106, "links": 4225, "reviews": 6, "asset_references": 152, "errors": 126}
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E08-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E09-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E10-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E10-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E11-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E12-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E13-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E14-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E14-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E15-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E15-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E16-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E17-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E18-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E18-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E19-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E20-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E21-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E21-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E22-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E23-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E23-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E24-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E25-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E26-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E27-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E27-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E28-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E28-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E29-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E30-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E31-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E32-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E32-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E33-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E34-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E34-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E35-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E35-OFFICIAL_SOLUTION-02 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E36-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E37-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: anchor ANCHOR-M2-ZY30EX-C01-E38-OFFICIAL_SOLUTION-01 缺少字段: source_page_id, evidence_region_id
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E08-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E08-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E09-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E09-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E10-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E10-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E10-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E10-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E11-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E11-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E12-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E12-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E13-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E13-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E14-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E14-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E14-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E14-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E15-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E15-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E15-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E15-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E16-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E16-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E17-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E17-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E18-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E18-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E18-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E18-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E19-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E19-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E20-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E20-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E21-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E21-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E21-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E21-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E22-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E22-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E23-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E23-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E23-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E23-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E24-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E24-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E25-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E25-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E26-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E26-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E27-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E27-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E27-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E27-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E28-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E28-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E28-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E28-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E29-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E29-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E30-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E30-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E31-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E31-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E32-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E32-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E32-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E32-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E33-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E33-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E34-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E34-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E34-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E34-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E35-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E35-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E35-OFFICIAL_SOLUTION-02 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E35-OFFICIAL_SOLUTION-02 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E36-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E36-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E37-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E37-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E38-OFFICIAL_SOLUTION-01 的 source_page_id 不存在: None
+ERROR: 来源锚点 ANCHOR-M2-ZY30EX-C01-E38-OFFICIAL_SOLUTION-01 的 evidence_region_id 不存在: None

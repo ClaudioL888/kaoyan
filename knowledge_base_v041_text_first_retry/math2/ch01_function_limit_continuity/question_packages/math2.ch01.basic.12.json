@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.12",
+  "category": "basic",
+  "number": "12",
+  "question_text": "\\(\\lim_{x\\to0}\\left(\\frac{\\arctan x}{x}\\right)^{\\frac1{\\tan^2x}}=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "11.【解析续】\\(\\sqrt{1+2x}-\\sqrt[3]{1+3x}=\\frac12x^2+o(x^2)\\)，故极限为 \\(1/2\\)。12.【答案】\\(e^{-1/3}\\)。\\(\\lim(\\arctan x/x)^{1/\\tan^2x}=e^{\\lim(\\arctan x/x-1)/\\tan^2x}=e^{-1/3}\\)。13.【答案】17。令分子在 \\(x=-2\\) 为0得 \\(a=1\\)，再求商极限得 \\(b=17\\)，故 \\(ab=17\\)。14.【答案】\\(1/2\\)。有理化并用 \\(\\tan x-\\sin x\\)、\\(x-\\ln(1+x)\\) 的等价无穷小，极限为 \\(1/2\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    14
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "幂指型未定式",
+  "method": "先取对数再用 arctan x/x 与 tan x~x",
+  "item_specific_analysis": "指数为 [ln(arctan x/x)]/tan²x→−1/3，原极限为 e^{-1/3}。",
+  "high_risk_audit_status": "passed"
+}

@@ -1,0 +1,26 @@
+x^2+\frac1{x^2}=\left(x+\frac1x\right)^2-2
+f^{-1}(x)=\frac12(e^x-e^{-x})
+(x_1-x_2)\bigl[f(x_1)-f(x_2)\bigr]\begin{cases}>0,&\text{increasing}\\<0,&\text{decreasing}\\\ge0,&\text{nondecreasing}\\\le0,&\text{nonincreasing}\end{cases}
+f(-x)\text{ is the }y\text{-axis reflection of }f(x),\quad -f(-x)\text{ is its origin reflection}
+u(x)=\frac12[f(x)+f(-x)],\quad v(x)=\frac12[f(x)-f(-x)],\quad f(x)=u(x)+v(x)
+\sin(x+2\pi)=\sin x,\quad\sin(x+\pi)=-\sin x
+a^0=1,\ e^0=1;\quad a^\alpha a^\beta=a^{\alpha+\beta},\ \frac{a^\alpha}{a^\beta}=a^{\alpha-\beta},\ (a^\alpha)^\beta=a^{\alpha\beta},\ (ab)^\alpha=a^\alpha b^\alpha,\ \left(\frac ab\right)^\alpha=\frac{a^\alpha}{b^\alpha}
+\log_a(MN)=\log_aM+\log_aN,\quad\log_a\frac MN=\log_aM-\log_aN,\quad\log_a(M^n)=n\log_aM,\quad x=e^{\ln x}\ (x>0),\quad u^v=e^{v\ln u}\ (u>0)
+e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!},\quad x\in\mathbb R
+\sin^2\alpha+\cos^2\alpha=1
+1+\tan^2\alpha=\sec^2\alpha,\quad1+\cot^2\alpha=\csc^2\alpha
+\sin(\arcsin x)=x,\quad\sin(\arccos x)=\sqrt{1-x^2},\quad\cos(\arccos x)=x,\quad\cos(\arcsin x)=\sqrt{1-x^2},\quad\arcsin x+\arccos x=\frac\pi2
+\arctan x+\operatorname{arccot}x=\frac\pi2;\quad\lim_{x\to-\infty}\arctan x=-\frac\pi2,\quad\lim_{x\to+\infty}\arctan x=\frac\pi2
+[x+n]=[x]+n\ (n\in\mathbb Z),\quad x-1<[x]\le x,\quad\lim_{x\to0^+}[x]=0,\quad\lim_{x\to0^-}[x]=-1
+\lim_{x\to x_0}f(x)=A\iff\forall\varepsilon>0\,\exists\delta>0:\ 0<|x-x_0|<\delta\Rightarrow|f(x)-A|<\varepsilon
+\lim_{x\to x_0}[f(x)\pm g(x)]=A\pm B,\quad\lim_{x\to x_0}f(x)g(x)=AB,\quad\lim_{x\to x_0}\frac{f(x)}{g(x)}=\frac AB\ (B\ne0)
+\sin x\sim x,\ \tan x\sim x,\ \arcsin x\sim x,\ \arctan x\sim x,\ \ln(1+x)\sim x,\ e^x-1\sim x,\ a^x-1\sim x\ln a,\ 1-\cos x\sim\frac{x^2}{2},\ (1+x)^a-1\sim ax\quad(x\to0)
+\lim(kf\pm lg)=kA\pm lB,\quad\lim(fg)=AB,\quad\lim\frac fg=\frac AB\ (B\ne0),\quad\lim[f(x)]^n=[\lim f(x)]^n
+f(x)=f(0)+f\prime(0)x+\frac{f\prime\prime(0)}{2!}x^2+\cdots+\frac{f^{(n)}(0)}{n!}x^n+o(x^n)
+\sin x=x-\frac{x^3}{3!}+o(x^3),\quad\cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}+o(x^4),\quad\ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}+o(x^3),\quad e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+o(x^3)
+\lim_{x\to0}\frac{\sin x}{x}=1,\quad\lim_{x\to\infty}\left(1+\frac1x\right)^x=e
+\ln(1+x)-x\sim-\frac{x^2}{2}\quad(x\to0)
+\lim_{x\to x_0^-}f(x)=\lim_{x\to x_0^+}f(x)=f(x_0)
+x-1<[x]\le x
+\lim_{x\to\infty}\left(1+\frac ax\right)^{bx+d}=e^{ab},\quad\lim_{x\to\infty}\left(\frac{x+a}{x-a}\right)^x=e^{2a}
+\lim u^v=\exp\!\left(\lim v(u-1)\right)\quad(u\to1)

@@ -1,0 +1,4 @@
+{"id":"note.monotonicity.definition_equivalence","kind":"note","page":16,"text":"单调性的上述定义是充要条件；虽可用导数讨论单调性，定义法不可忘，试题也会直接使用定义法判别。"}
+{"id":"note.extrema_transform_tips","kind":"note","page":21,"text":"比较 √u、³√u 时可研究 u；比较 |u| 时可研究 u²；比较 u₁u₂u₃ 时可取 ln(u₁u₂u₃)=lnu₁+lnu₂+lnu₃；比较 1/u 时最大、最小值点相反。"}
+{"id":"note.standard_part_vs_real_calculation","kind":"note","page":37,"text":"普通函数代数先作实数运算，再可作趋核运算；不能直接以“趋近”替代实数表达式，例如 x−sin x 不能先被当成 x−x。"}
+{"id":"note.discontinuity_decision","kind":"note","page":72,"text":"判断间断点须同时考察无定义点、分段点及左右极限；跳跃间断与 f(x₀) 的函数值无关。"}

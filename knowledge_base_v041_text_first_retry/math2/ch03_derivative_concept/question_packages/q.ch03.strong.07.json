@@ -1,0 +1,33 @@
+{
+  "item_id": "q.ch03.strong.07",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "strong",
+  "question_number": 7,
+  "question_text": "设 f(0)=a>0，f'(0)=b，求 lim_{x→0}[f(x)^{f'(x)}−f(0)^{f'(x)}]/x^?（原题按页式）。",
+  "solution_text": "令差式化为 f(0)^{f'(0)}·[f'(0) (f(x)−f(0))/x]，得 b a^a。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    69
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    178
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "calculation_or_proof",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "ba^a",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.strong.07.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题strong第7题的对象是：设 f(0)=a>0，f'(0)=b，求 lim_{x→0}[f(x)^{f'(x)}−f(0)^{f'(x)；关键答案为 ba^a。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：令差式化为 f(0)^{f'(0)}·[f'(0) (f(x)−f(0))/x]，得 b a^a。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  },
+  "source_lane": "terra_a_questions",
+  "question_source_id": "src.1000q.question",
+  "solution_source_id": "src.1000q.solution"
+}

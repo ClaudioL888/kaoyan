@@ -1,0 +1,33 @@
+{
+  "item_id": "q.ch03.basic.15",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "basic",
+  "question_number": 15,
+  "question_text": "设 f(x)=lim_{n→∞}[x²e^{n(x−1)}+ax+b]/[5+e^{n(x−1)}]，求 f(x) 并讨论 f(x) 的连续性及可导性与 a,b 的关系。",
+  "solution_text": "按 x<1、x=1、x>1 分段取极限得 f=x²+ax+b (x<1)，f=(1+a+b)/6 (x=1)，f=x² (x>1)。连续要求 a+b=5；左右导数相等给 a/5=2，故 a=10,b=−5。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    15
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    25
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "calculation_or_proof",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "f(x)={x²+ax+b (x<1); (1+a+b)/6 (x=1); x² (x>1)}；全域连续且可导当且仅当 a=10,b=−5",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.basic.15.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题basic第15题的对象是：设 f(x)=lim_{n→∞}[x²e^{n(x−1)}+ax+b]/[5+e^{n(x−1)}]，求 f(；关键答案为 f(x)={x²+ax+b (x<1); (1+a+b)/6 (x=1); x² (x>1)}；全域连续且可导当且仅当 a=10,b=−5。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：按 x<1、x=1、x>1 分段取极限得 f=x²+ax+b (x<1)，f=(1+a+b)/6 (x=1)，f=x² (x>1)。连续要求 a+b=5；左右导数相等给 a/5=2；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  },
+  "source_lane": "terra_a_questions",
+  "question_source_id": "src.1000q.question",
+  "solution_source_id": "src.1000q.solution"
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "ex.ch02.exercise.2.1",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.exercise.2.1",
+    "category": "textbook_exercise",
+    "item_no": "2.1",
+    "question_text": "lim a_n=0, lim b_n=1，判断四项命题",
+    "solution_text": "B",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      36
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      103
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "choice",
+    "requested_outputs": [
+      "题目要求的全部结果"
+    ],
+    "official_answer_text_or_katex": "B",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.exercise.2.1.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "not_required",
+    "ai_review": "逐项检查四则运算：a_nb_n极限存在，b_n/a_n不保证存在；最终a_n<b_n，故B。",
+    "item_specific_analysis": "逐项检查四则运算：a_nb_n极限存在，b_n/a_n不保证存在；最终a_n<b_n，故B。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      103
+    ]
+  },
+  "audit_status": "reviewed_after_sol_audit",
+  "ai_review": "逐项检查四则运算：a_nb_n极限存在，b_n/a_n不保证存在；最终a_n<b_n，故B。"
+}

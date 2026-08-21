@@ -1,0 +1,4 @@
+{"id":"method.equivalent_infinitesimal","title":"等价无穷小代换","evidence":"教材 p51 常用等价无穷小"}
+{"id":"method.taylor","title":"泰勒展开","evidence":"教材 p57—59 泰勒公式与展开原则"}
+{"id":"method.lhopital","title":"洛必达法则","evidence":"教材 p54 适用条件"}
+{"id":"method.left_right_limit","title":"左右极限比较","evidence":"教材 p71 连续与间断判定"}

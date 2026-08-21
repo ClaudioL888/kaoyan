@@ -1,0 +1,2 @@
+{"questions": 61, "examples": 38, "knowledge_nodes": 9, "problem_types": 16, "textbook_passages": 56, "textbook_pages": 66, "source_documents": 4, "source_pages": 108, "evidence_regions": 139, "formulas": 154, "figures_and_tables": 31, "solution_steps": 691, "source_anchors": 218, "conclusions": 106, "question_passage_links": 291, "step_passage_links": 801, "localized_regions": 0, "conclusions_with_passage_sources": 106, "links": 5061, "reviews": 11, "asset_references": 152, "errors": 0}
+VALIDATION OK

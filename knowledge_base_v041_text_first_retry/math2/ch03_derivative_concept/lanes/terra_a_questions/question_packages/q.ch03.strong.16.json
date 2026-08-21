@@ -1,0 +1,30 @@
+{
+  "item_id": "q.ch03.strong.16",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "strong",
+  "question_number": 16,
+  "question_text": "设 f 在 x=a 可导且 f(a)≠0，计算 I=lim_{x→∞}[f(a+1/x)/f(a)]^x。",
+  "solution_text": "令 t=1/x，取对数：ln I→f'(a)/f(a)，故 I=e^{f'(a)/f(a)}。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    71
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    182
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "calculation_or_proof",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "e^{f'(a)/f(a)}",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.strong.16.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题strong第16题的对象是：设 f 在 x=a 可导且 f(a)≠0，计算 I=lim_{x→∞}[f(a+1/x)/f(a)]^x。；关键答案为 e^{f'(a)/f(a)}。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：令 t=1/x，取对数：ln I→f'(a)/f(a)，故 I=e^{f'(a)/f(a)}。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.05",
+  "category": "textbook_example",
+  "number": "1.5",
+  "question_text": "1.5 设函数 \\(f(x)=\\lim_{n\\to\\infty}\\frac{1+x}{1+x^{2n}}\\)，关于该函数的间断点，正确的是（A）不存在间断点（B）存在间断点x=1（C）存在间断点x=0（D）存在间断点x=−1。",
+  "solution_text": "官方解答：\\(|x|<1\\) 时 \\(x^{2n}\\to0\\)，故 \\(f(x)=1+x\\)；\\(|x|>1\\) 时 \\(x^{2n}\\to\\infty\\)，故 \\(f(x)=0\\)。又 \\(f(1)=1\\)、\\(f(-1)=0\\)，因此 \\(f(x)=\\begin{cases}0,&x\\le-1,\\\\1+x,&-1<x<1,\\\\1,&x=1,\\\\0,&x>1.\\end{cases}\\) 仅 \\(x=1\\) 为间断点，选 \\((B)\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    22
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    77
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "(B)，间断点 x=1",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

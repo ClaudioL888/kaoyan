@@ -1,0 +1,33 @@
+{
+  "id": "ex.3.4",
+  "category": "textbook_exercise",
+  "number": "4",
+  "question_text": "f在x0可导且f'(x0)≠0，比较Δy-dy与dy。",
+  "solution_text": "Δy-dy为高阶无穷小",
+  "official_answer_text_or_katex": "A",
+  "answer_kind": "choice",
+  "answer_confirmation": "source_page_confirmed",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    48
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    122,
+    123,
+    124
+  ],
+  "mapping_status": "page_range_assigned",
+  "question_figure_presence": "false",
+  "solution_figure_presence": "false",
+  "figure_analysis_status": "not_required",
+  "item_specific_analysis": {
+    "what_tested": "习题ex.3.4",
+    "first_step": "写出题设极限或增量表达式",
+    "official_key": "Δy-dy为高阶无穷小",
+    "decision_step": "利用左右差商或等价无穷小",
+    "trap": "忽略分段点、单侧极限或可导条件",
+    "transfer_boundary": "只适用于题设邻域与有界/连续条件"
+  },
+  "status": "reviewed_source_confirmed"
+}

@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.01",
+  "category": "strength",
+  "number": "1",
+  "question_text": "\\(\\lim_{x\\to0}\\left(\\frac{\\arcsin x}{x}\\right)^{\\frac1{\\sin^2x}}=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "第1章 函数极限与连续（强化篇）。1.【答案】\\(e^{1/6}\\)。\\(\\ln(\\arcsin x/x)\\sim(\\arcsin x-x)/x\\)，且 \\(\\lim\\frac{\\arcsin x-x}{x\\sin^2x}=1/6\\)。2.【答案】\\(e^2\\)。由积分中值定理，\\(\\frac1x\\int_0^x(1+\\sin2t)^{1/t}dt=[(1+\\sin2\\theta x)^{1/(2\\theta x)}]^2\\to e^2\\)。3.【答案】\\(e^{-2}\\)。令 \\(u=2\\ln x/x\\)，用洛必达法则得指数为−2。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    63
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    161
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "幂指型极限",
+  "method": "arcsin x−x 的三阶展开",
+  "item_specific_analysis": "ln(arcsin x/x)~x²/6，再除以 sin²x，指数→1/6，结果 e^{1/6}。",
+  "high_risk_audit_status": "passed"
+}

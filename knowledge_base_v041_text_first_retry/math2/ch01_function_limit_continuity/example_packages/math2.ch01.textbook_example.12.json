@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.12",
+  "category": "textbook_example",
+  "number": "例1.12",
+  "question_text": "例1.12：设 \\(y=\\sin x,0\\le x\\le2\\pi\\)，求其所有单调区间上的反函数。",
+  "solution_text": "官方解答：分别讨论 \\(y=\\sin x\\) 在其单调区间上的反函数。当 \\(0\\le x\\le\\frac\\pi2\\) 时，\\(x=\\arcsin y,\\ y\\in[0,1]\\)，反函数为 \\(y=\\arcsin x,\\ x\\in[0,1]\\)。当 \\(\\frac\\pi2<x\\le\\frac{3\\pi}2\\) 时，\\(-\\frac\\pi2<x-\\pi\\le\\frac\\pi2\\)，\\(\\sin(x-\\pi)=-\\sin x=-y\\)，故 \\(x-\\pi=-\\arcsin y\\)，即 \\(x=\\pi-\\arcsin y,\\ y\\in[-1,1)\\)，反函数为 \\(y=\\pi-\\arcsin x,\\ x\\in[-1,1)\\)。当 \\(\\frac{3\\pi}2<x\\le2\\pi\\) 时，\\(-\\frac\\pi2<x-2\\pi\\le0\\)，\\(x-2\\pi=\\arcsin y\\)，故反函数为 \\(y=2\\pi+\\arcsin x,\\ x\\in(-1,0]\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    6
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    28
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "在各单调区间上，反函数依次为 \\(y=\\arcsin x\\;(x\\in[0,1])\\)，\\(y=\\pi-\\arcsin x\\;(x\\in[-1,1))\\)，\\(y=2\\pi+\\arcsin x\\;(x\\in(-1,0])\\)。",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

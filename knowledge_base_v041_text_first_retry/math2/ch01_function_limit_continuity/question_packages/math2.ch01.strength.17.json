@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.17",
+  "category": "strength",
+  "number": "17",
+  "question_text": "设函数 \\(f(x)\\) 在 \\(x=0\\) 的某邻域内有定义，且 \\(\\lim_{x\\to0}\\frac{x-f(x)}{\\ln(1+x)}=1\\)，则以下叙述：①\\(f(0)=0\\)；②\\(\\lim_{x\\to0}f(x)=f(0)\\)；③\\(\\lim_{x\\to0}\\frac{f(x)}x=1\\)；④当 \\(x\\to0\\) 时，\\(f(x)\\) 是 \\(x\\) 的高阶无穷小。正确叙述的个数为（A）1 （B）2 （C）3 （D）4。",
+  "solution_text": "14.【解析】将 \\(x^{x+1}/(1+x)^x\\) 改写为 \\(x[(1+1/x)^{-x}]\\)，再令 \\(u=1/x\\)，洛必达得极限 \\(1/(2e)\\)。15.【答案】2。\\(\\frac{|x|^{x+2}\\sqrt{1+x^2}}{x^2}=|x|^x\\sqrt{1+x^2}+|x|^x\\to2\\)。16.【答案】\\(e^{-1}\\)。\\(f(x)=(x+|x|)/2\\)，分段求 \\(f(1-x)f(1+x)=1-x^2\\)（近0），故极限为 \\(e^{-1}\\)。17.【答案】A。由 \\(\\lim[x-f(x)]/\\ln(1+x)=1\\) 得 \\(\\lim[x-f(x)]=0\\)，其余判断按极限定义核对。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    64
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    163
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "极限条件逻辑判断",
+  "method": "由 ln(1+x)~x 反推 f/x",
+  "item_specific_analysis": "只能推出 lim f/x=1；不能推出 f(0) 或连续性，正确叙述为2项。",
+  "high_risk_audit_status": "passed"
+}

@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.07",
+  "category": "textbook_example",
+  "number": "1.7",
+  "question_text": "1.7 \\(\\lim_{x\\to0^+}\\frac{1-\\sqrt{\\cos x}}{x(1-\\cos\\sqrt{x})}=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "官方解答：有理化得 \\(\\frac{1-\\sqrt{\\cos x}}{x(1-\\cos\\sqrt{x})}=\\frac{1-\\cos x}{x(1-\\cos\\sqrt{x})(1+\\sqrt{\\cos x})}\\)。利用 \\(1-\\cos x\\sim\\frac12x^2\\)、\\(1-\\cos\\sqrt{x}\\sim\\frac12x\\) 且 \\(1+\\sqrt{\\cos x}\\to2\\)，极限为 \\(\\frac12\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    23
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    77
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "\\(1/2\\)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

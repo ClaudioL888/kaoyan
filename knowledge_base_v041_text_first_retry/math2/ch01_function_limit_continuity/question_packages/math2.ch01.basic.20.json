@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.20",
+  "category": "basic",
+  "number": "20",
+  "question_text": "设 \\(f(x)=\\frac{1-x\\cdot2^{1-x}}{(2-x)(1-x)}\\ (x\\ne1,2)\\)，若 \\(f(x)\\) 在 \\([1,2]\\) 上连续，则 \\(f(1)f(2)=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "19.【答案】\\(3/2\\)。用 \\(e^x-1\\sim x\\)，通分后洛必达得 \\(3/2\\)。20.【答案】\\(-\\frac12+\\frac32\\ln2-(\\ln2)^2\\)。由连续定义分别算 \\(f(1)=1-\\ln2\\)、\\(f(2)=-1/2+\\ln2\\)，相乘得结果。21.【答案】C。定义域间断候选为 \\(0,-1,1\\)；\\(x=-1\\) 为无穷间断，\\(x=0,1\\) 为可去间断。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    15
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "分段点连续与参数",
+  "method": "分别求 x→1⁺、2⁻ 的极限",
+  "item_specific_analysis": "先让分子在 x=1、2 分别为零确定函数值，再得到 f(1)=1−ln2、f(2)=−1/2+ln2，乘积为 −1/2+3ln2/2−ln²2。",
+  "high_risk_audit_status": "passed"
+}

@@ -1,0 +1,18 @@
+﻿[project]
+name = "exam-knowledge-base"
+version = "0.1.0"
+description = "Traceable, versioned canonical data layer for scanned exam-prep materials."
+requires-python = ">=3.11"
+dependencies = [
+  "pillow>=10.0",
+  "pydantic>=2.0",
+  "pypdf>=5.0",
+]
+
+[tool.unittest]
+start-directory = "tests"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+

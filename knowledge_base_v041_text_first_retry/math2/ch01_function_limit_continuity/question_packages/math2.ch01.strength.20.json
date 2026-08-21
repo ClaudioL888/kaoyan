@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.20",
+  "category": "strength",
+  "number": "20",
+  "question_text": "设函数 \\(f(x)\\) 在点 \\(x=0\\) 的某一邻域内可导，且 \\(f(0)=0,f'(0)\\ne0\\)，求 \\(\\lim_{x\\to0}\\frac{\\int_0^{x^2}f(t)dt}{x^2\\int_0^x f(t)dt}\\)。",
+  "solution_text": "17.【解析续】由 \\(\\lim f(x)=0\\) 不能推出 \\(f\\) 在0连续；由 \\(\\lim f(x)/x=0\\) 可知第③错、④对，故17答案A。18.【答案】A。用绝对值极限的ε定义证明 \\(\\lim|f(x)|/x\\) 存在蕴含 \\(\\lim f(x)/x=0\\)，反向也成立，故为充分必要条件。19.【答案】D。四个积分分别为 \\(\\sim x^3/3,\\sim e x^2,\\sim-e x^2/4,\\sim x^6/3\\)，阶数最高为D。20.【解析】利用 \\(f(0)=0,f'(0)\\ne0\\) 及积分中值定理，原式化为 \\(\\lim 2f(x^2)/(x^2\\cdot2\\int_0^x f(t)dt/x^2)=1\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    65
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    164
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "变上限积分比值",
+  "method": "用 f(t)~f′(0)t 再积分",
+  "item_specific_analysis": "分子~f′(0)x⁴/2，分母 x²·f′(0)x²/2，极限1。",
+  "high_risk_audit_status": "passed"
+}

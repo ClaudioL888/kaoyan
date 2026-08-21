@@ -1,0 +1,30 @@
+{
+  "id": "exm.3.7",
+  "title": "教材例题3.7",
+  "question_text": "f处处可导，f(0)=-1，f'(0)=1，g(x)=|f(x-1)|，判断g在x=0、x=1处可导性。",
+  "solution_text": "x=1时 f(0)=-1≠0，g可导；x=0时需知 f(-1)，不能确定。",
+  "official_answer_text_or_katex": "C",
+  "answer_kind": "choice",
+  "answer_confirmation": "source_page_confirmed",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    43
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    115
+  ],
+  "mapping_status": "page_range_assigned",
+  "question_figure_presence": "false",
+  "solution_figure_presence": "false",
+  "figure_analysis_status": "not_required",
+  "item_specific_analysis": {
+    "what_tested": "教材例题3.7的具体条件判断",
+    "first_step": "写出题设函数和差商/切线表达式",
+    "official_key": "x=1时 f(0)=-1≠0，g可导；x=0时需知 f(-1)，不能确定。",
+    "decision_step": "比较左右极限、周期奇偶性或线性主部",
+    "trap": "忽略分段点或把充分条件误写为必要条件",
+    "transfer_boundary": "仅在题设可导/连续/周期条件成立时迁移"
+  },
+  "status": "reviewed_source_confirmed"
+}

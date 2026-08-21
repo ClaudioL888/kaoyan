@@ -1,0 +1,26 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.14",
+  "category": "textbook_example",
+  "number": "例1.14",
+  "question_text": "例1.14：已知 \\(\\lim_{x\\to0}\\frac{f(x)}{x^2}\\) 存在，且 \\(f(x)=\\frac{x-\\sin x}{x}+x^2\\lim_{x\\to0}\\frac{f(x)}{1-\\cos x}\\)，则 \\(\\lim_{x\\to0}\\frac{f(x)}{x^2}=\\)（A）\\(-\\frac13\\)（B）\\frac13\\（C）\\frac16\\（D）\\(-\\frac16\\）。",
+  "solution_text": "官方解答：记 \\(\\lim_{x\\to0}\\frac{f(x)}{x^2}=A\\)。当 \\(x\\to0\\) 时，\\(\\frac{f(x)}{x^2}=\\frac{x-\\sin x}{x^3}+\\lim_{x\\to0}\\frac{f(x)}{1-\\cos x}\\)。又 \\(\\lim_{x\\to0}\\frac{x^2}{1-\\cos x}=2\\)，故 \\(A=\\lim_{x\\to0}\\frac{x-\\sin x}{x^3}+2A=\\frac16+2A\\)，解得 \\(A=-\\frac16\\)，应选 \\((D)\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    7
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    35,
+    36
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "(D)：\\(-\\frac16\\)。",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [
+    "rel.example14.eq_inf"
+  ],
+  "package_status": "assembled_source_page_confirmed"
+}

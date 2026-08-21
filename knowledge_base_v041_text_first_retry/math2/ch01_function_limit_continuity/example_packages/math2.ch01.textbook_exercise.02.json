@@ -1,0 +1,23 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.02",
+  "category": "textbook_example",
+  "number": "1.2",
+  "question_text": "设 \\(f(x)\\) 在 \\((−\\infty,+\\infty)\\) 内有定义，且 \\(\\lim_{x\\to\\infty}f(x)=a\\)，\\(g(x)=\\begin{cases}f(1/x),&x\\ne0\\\\0,&x=0\\end{cases}\\)，则（A）\\(x=0\\) 是g的第一类间断点（B）第二类间断点（C）连续点（D）g在0处连续性与a取值有关。",
+  "solution_text": "官方解答：\\(\\lim_{x\\to0}g(x)=\\lim_{x\\to0}f(1/x)=\\lim_{x\\to\\infty}f(x)=a\\)，而 \\(g(0)=0\\)。当且仅当 \\(a=0\\) 时 \\(g\\) 在 \\(0\\) 连续；当 \\(a\\ne0\\) 时不连续，故连续性与 \\(a\\) 有关，选 \\((D)\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    20
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    76
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "(D)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

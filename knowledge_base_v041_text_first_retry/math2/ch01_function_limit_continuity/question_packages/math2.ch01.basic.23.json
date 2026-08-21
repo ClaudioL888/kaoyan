@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.23",
+  "category": "basic",
+  "number": "23",
+  "question_text": "设 \\(f(x)=\\lim_{t\\to+\\infty}\\frac{x+e^{tx}}{1+e^{tx}}\\)，则 \\(x=0\\) 是 \\(f(x)\\) 的（ ）。\n（A）可去间断点  （B）跳跃间断点  （C）振荡间断点  （D）无穷间断点。",
+  "solution_text": "22.【答案】C。间断点为 \\(x=0,-2,1\\)；在 \\(x=0\\) 极限有限，在 \\(x=-2,1\\) 为无穷间断。23.【答案】B。按 \\(x>0,x=0,x<0\\) 分别得 \\(f(x)=1,1/2,x\\)，故 \\(x=0\\) 为跳跃间断点。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    17
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "含参数极限定义函数",
+  "method": "按 x>0、x=0、x<0 取 t→∞",
+  "item_specific_analysis": "得到 f=1 (x>0)、1/2 (x=0)、x (x<0)，左右极限1与0不等，0为跳跃间断点。",
+  "high_risk_audit_status": "passed"
+}

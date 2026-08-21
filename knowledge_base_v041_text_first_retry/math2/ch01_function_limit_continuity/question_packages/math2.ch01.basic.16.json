@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.basic.16",
+  "category": "basic",
+  "number": "16",
+  "question_text": "\\(\\lim_{x\\to+\\infty}\\left(\\cos\\frac1x+\\sin\\frac1x\\right)^{x/2}=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "15.【答案】\\(2\\ln2\\)。\\(\\ln(1+2^x)\\sim x\\ln2\\)，\\(\\ln(1+2/x)\\sim2/x\\)，乘积为 \\(2\\ln2\\)。16.【答案】\\(\\sqrt e\\)。将 \\((\\cos(1/x)+\\sin(1/x))^{x/2}\\) 平方后化为 \\((1+\\sin(2/x))^{x/4}\\)，利用 \\(\\lim_{x\\to\\infty}\\frac{\\sin(2/x)}{4/x}=1/2\\)。17.【答案】\\(x-\\frac23x^3\\)。\\(\\tan x=x+x^3/3+\\cdots\\)，\\((1+x^2)^{-1}=1-x^2+x^4-\\cdots\\)。18.【答案】\\(x^2+\\frac1{1-e}e^x\\)。令 \\(\\lim_{x\\to1}f(x)=a\\)，得 \\(a=1/(1-e)\\)。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    12
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    14
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "幂指型无穷远极限",
+  "method": "平方化为第二重要极限",
+  "item_specific_analysis": "cos(1/x)+sin(1/x)=1+1/x+o(1/x)，指数 x/2 给 e^{1/2}。",
+  "high_risk_audit_status": "passed"
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "ex.ch02.2.16",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.2.16",
+    "category": "textbook_example",
+    "item_no": "2.16",
+    "question_text": "\\forall k\\in\\mathbb N_+,\\exists N,\\ n>N\\Rightarrow|x_n-a|≤2^{-k}",
+    "solution_text": "充分必要条件，选C",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      34
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      100,
+      101
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "choice",
+    "requested_outputs": [
+      "题目要求的全部结论"
+    ],
+    "official_answer_text_or_katex": "充分必要条件，选C",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.ex.2.16.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "page_level_presence_only",
+    "ai_review": "取ε=2^{-k}，离散误差覆盖任意ε；固定k不是固定误差。",
+    "item_specific_analysis": "取ε=2^{-k}，离散误差覆盖任意ε；固定k不是固定误差。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      100,
+      101
+    ]
+  },
+  "audit_status": "reviewed_after_sol_audit",
+  "ai_review": "取ε=2^{-k}，离散误差覆盖任意ε；固定k不是固定误差。"
+}

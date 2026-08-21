@@ -1,0 +1,9 @@
+{
+  "runtime": "E:/桌面/学习/考研/katex-runtime/compile.mjs",
+  "formal_formula_count": 26,
+  "failure_count": 0,
+  "compiled_ok": 26,
+  "status": "passed",
+  "raw_report": "reports/katex_compile_raw.txt",
+  "validated_at": "2026-08-18T08:36:03.671Z"
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "q.ch03.basic.13",
+  "chapter_id": "ch03_derivative_concept",
+  "category": "basic",
+  "question_number": 13,
+  "question_text": "设 f(x) 为在 x=0 处可导的奇函数，则 lim_{x→0}[f(tx)−5f(x)]/x=____。",
+  "solution_text": "奇函数 f(0)=0，f(tx)/x→t f'(0)，5f(x)/x→5f'(0)，故 (t−5)f'(0)。",
+  "question_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    15
+  ],
+  "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    24
+  ],
+  "mapping_status": "page_range_assigned",
+  "answer_kind": "calculation_or_proof",
+  "requested_outputs": [
+    "题目要求的全部结果"
+  ],
+  "official_answer_text_or_katex": "(t−5)f'(0)",
+  "answer_confirmation": "source_page_confirmed",
+  "answer_source_mapping_id": "map.q.ch03.basic.13.solution",
+  "question_figure_presence": "none_visible",
+  "solution_figure_presence": "none_visible",
+  "figure_analysis_status": "page_visual_checked",
+  "ai_review": {
+    "item_specific_analysis": "本题basic第13题的对象是：设 f(x) 为在 x=0 处可导的奇函数，则 lim_{x→0}[f(tx)−5f(x)]/x=____。；关键答案为 (t−5)f'(0)。第一步按题面中的极限/导数点直接写差商或分段左右导数，官方解析的决定步骤是：奇函数 f(0)=0，f(tx)/x→t f'(0)，5f(x)/x→5f'(0)，故 (t−5)f'(0)。；易错点是忽略题设的趋近方向、分段点或全部输出。可迁移到同类结构，但仅在相同可导/连续条件下成立。"
+  }
+}

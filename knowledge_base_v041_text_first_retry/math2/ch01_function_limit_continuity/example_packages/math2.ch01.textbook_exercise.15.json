@@ -1,0 +1,25 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_exercise.15",
+  "category": "textbook_example",
+  "number": "1.15",
+  "question_text": "1.15 设 \\(\\lim_{x\\to0}\\frac{\\ln(1+x)-(ax+bx^2)}{x^2}=2\\)，求常数 \\(a,b\\)。",
+  "solution_text": "官方解答：\\(\\ln(1+x)=x-\\frac12x^2+o(x^2)\\)，故题设极限为 \\(\\lim_{x\\to0}\\frac{(1-a)x+(-\\frac12-b)x^2+o(x^2)}{x^2}=2\\)。于是 \\(a=1\\)，且 \\(-\\frac12-b=2\\)，故 \\(b=-\\frac52\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    27
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    80
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "\\(a=1,\\ b=-\\frac52\\)",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [
+    "rel.exercise15.taylor"
+  ],
+  "package_status": "assembled_source_page_confirmed"
+}

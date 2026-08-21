@@ -1,0 +1,6 @@
+{"id":"outline.ch01","parent_id":null,"title":"第1章 函数、极限与连续","kind":"chapter","source_pages":[7,81]}
+{"id":"outline.function","parent_id":"outline.ch01","title":"函数及其性质","kind":"section","source_pages":[7,33]}
+{"id":"outline.elementary","parent_id":"outline.function","title":"基本初等函数与反函数","kind":"section","source_pages":[21,30]}
+{"id":"outline.limit","parent_id":"outline.ch01","title":"函数极限的概念与性质","kind":"section","source_pages":[34,54]}
+{"id":"outline.limit_calc","parent_id":"outline.ch01","title":"极限计算与未定式","kind":"section","source_pages":[55,69]}
+{"id":"outline.continuity","parent_id":"outline.ch01","title":"函数连续与间断","kind":"section","source_pages":[70,81]}

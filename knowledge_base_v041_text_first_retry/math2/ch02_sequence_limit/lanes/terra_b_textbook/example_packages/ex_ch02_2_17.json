@@ -1,0 +1,44 @@
+{
+  "item_id": "ex.ch02.2.17",
+  "status": "reviewed",
+  "question": {
+    "id": "ex.ch02.2.17",
+    "category": "textbook_example",
+    "item_no": "2.17",
+    "question_text": "\\exists N,\\ n≥N\\Rightarrow|x_n-a|≤1/n",
+    "solution_text": "充分不必要，选A",
+    "question_source_file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+    "question_source_pages": [
+      34
+    ],
+    "solution_source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "solution_source_pages": [
+      101
+    ],
+    "mapping_status": "page_range_assigned",
+    "answer_kind": "choice",
+    "requested_outputs": [
+      "题目要求的全部结论"
+    ],
+    "official_answer_text_or_katex": "充分不必要，选A",
+    "answer_confirmation": "source_page_confirmed",
+    "answer_source_mapping_id": "map.ex.2.17.solution",
+    "question_figure_presence": false,
+    "solution_figure_presence": false,
+    "figure_analysis_status": "page_level_presence_only",
+    "ai_review": "1/n→0故充分；x_n=a+1/√n为收敛但不满足1/n的反例。",
+    "item_specific_analysis": "1/n→0故充分；x_n=a+1/√n为收敛但不满足1/n的反例。",
+    "knowledge_point_ids": [],
+    "formula_ids": [],
+    "relation_ids": [],
+    "status": "reviewed"
+  },
+  "solution_page_mapping": {
+    "source_file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+    "pages": [
+      101
+    ]
+  },
+  "audit_status": "pending_sol_high",
+  "ai_review": "1/n→0故充分；x_n=a+1/√n为收敛但不满足1/n的反例。"
+}

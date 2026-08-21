@@ -1,0 +1,2 @@
+{"id":"ptype.limit","title":"极限定义与性质","features":["ε-N","子列","保号","有界"],"related_question_ids":[],"related_example_ids":["ex.ch02.2.2","ex.ch02.2.3","ex.ch02.2.16","ex.ch02.2.17","ex.ch02.2.18"]}
+{"id":"ptype.recursion","title":"递推数列极限","features":["单调有界","不动点","压缩"],"related_question_ids":[],"related_example_ids":["ex.ch02.2.12","ex.ch02.2.14","ex.ch02.2.15"]}

@@ -1,0 +1,12 @@
+{"id":"con.derivative_continuity","title":"可导必连续","text":"可导推出连续，反之不成立。","source_id":"src.textbook","source_pages":[108,113],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.periodic_derivative","title":"周期函数导数","text":"可导且以 T 为周期的函数，其导数也以 T 为周期。","source_id":"src.textbook","source_pages":[108,109],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.even_derivative","title":"奇偶性","text":"可导偶函数的导数为奇函数；可导奇函数的导数为偶函数。","source_id":"src.textbook","source_pages":[108,109],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.absolute_condition","title":"绝对值可导条件","text":"f(x0)≠0 时 |f| 可导；f(x0)=0 时必要且充分条件为 f'(x0)=0。","source_id":"src.textbook","source_pages":[113,114],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.absolute_nondiff","title":"尖点不可导","text":"|x| 在0处左右导数为 -1、1，不可导且无唯一切线。","source_id":"src.textbook","source_pages":[115],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.infinite_derivative","title":"无穷导数","text":"导数为 ±∞ 时为无穷导数，曲线在该点有竖直切线。","source_id":"src.textbook","source_pages":[116],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.differential_equiv","title":"可微等价","text":"函数在一点可微与可导等价，dy 是 Δy 的线性主部。","source_id":"src.textbook","source_pages":[119],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.linear_principal","title":"线性主部","text":"Δy=f'(x0)Δx+o(Δx)，f'(x0)Δx 是主要部分。","source_id":"src.textbook","source_pages":[118,119],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.second_derivative_extrema","title":"二阶导数判别","text":"f'(x0)=0 且 f''(x0)<0 时极大，>0 时极小。","source_id":"src.textbook","source_pages":[117,118],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.tangent_not_sufficient","title":"切线不等于可导","text":"切线存在不代表导数存在，尖点可有两条单侧切线。","source_id":"src.textbook","source_pages":[115],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.continuity_abs","title":"连续取绝对值","text":"f 在 x0 连续当且仅当 |f| 在 x0 连续。","source_id":"src.textbook","source_pages":[113],"origin":"textbook_explicit","status":"source_page_confirmed"}
+{"id":"con.diff_definition_priority","title":"定义优先","text":"未给出导数存在条件时，求导通常应使用导数定义。","source_id":"src.textbook","source_pages":[123],"origin":"textbook_explicit","status":"source_page_confirmed"}

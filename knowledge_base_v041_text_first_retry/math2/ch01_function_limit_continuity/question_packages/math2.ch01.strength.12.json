@@ -1,0 +1,27 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.strength.12",
+  "category": "strength",
+  "number": "12",
+  "question_text": "设函数 \\(f(x)\\) 在点 \\(x=0\\) 处连续，\\(f(0)=\\frac12\\)，且函数\n\\[g(x)=\\begin{cases}\\frac1x\\sin\\frac x2,&x<0,\\\\x+\\frac12,&x\\ge0,\\end{cases}\\]\n则 \\(\\lim_{x\\to0}\\frac{x f(x)+g(x)}{x g(x)}\\int_0^{2x}\\cos t^2dt=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "11.【解析续】利用 \\(\\ln(1+u)\\sim u\\) 可得 \\(\\lim f(x)/\\sin^3x=-1/2\\)。12.【答案】3。积分中值定理给 \\(\\int_0^{2x}\\cos t^2dt=2x\\cos\\xi^2\\)，且 \\(g(x)\\to1/2\\)，故原式为3。13.【答案】A。展开 \\(n\\ln(1+1/n)=1-1/(2n)+o(1/n)\\)，得 \\(f(x)=0(x<1),-e/2(x=1),-\\infty(x>1)\\)，故左极限存在右极限不存在。",
+  "question_source_file": "27张宇1000题数二【试题册】.pdf",
+  "question_source_pages": [
+    64
+  ],
+  "solution_source_file": "27张宇1000题数二【解析册】-带书签.pdf",
+  "solution_source_pages": [
+    162
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_reviewed_source_page_confirmed",
+  "problem_type": "分段连续与乘积极限",
+  "method": "先求 g(0) 与左右表达式",
+  "item_specific_analysis": "g(0)=1/2，变上限积分~2x，整体极限为3。",
+  "high_risk_audit_status": "passed"
+}

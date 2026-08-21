@@ -1,0 +1,26 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.15",
+  "category": "textbook_example",
+  "number": "例1.15",
+  "question_text": "P37 例1.15：当 \\(x\\to1\\) 时，函数 \\(\\frac{e^{\\frac1{x-1}}\\ln|1+x|}{(e^x-1)(x-2)}\\) 的极限（A）等于1（B）等于0（C）为\\(\\infty\\)（D）不存在且不为\\(\\infty\\)。",
+  "solution_text": "官方解答：当 \\(x\\to1^-\\) 时，\\(x-1\\to0^-\\)，\\(\\frac1{e^{x-1}}\\to+\\infty\\)，从而 \\(\\frac{e^{1/(x-1)}\\ln|1+x|}{(e^x-1)(x-2)}\\to0\\)；当 \\(x\\to1^+\\) 时，\\(x-1\\to0^+\\)，\\(\\frac1{e^{x-1}}\\to-\\infty\\)，该式趋于 \\(-\\infty\\)。左右极限不相等，故极限不存在且不为 \\(\\infty\\)，应选 \\((D)\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    8
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    43,
+    44
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": "(D)：极限不存在且不为 ∞。",
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [
+    "rel.example15.left_right"
+  ],
+  "package_status": "assembled_source_page_confirmed"
+}

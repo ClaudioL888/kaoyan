@@ -1,0 +1,24 @@
+{
+  "package_version": "V0.4.1",
+  "item_id": "math2.ch01.textbook_example.01",
+  "category": "textbook_example",
+  "number": "例1.1",
+  "question_text": "P3 例1.1：设 \\(f(x+1/x)=\\frac{x+x^3}{1+x^4}\\)，则当 \\(x\\ge2\\) 时，\\(f(x)=\\underline{\\hspace{2cm}}\\)。",
+  "solution_text": "官方解答：将 \\(x+1/x\\) 视为整体。\\(f(x+1/x)=\\frac{x+x^3}{1+x^4}=\\frac{x+1/x}{x^2+1/x^2}=\\frac{x+1/x}{(x+1/x)^2-2}\\)，所以当 \\(x\\ge2\\) 时 \\(f(x)=\\frac{x}{x^2-2}\\)。",
+  "question_source_file": "张宇30讲高数例题.pdf",
+  "question_source_pages": [
+    1
+  ],
+  "solution_source_file": "27张宇基础30讲（高数）_新书签.pdf",
+  "solution_source_pages": [
+    9,
+    10
+  ],
+  "mapping_status": "page_range_assigned",
+  "official_answer_text_or_katex": null,
+  "answer_confirmation": "source_page_confirmed",
+  "question_figure_presence": "needs_review",
+  "solution_figure_presence": "unknown",
+  "relations": [],
+  "package_status": "assembled_source_page_confirmed"
+}

@@ -1,0 +1,148 @@
+{
+  "chapter_id": "ch03_derivative_concept",
+  "chapter_title": "一元函数微分学的概念",
+  "subject": "math2",
+  "workflow_version": "V0.4.1",
+  "status": "merged_pending_sol",
+  "status_reason": "两条已完成lane已合并并通过机械校验；Sol high审计和最终Gate 9尚未执行。",
+  "source_whitelist": [
+    {
+      "source_id": "src.1000q.question",
+      "file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【试题册】.pdf",
+      "sha256": "73d293f7bd54120e17704795e466683f89ae14e4ba777011d32d3a881c17667a",
+      "role": "1000题题面"
+    },
+    {
+      "source_id": "src.1000q.solution",
+      "file": "E:\\桌面\\学习\\考研\\数二\\27张宇1000题数二【解析册】-带书签.pdf",
+      "sha256": "729c656c0eefde7df47708f93ef223ba2375ee41bc602fe61b49fe38652f994c",
+      "role": "1000题官方解析"
+    },
+    {
+      "source_id": "src.textbook",
+      "file": "E:\\桌面\\学习\\考研\\数二\\27张宇基础30讲（高数）_新书签.pdf",
+      "sha256": "b13f13b1e299dd60d6bd48bf3ed7a3534e1e33876b62b45a2cdf81dfa141b539",
+      "role": "教材正文/教材官方例题解答"
+    },
+    {
+      "source_id": "src.example.question",
+      "file": "E:\\桌面\\学习\\考研\\数二\\张宇30讲高数例题.pdf",
+      "sha256": "70c4752e04df1e095116558ad794c686286b2ed2221954d9942904abc8a875e4",
+      "role": "教材例题与习题题面"
+    }
+  ],
+  "frozen_denominators": {
+    "questions_1000_total": 37,
+    "questions_1000_basic": 15,
+    "questions_1000_strong": 22,
+    "textbook_items_total": 20,
+    "textbook_examples": 11,
+    "textbook_exercises": 9,
+    "textbook_exposition_pages": 20,
+    "textbook_example_book_pages": 12,
+    "excluded_boundary_evidence_pages": 3
+  },
+  "scopes": {
+    "question_book_basic_pages": [
+      14,
+      15
+    ],
+    "question_book_strong_pages": [
+      69,
+      70,
+      71
+    ],
+    "solution_book_basic_pages": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_book_strong_pages": [
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ],
+    "textbook_pages": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+    ],
+    "textbook_example_book_pages": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "excluded_example_book_pages": [
+      69,
+      70,
+      71
+    ]
+  },
+  "merge": {
+    "merged_at": "2026-08-18T20:25:46.6979797+08:00",
+    "input_lanes": [
+      "terra_a_questions",
+      "terra_b_textbook"
+    ],
+    "duplicate_metadata_removed": [
+      "A的basic/strong staging分片，保留聚合staging",
+      "B中未处理的1000题别名scope，保留A的实际1000题scope"
+    ],
+    "source_id_normalization": {
+      "src.1000q": "src.1000q.question",
+      "src.textbook_examples": "src.example.question",
+      "src.1000s": "src.1000q.solution"
+    },
+    "validation": "reports/merge_validation.json"
+  },
+  "recovery_history": [
+    {
+      "error_type": "503/auth_unavailable",
+      "context": "previous recoverable attempt",
+      "action": "merged existing formal lane artifacts without page re-recognition"
+    },
+    {
+      "error_type": "429",
+      "context": "recoverable historical condition",
+      "action": "not used as a stop condition"
+    }
+  ],
+  "pending": [
+    "Sol high high-risk audit",
+    "KaTeX full compilation",
+    "main-agent Gate 9 final acceptance"
+  ]
+}

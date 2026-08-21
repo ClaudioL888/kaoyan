@@ -2,14 +2,30 @@ node_modules/
 dist/
 tmp/
 .stage-a-tmp/
+cache/
+logs/
 .pytest_cache/
 __pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
 .cache/
 .tmp-*
 *.log
 .env
 .env.*
+!.env.example
 *.local
+build/
+*.egg-info/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 
 # Source books and generated evidence are never part of this repository.
 *.pdf

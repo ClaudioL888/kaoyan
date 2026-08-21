@@ -1,0 +1,14 @@
+{"id":"con.discrete_function","entity_kind":"conclusion","title":"第二讲总览","text":"本讲核心结构：数列概念、极限定义、收敛性质、四则运算、海涅定理、夹逼、单调有界与收敛速度。","source_id":"src.math2.textbook_ch02","source_pages":[82],"confirmation":"source_page_confirmed"}
+{"id":"con.sequence.definition","entity_kind":"conclusion","title":"数列概念","text":"对每个n∈N+按规则确定x_n，按下标排列为数列{x_n}；x_n为第n项。","source_id":"src.math2.textbook_ch02","source_pages":[83],"confirmation":"source_page_confirmed"}
+{"id":"note.sequence.finite_terms","entity_kind":"note","title":"数列注","text":"数列一定有无穷多项；可看作自变量为正整数n的函数x_n=f(n)。","source_id":"src.math2.textbook_ch02","source_pages":[83],"confirmation":"source_page_confirmed"}
+{"id":"con.exp_sequence","entity_kind":"conclusion","title":"重要数列","text":"\\{(1+1/n)^n\\}单调递增有上界，且\\lim_{n\\to\\infty}(1+1/n)^n=e。","source_id":"src.math2.textbook_ch02","source_pages":[85],"confirmation":"source_page_confirmed"}
+{"id":"note.limit.not_function_limit","entity_kind":"note","title":"定义注意","text":"数列极限与函数极限对象不同；数列极限强调尾部全局性质。","source_id":"src.math2.textbook_ch02","source_pages":[85],"confirmation":"source_page_confirmed"}
+{"id":"con.limit.subsequence","entity_kind":"conclusion","title":"子列性质","text":"收敛数列任何子列同收敛且极限相同；两子列极限不同则原数列发散。","source_id":"src.math2.textbook_ch02","source_pages":[86],"confirmation":"source_page_confirmed"}
+{"id":"con.limit.unique","entity_kind":"conclusion","title":"唯一性","text":"收敛数列极限唯一。","source_id":"src.math2.textbook_ch02","source_pages":[88],"confirmation":"source_page_confirmed"}
+{"id":"con.limit.bounded","entity_kind":"conclusion","title":"有界性","text":"收敛数列必有界。","source_id":"src.math2.textbook_ch02","source_pages":[88],"confirmation":"source_page_confirmed"}
+{"id":"con.limit.sandwich_order","entity_kind":"conclusion","title":"保号性","text":"极限为a且最终同号/同序时可用保号性比较。","source_id":"src.math2.textbook_ch02","source_pages":[88],"confirmation":"source_page_confirmed"}
+{"id":"con.heine","entity_kind":"conclusion","title":"海涅定理","text":"函数点极限存在当且仅当任意趋近点的数列函数值极限相同。","source_id":"src.math2.textbook_ch02","source_pages":[89],"confirmation":"source_page_confirmed"}
+{"id":"con.monotone_bounded","entity_kind":"conclusion","title":"单调有界准则","text":"单调有界数列必有极限。","source_id":"src.math2.textbook_ch02","source_pages":[95],"confirmation":"source_page_confirmed"}
+{"id":"con.monotone_tests","entity_kind":"conclusion","title":"单调方法","text":"比较x_{n+1}-x_n或比值、归纳法、函数单调性和不等式均可证单调。","source_id":"src.math2.textbook_ch02","source_pages":[95],"confirmation":"source_page_confirmed"}
+{"id":"con.fixed_point_iteration","entity_kind":"conclusion","title":"迭代收敛","text":"f在区间可导且|f′|<k<1时，不动点迭代收敛到唯一不动点。","source_id":"src.math2.textbook_ch02","source_pages":[97],"confirmation":"source_page_confirmed"}
+{"id":"note.epsilon_rate","entity_kind":"note","title":"速度注意","text":"ε-N定义表达误差最终小于ε，不直接表达收敛速度；ε与n无关。","source_id":"src.math2.textbook_ch02","source_pages":[101],"confirmation":"source_page_confirmed"}

@@ -1,0 +1,11 @@
+E:\����\ѧϰ\����\knowledge_base\math2\ch01_function_limit_continuity\ingest_basic_1000_batch.py:143: SyntaxWarning: invalid escape sequence '\c'
+  ("�жϵ����ԣ�tan x��cos x �����������ԣ��ҳ˻��� x^2�����ܱ�֤�ڶ������ϵ�����", "\tan x,\cos x\text{ ����}\Rightarrow f\text{ �ǵ���}", [], ["TP-C01-010", "TP-C01-013"], []),
+E:\����\ѧϰ\����\knowledge_base\math2\ch01_function_limit_continuity\ingest_basic_1000_batch.py:144: SyntaxWarning: invalid escape sequence '\R'
+  ("�ж������ԣ�x^2 �����ƻ������ԣ��� f(x) �������ں�����", "x^2\text{ ������������}\Rightarrow f\text{ ������}", [], ["TP-C01-013", "TP-C01-014"], ["����������˲���Ȼ�������ڣ������鹲ͬ���ںͶ�����"]),
+E:\����\ѧϰ\����\knowledge_base\math2\ch01_function_limit_continuity\ingest_basic_1000_batch.py:145: SyntaxWarning: invalid escape sequence '\c'
+  ("��ż�ԣ�x^2e^{\cos x} Ϊż������tan x Ϊ�溯����ż�������溯���ĳ˻�Ϊ�溯����ѡ�� D��", "x^2e^{\cos(-x)}=x^2e^{\cos x},\quad \tan(-x)=-\tan x\Rightarrow f(-x)=-f(x)", [], ["TP-C01-011", "TP-C01-012"], ["��ż���ж���ͬʱ��鶨�������ԭ��Գ�"]),
+E:\����\ѧϰ\����\knowledge_base\math2\ch01_function_limit_continuity\ingest_basic_1000_batch.py:145: SyntaxWarning: invalid escape sequence '\c'
+  ("��ż�ԣ�x^2e^{\cos x} Ϊż������tan x Ϊ�溯����ż�������溯���ĳ˻�Ϊ�溯����ѡ�� D��", "x^2e^{\cos(-x)}=x^2e^{\cos x},\quad \tan(-x)=-\tan x\Rightarrow f(-x)=-f(x)", [], ["TP-C01-011", "TP-C01-012"], ["��ż���ж���ͬʱ��鶨�������ԭ��Գ�"]),
+E:\����\ѧϰ\����\knowledge_base\math2\ch01_function_limit_continuity\ingest_basic_1000_batch.py:248: SyntaxWarning: invalid escape sequence '\l'
+  ("д |x|^x=e^{x\ln|x|}���� x��\u22121 ʱ��ĸʣ������ʹ���޷�ɢ��", r"\lim_{x\to-1}\frac{|x|^x-1}{x(x+1)\ln|x|}=\infty", ["TP-C01-044", "TP-C01-055"], [], ["x��\u22121"]),
+{"batch": "1000_basic_questions_01_23", "questions_transcribed": 23, "official_solution_steps_added": 71, "formula_entities": 89, "conclusion_entities": 106, "links": 4648}

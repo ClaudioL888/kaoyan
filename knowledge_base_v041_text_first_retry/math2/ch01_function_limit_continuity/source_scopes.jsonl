@@ -1,0 +1,6 @@
+{"source_id":"src.questions","file":"27张宇1000题数二【试题册】.pdf","available":true,"pdf_pages":[11,12],"question_range":"基础题1-23","role":"question_book_basic","basis":"Codex视觉查看题册第11-12页"}
+{"source_id":"src.questions","file":"27张宇1000题数二【试题册】.pdf","available":true,"pdf_pages":[63,66],"question_range":"强化题1-38","role":"question_book_strength","basis":"Codex视觉查看题册第63-66页"}
+{"source_id":"src.examples","file":"张宇30讲高数例题.pdf","available":true,"pdf_pages":[1,27],"question_range":"教材例题例1.1-1.16及第一章习题1.1-1.16","role":"textbook_example_question","basis":"Codex视觉查看例题册第1-27页"}
+{"source_id":"src.textbook","file":"27张宇基础30讲（高数）_新书签.pdf","available":true,"pdf_pages":[7,81],"question_range":null,"role":"textbook_exposition_and_example_solutions","basis":"书签第1章范围：PDF 7-81"}
+{"source_id":"src.solutions","file":"27张宇1000题数二【解析册】-带书签.pdf","available":true,"pdf_pages":[12,17],"question_range":"基础题1-23；强化题1-38","role":"official_solution_book_basic","basis":"用户于2026-08-18明确授权使用带书签解析册"}
+{"source_id":"src.solutions","file":"27张宇1000题数二【解析册】-带书签.pdf","available":true,"pdf_pages":[161,172],"question_range":"强化题1-38","role":"official_solution_book_strength","basis":"用户于2026-08-18明确授权使用带书签解析册"}
