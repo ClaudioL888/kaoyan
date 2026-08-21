@@ -17,6 +17,12 @@ function readableQuestionToken(value: string) {
   return `第 ${Number(match[1])} 章 · ${scope[match[2].toLowerCase()] || match[2]}${kind[match[3].toLowerCase()] || match[3]} ${match[4].replace(/-/g, '—')}`
 }
 
+function readableSourceIdentifier(value: string) {
+  const match = value.match(/zhangyu-(30|36)(?:\.|\s+)ch0?(\d+)(?:\.|\s+)example(?:\.|\s+)(\d+)(?:\.|\s+)(\d+)/i)
+  if (!match) return null
+  return `张宇${match[1]}讲 · 第${Number(match[2])}章 · 例${Number(match[3])}.${Number(match[4])}`
+}
+
 function readableSourcePath(value: string) {
   const normalized = value.replace(/\\/g, '/')
   if (!/\.(jsonl?|md|audit)$/i.test(normalized)) return null
@@ -31,6 +37,8 @@ export function humanizeInlineValue(value: string) {
   const lower = raw.toLowerCase()
   if (fieldLabels[lower]) return fieldLabels[lower]
   if (statusLabels[lower]) return statusLabels[lower]
+  const sourceIdentifier = readableSourceIdentifier(raw)
+  if (sourceIdentifier) return sourceIdentifier
   const question = readableQuestionToken(raw)
   if (question) return question
   const source = readableSourcePath(raw)
@@ -46,5 +54,6 @@ export function humanizeReadableMarkdown(content: string) {
       const readable = humanizeInlineValue(value)
       return readable === value.trim() ? _full : '`' + readable + '`'
     })
+    .replace(/zhangyu-(30|36)(?:\.|\s+)ch0?(\d+)(?:\.|\s+)example(?:\.|\s+)(\d+)(?:\.|\s+)(\d+)/gi, (_full, family: string, chapter: string, major: string, minor: string) => `张宇${family}讲 · 第${Number(chapter)}章 · 例${Number(major)}.${Number(minor)}`)
     .replace(/(^|[：:；;]\s*)(verified-with-formula-ocr-risk|verified|pending|conflict|source-gap|true|false)(?=\s|$|[，。；,.;])/gim, (_full, prefix: string, value: string) => `${prefix}${statusLabels[value.toLowerCase()] || value}`)
 }

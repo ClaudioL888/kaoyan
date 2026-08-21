@@ -62,6 +62,12 @@ test('knowledge units expose the real subject-specific systems', async () => {
   assert.match(ch01SourceQuestions.content, /基础选择题 001/)
   assert.match(ch01SourceQuestions.content, /单调函数/)
 
+  const mathCh03 = await loadKnowledgeUnit('math2.calculus.ch03')
+  const ch03SourceQuestions = mathCh03.systems.find((system) => system.key === 'source-questions')
+  assert.ok(ch03SourceQuestions)
+  assert.match(ch03SourceQuestions.content, /张宇36讲 · 第3章 · 例3\.1/)
+  assert.doesNotMatch(ch03SourceQuestions.content, /Zhangyu-36 Ch03 Example/i)
+
   const english = await loadKnowledgeUnit('english2.reading-a')
   assert.ok(english)
   assert.deepEqual(english.systems.map((system) => system.key), ['knowledge', 'methods', 'rules', 'weaknesses'])

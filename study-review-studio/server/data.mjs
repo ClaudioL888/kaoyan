@@ -277,6 +277,8 @@ function sourceQuestionMarkdown(records) {
     const raw = String(value || '').trim()
     const zhangyu = raw.match(/^zhangyu-1000\.(.+)$/i)
     if (zhangyu) return `张宇1000题 · ${zhangyu[1].replace(/[|]+/g, ' · ').replace(/\s+/g, ' ').trim()}`
+    const zhangyuExample = raw.match(/^zhangyu-(30|36)\.ch0?(\d+)\.example\.(\d+)\.(\d+)$/i)
+    if (zhangyuExample) return `张宇${zhangyuExample[1]}讲 · 第${Number(zhangyuExample[2])}章 · 例${Number(zhangyuExample[3])}.${Number(zhangyuExample[4])}`
     const match = raw.match(/^ch\d+\.(basic|comprehensive|extension)\.(choice|fill|solution)\.(.+)$/i)
     if (!match) return raw.replace(/[._]+/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase()) || '未编号题'
     const scope = { basic: '基础', comprehensive: '综合', extension: '拓展' }[match[1].toLowerCase()] || match[1]
