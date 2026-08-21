@@ -5,6 +5,7 @@ import {
   ListTree, Menu, Radio, RefreshCw, Search, ShieldCheck, Sparkles, Tags, Target, X,
 } from 'lucide-react'
 import type { Activity, DailyPlan, KnowledgeDetail, PlanSummary, QuestionTypeGroup, QuestionTypeIndex, ReviewDetail, ReviewSummary, Snapshot, Unit, View } from './types'
+import { humanizeInlineValue } from './readability'
 
 const Markdown = lazy(() => import('./Markdown'))
 
@@ -65,7 +66,7 @@ function App() {
     events.addEventListener('ready', () => setLive(true))
     events.addEventListener('change', (event) => {
       const payload = JSON.parse((event as MessageEvent).data)
-      setChangeNotice(`${payload.path} 已更新`)
+      setChangeNotice(`${humanizeInlineValue(payload.path)} 已更新`)
       void refresh(true)
       window.setTimeout(() => setChangeNotice(null), 3200)
     })
@@ -169,7 +170,7 @@ function TodayRow({ subject, text, tone }: { subject: string; text: string; tone
 }
 
 function ActivityRow({ item }: { item: Activity }) {
-  return <article className="activity-row"><div className="activity-icon"><Check size={14} /></div><div><div className="activity-meta"><span>{subjectLabels[item.subject] || item.subject}</span><time>{formatTime(item.recorded_at, true)}</time></div><h3>{item.title}</h3><p>{item.summary}</p>{item.question_refs?.length ? <small>{item.question_refs.join(' · ')}</small> : null}</div></article>
+  return <article className="activity-row"><div className="activity-icon"><Check size={14} /></div><div><div className="activity-meta"><span>{subjectLabels[item.subject] || item.subject}</span><time>{formatTime(item.recorded_at, true)}</time></div><h3>{item.title}</h3><p>{item.summary}</p>{item.question_refs?.length ? <small>{item.question_refs.map(humanizeInlineValue).join(' · ')}</small> : null}</div></article>
 }
 
 function SubjectCard({ group, total, touched, latest }: { group: string; total: number; touched: number; latest: string | null }) {
@@ -278,12 +279,12 @@ function QuestionTypeLibrary({ types, openType, setOpenType, openUnit }: { types
     const weaknessLabel = item.relatedWeaknesses.length
       ? `${item.relatedWeaknesses.length} 个题号直接关联`
       : `${item.unitWeaknesses.length} 个同章薄弱点`
-    return <article className={`question-type-card ${expanded ? 'expanded' : ''}`} key={item.id}><button className="question-type-summary" onClick={() => setOpenType(expanded ? null : item.id)} aria-expanded={expanded}><span className={`type-kind type-kind-${item.kind}`}>{kindLabel[item.kind]}</span><div><span className="unit-subject">{subjectLabels[item.subject] || item.subject} · {item.unitTitle}</span><h3>{item.title}</h3><p>{item.records[0]?.summary}</p></div><div className="type-counts"><strong>{item.records.length}</strong><span>条记录</span>{weaknessCount > 0 && <em><Target size={12} />{weaknessLabel}</em>}</div><ChevronRight size={17} /></button>{expanded && <div className="question-type-detail"><div className="record-stack"><h4>历史单题与题型记录</h4>{item.records.map((record) => <article className="question-record" key={record.id}><div><span>{record.recordType}</span><time>{formatTime(record.recordedAt, true)}</time></div><p>{record.summary}</p>{record.questionRefs.length ? <ul>{record.questionRefs.map((ref) => <li key={ref}>{ref}</li>)}</ul> : <small>该条历史增量未单列题号</small>}<footer><code>{record.sourceFile}</code><button onClick={() => openUnit(item.unitId, item.kind === 'method' ? 'methods' : 'knowledge')}>打开三系统原文<ChevronRight size={14} /></button></footer></article>)}</div><aside className="weakness-stack"><h4><Target size={15} />真实薄弱点</h4>{item.relatedWeaknesses.map((weakness) => <WeaknessCard key={weakness.record_id} item={weakness} label="题号直接关联" open={() => openUnit(item.unitId, 'weaknesses')} />)}{item.unitWeaknesses.map((weakness) => <WeaknessCard key={weakness.record_id} item={weakness} label="同章节已确认" open={() => openUnit(item.unitId, 'weaknesses')} />)}{!weaknessCount && <p className="no-weakness">本题型目前没有用户作答或追问形成的真实薄弱点。通用易错点不会在这里冒充个人薄弱点。</p>}</aside></div>}</article>
+    return <article className={`question-type-card ${expanded ? 'expanded' : ''}`} key={item.id}><button className="question-type-summary" onClick={() => setOpenType(expanded ? null : item.id)} aria-expanded={expanded}><span className={`type-kind type-kind-${item.kind}`}>{kindLabel[item.kind]}</span><div><span className="unit-subject">{subjectLabels[item.subject] || item.subject} · {item.unitTitle}</span><h3>{item.title}</h3><p>{item.records[0]?.summary}</p></div><div className="type-counts"><strong>{item.records.length}</strong><span>条记录</span>{weaknessCount > 0 && <em><Target size={12} />{weaknessLabel}</em>}</div><ChevronRight size={17} /></button>{expanded && <div className="question-type-detail"><div className="record-stack"><h4>历史单题与题型记录</h4>{item.records.map((record) => <article className="question-record" key={record.id}><div><span>{record.recordType}</span><time>{formatTime(record.recordedAt, true)}</time></div><p>{record.summary}</p>{record.questionRefs.length ? <ul>{record.questionRefs.map((ref) => <li key={ref}>{humanizeInlineValue(ref)}</li>)}</ul> : <small>该条历史增量未单列题号</small>}<footer><code>{record.sourceFile ? humanizeInlineValue(record.sourceFile) : '来源记录'}</code><button onClick={() => openUnit(item.unitId, item.kind === 'method' ? 'methods' : 'knowledge')}>打开三系统原文<ChevronRight size={14} /></button></footer></article>)}</div><aside className="weakness-stack"><h4><Target size={15} />真实薄弱点</h4>{item.relatedWeaknesses.map((weakness) => <WeaknessCard key={weakness.record_id} item={weakness} label="题号直接关联" open={() => openUnit(item.unitId, 'weaknesses')} />)}{item.unitWeaknesses.map((weakness) => <WeaknessCard key={weakness.record_id} item={weakness} label="同章节已确认" open={() => openUnit(item.unitId, 'weaknesses')} />)}{!weaknessCount && <p className="no-weakness">本题型目前没有用户作答或追问形成的真实薄弱点。通用易错点不会在这里冒充个人薄弱点。</p>}</aside></div>}</article>
   })}</section>
 }
 
 function WeaknessCard({ item, label, open }: { item: Activity; label: string; open: () => void }) {
-  return <article className="weakness-card"><span>{label}</span><strong>{item.title}</strong><p>{item.summary}</p>{item.question_refs?.length ? <small>{item.question_refs.join(' · ')}</small> : null}<button onClick={open}>查看薄弱点原文<ChevronRight size={13} /></button></article>
+  return <article className="weakness-card"><span>{label}</span><strong>{item.title}</strong><p>{item.summary}</p>{item.question_refs?.length ? <small>{item.question_refs.map(humanizeInlineValue).join(' · ')}</small> : null}<button onClick={open}>查看薄弱点原文<ChevronRight size={13} /></button></article>
 }
 
 function KnowledgeReader({ unitId, initialSystem, refreshKey, close }: { unitId: string; initialSystem?: string; refreshKey: number; close: () => void }) {

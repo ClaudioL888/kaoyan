@@ -3,6 +3,7 @@ import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { normalizeMathDelimiters } from './math-delimiters'
+import { humanizeReadableMarkdown } from './readability'
 
 function slug(text: string) {
   return text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '')
@@ -22,7 +23,8 @@ function removeInlineQuestionIndex(content: string) {
 }
 
 export default function Markdown({ content, compact = false, onLocalLink, hideInlineQuestionIndex = false }: MarkdownProps) {
-  const sourceContent = hideInlineQuestionIndex ? removeInlineQuestionIndex(content) : content
+  const readableContent = humanizeReadableMarkdown(content)
+  const sourceContent = hideInlineQuestionIndex ? removeInlineQuestionIndex(readableContent) : readableContent
   const normalizedContent = normalizeMathDelimiters(sourceContent)
   return (
     <div className={`markdown ${compact ? 'markdown--compact' : ''}`}>
